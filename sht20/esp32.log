@@ -1,0 +1,2310 @@
+[0;33mW (115164) sht20: Failed to read both temperature and humidity[0m
+[0;32mI (120164) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (120164) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (120164) sht20: ✅ TX: 8 bytes sent[0m
+[0;31mE (130364) sht20: ❌ RX Temperature error: ESP_ERR_TIMEOUT (error code 263)[0m
+[0;33mW (150964) sht20: Failed to read both temperature and humidity[0m
+[0;32mI (155964) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (155964) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (155964) sht20: ✅ TX: 8 bytes sent[0m
+[0;31mE (166164) sht20: ❌ RX Temperature error: ESP_ERR_TIMEOUT (error code 263)[0m
+[0;33mW (186764) sht20: Failed to read both temperature and humidity[0m
+[0;32mI (191764) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (191764) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (191764) sht20: ✅ TX: 8 bytes sent[0m
+[0;31mE (201964) sht20: ❌ RX Temperature error: ESP_ERR_TIMEOUT (error code 263)[0m
+[0;33mW (222564) sht20: Failed to read both temperature and humidity[0m
+[0;32mI (227564) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (227564) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (227564) sht20: ✅ TX: 8 bytes sent[0m
+[0;31mE (237764) sht20: ❌ RX Temperature error: ESP_ERR_TIMEOUT (error code 263)[0m
+[0;33mW (258364) sht20: Failed to read both temperature and humidity[0m
+[0;32mI (263364) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (263364) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (263364) sht20: ✅ TX: 8 bytes sent[0m
+[0;31mE (273564) sht20: ❌ RX Temperature error: ESP_ERR_TIMEOUT (error code 263)[0m
+[0;32mI (6983) sht20: 📡 Connecting to WiFi 'blink'...[0m
+[0;32mI (6983) sht20: 🔄 Connection check 1/60: false[0m
+[0;32mI (8983) sht20: 🔄 Connection check 2/60: false[0m
+[0;32mI (10983) sht20: 🔄 Connection check 3/60: false[0m
+[0;32mI (12983) sht20: 🔄 Connection check 4/60: false[0m
+[0;32mI (14983) sht20: 🔄 Connection check 5/60: false[0m
+[0;32mI (16983) sht20: 🔄 Connection check 6/60: false[0m
+[0;32mI (18983) sht20: 🔄 Connection check 7/60: false[0m
+[0;32mI (20983) sht20: 🔄 Connection check 8/60: false[0m
+[0;32mI (22983) sht20: 🔄 Connection check 9/60: false[0m
+[0;32mI (24983) sht20: 🔄 Connection check 10/60: false[0m
+[0;32mI (26983) sht20: 🔄 Connection check 11/60: false[0m
+[0;32mI (28983) sht20: 🔄 Connection check 12/60: false[0m
+[0;32mI (30983) sht20: 🔄 Connection check 13/60: false[0m
+[0;32mI (32983) sht20: 🔄 Connection check 14/60: false[0m
+[0;32mI (34983) sht20: 🔄 Connection check 15/60: false[0m
+[0;32mI (36983) sht20: 🔄 Connection check 16/60: false[0m
+[0;32mI (38983) sht20: 🔄 Connection check 17/60: false[0m
+[0;32mI (40983) sht20: 🔄 Connection check 18/60: false[0m
+[0;32mI (42983) sht20: 🔄 Connection check 19/60: false[0m
+[0;32mI (44983) sht20: 🔄 Connection check 20/60: false[0m
+[0;32mI (46983) sht20: 🔄 Connection check 21/60: false[0m
+[0;32mI (48983) sht20: 🔄 Connection check 22/60: false[0m
+[0;32mI (50983) sht20: 🔄 Connection check 23/60: false[0m
+[0;32mI (52983) sht20: 🔄 Connection check 24/60: false[0m
+[0;32mI (54983) sht20: 🔄 Connection check 25/60: false[0m
+[0;32mI (56983) sht20: 🔄 Connection check 26/60: false[0m
+[0;32mI (58983) sht20: 🔄 Connection check 27/60: false[0m
+[0;32mI (60983) sht20: 🔄 Connection check 28/60: false[0m
+[0;32mI (62983) sht20: 🔄 Connection check 29/60: false[0m
+[0;32mI (64983) sht20: 🔄 Connection check 30/60: false[0m
+[0;32mI (66983) sht20: 🔄 Connection check 31/60: false[0m
+[0;32mI (68983) sht20: 🔄 Connection check 32/60: false[0m
+[0;32mI (70983) sht20: 🔄 Connection check 33/60: false[0m
+[0;32mI (72983) sht20: 🔄 Connection check 34/60: false[0m
+[0;32mI (74983) sht20: 🔄 Connection check 35/60: false[0m
+[0;32mI (76983) sht20: 🔄 Connection check 36/60: false[0m
+[0;32mI (78983) sht20: 🔄 Connection check 37/60: false[0m
+[0;32mI (80983) sht20: 🔄 Connection check 38/60: false[0m
+[0;32mI (82983) sht20: 🔄 Connection check 39/60: false[0m
+[0;32mI (84983) sht20: 🔄 Connection check 40/60: false[0m
+[0;32mI (86983) sht20: 🔄 Connection check 41/60: false[0m
+[0;32mI (88983) sht20: 🔄 Connection check 42/60: false[0m
+[0;32mI (90983) sht20: 🔄 Connection check 43/60: false[0m
+[0;32mI (92983) sht20: 🔄 Connection check 44/60: false[0m
+[0;32mI (94983) sht20: 🔄 Connection check 45/60: false[0m
+[0;32mI (96983) sht20: 🔄 Connection check 46/60: false[0m
+[0;32mI (98983) sht20: 🔄 Connection check 47/60: false[0m
+[0;32mI (100983) sht20: 🔄 Connection check 48/60: false[0m
+[0;32mI (102983) sht20: 🔄 Connection check 49/60: false[0m
+[0;32mI (104983) sht20: 🔄 Connection check 50/60: false[0m
+[0;32mI (106983) sht20: 🔄 Connection check 51/60: false[0m
+[0;32mI (108983) sht20: 🔄 Connection check 52/60: false[0m
+[0;32mI (110983) sht20: 🔄 Connection check 53/60: false[0m
+[0;32mI (112983) sht20: 🔄 Connection check 54/60: false[0m
+[0;32mI (114983) sht20: 🔄 Connection check 55/60: false[0m
+[0;32mI (116983) sht20: 🔄 Connection check 56/60: false[0m
+[0;32mI (118983) sht20: 🔄 Connection check 57/60: false[0m
+[0;32mI (120983) sht20: 🔄 Connection check 58/60: false[0m
+[0;32mI (122983) sht20: 🔄 Connection check 59/60: false[0m
+[0;32mI (124983) sht20: 🔄 Connection check 60/60: false[0m
+[0;32mI (126983) sht20: 🔄 Connection check 61/60: false[0m
+[0;32mI (128983) sht20: 🔄 Connection check 62/60: false[0m
+E (128983) wifi:NAN WiFi stop
+I (128983) wifi:flush txq
+I (128983) wifi:stop sw txq
+I (128983) wifi:lmac stop hw txq
+[0;32mI (128983) esp_idf_svc::wifi: EspWifi dropped[0m
+[0;32mI (128993) esp_idf_svc::netif: Dropped[0m
+[0;32mI (128993) esp_idf_svc::netif: Dropped[0m
+I (129003) wifi:Deinit lldesc rx mblock:10
+[0;32mI (129013) esp_idf_svc::nvs: NvsDefault dropped[0m
+[0;32mI (129013) esp_idf_svc::eventloop: System event loop dropped[0m
+[0;31mE (129013) sht20: ❌ WiFi setup failed: ❌ Failed to connect to WiFi after 60 seconds[0m
+[0;32mI (129023) sht20: Continuing in offline mode...[0m
+[0;32mI (129023) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (129033) gpio: GPIO[4]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (129043) sht20: 🔧 LED indicators configured - TX: GPIO2, RX: GPIO4[0m
+[0;32mI (129053) sht20: 🔧 Configuring UART1 - TX: GPIO16, RX: GPIO17, Baud: 9600[0m
+[0;32mI (129063) uart: queue free spaces: 10[0m
+[0;32mI (129063) sht20: ✅ UART initialized for SHT20 communication[0m
+[0;32mI (129073) sht20: 🔧 RS485 Settings: Slave=0x01, Function=0x04, Baud=9600[0m
+[0;32mI (129083) sht20: 📡 InfluxDB Config - URL: http://192.168.100.161:8086, Org: ITS, Bucket: database[0m
+[0;32mI (129093) sht20: ⚡ Starting sensor reading loop...[0m
+[0;32mI (129093) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (129103) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (129113) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (129613) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (129613) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (129613) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 15, 79, 6F][0m
+[0;32mI (129613) sht20: 🔍 CRC check: received=0x6F79, calculated=0x6F79[0m
+[0;32mI (129623) sht20: ✅ Temperature raw value: 277[0m
+[0;32mI (130233) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (130233) sht20: Temperature: 26.50°C[0m
+[0;32mI (130233) sht20: Humidity: 52.70%[0m
+SENSOR_DATA:{"humidity":52.70000076293945,"sensor_type":"SHT20","temperature":26.5,"timestamp":129,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,26.50,52.70,129
+[0;32mI (130243) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (130253) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=26.50,humidity=52.70 129611696000[0m
+[0;32mI (130263) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (130273) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (130283) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (130283) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (130293) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (130303) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (130313) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (130313) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (130323) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (130333) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (130343) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (132353) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (132353) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (132353) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (132363) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (132373) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (132383) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (132383) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (132393) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (132403) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (132413) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (132423) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (136423) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (136423) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (136423) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (136433) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (136443) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (136453) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (136453) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (136463) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (136473) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (136483) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (136493) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (136503) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (136513) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (136513) sht20: 📊 Data logged - Temp: 26.50°C, Hum: 52.70%[0m
+[0;32mI (141523) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (141523) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (141523) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (142023) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (142023) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (142023) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 16, 39, 6E][0m
+[0;32mI (142023) sht20: 🔍 CRC check: received=0x6E39, calculated=0x6E39[0m
+[0;32mI (142033) sht20: ✅ Temperature raw value: 278[0m
+[0;32mI (142643) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (142643) sht20: Temperature: 26.60°C[0m
+[0;32mI (142643) sht20: Humidity: 51.60%[0m
+SENSOR_DATA:{"humidity":51.599998474121094,"sensor_type":"SHT20","temperature":26.599998474121094,"timestamp":142,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,26.60,51.60,142
+[0;32mI (142653) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (142663) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=26.60,humidity=51.60 142022948000[0m
+[0;32mI (142673) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (142683) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (142693) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (142693) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (142713) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (142713) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (142723) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (142723) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (142733) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (142743) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (142753) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (144763) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (144763) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (144763) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (144773) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (144783) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (144793) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (144793) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (144803) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (144813) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (144823) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (144833) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (148833) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (148833) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (148833) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (148843) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (148853) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (148863) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (148863) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (148873) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (148883) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (148893) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (148903) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (148913) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (148923) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (148923) sht20: 📊 Data logged - Temp: 26.60°C, Hum: 51.60%[0m
+[0;32mI (153933) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (153933) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (153933) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (154433) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (154433) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (154433) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 15, 79, 6F][0m
+[0;32mI (154433) sht20: 🔍 CRC check: received=0x6F79, calculated=0x6F79[0m
+[0;32mI (154443) sht20: ✅ Temperature raw value: 277[0m
+[0;32mI (155053) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (155053) sht20: Temperature: 26.50°C[0m
+[0;32mI (155053) sht20: Humidity: 51.20%[0m
+SENSOR_DATA:{"humidity":51.20000076293945,"sensor_type":"SHT20","temperature":26.5,"timestamp":154,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,26.50,51.20,154
+[0;32mI (155063) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (155073) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=26.50,humidity=51.20 154431662000[0m
+[0;32mI (155083) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (155093) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (155103) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (155103) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (155113) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (155123) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (155133) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (155133) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (155143) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (155153) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (155163) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (157173) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (157173) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (157173) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (157183) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (157193) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (157203) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (157203) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (157213) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (157223) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (157233) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (157243) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (161243) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (161243) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (161243) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (161253) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (161263) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (161273) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (161273) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (161283) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (161293) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (161303) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (161313) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (161323) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (161333) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (161333) sht20: 📊 Data logged - Temp: 26.50°C, Hum: 51.20%[0m
+[0;32mI (166343) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (166343) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (166343) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (166843) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (166843) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (166843) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 16, 39, 6E][0m
+[0;32mI (166843) sht20: 🔍 CRC check: received=0x6E39, calculated=0x6E39[0m
+[0;32mI (166853) sht20: ✅ Temperature raw value: 278[0m
+[0;32mI (167463) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (167463) sht20: Temperature: 26.60°C[0m
+[0;32mI (167463) sht20: Humidity: 51.20%[0m
+SENSOR_DATA:{"humidity":51.20000076293945,"sensor_type":"SHT20","temperature":26.599998474121094,"timestamp":166,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,26.60,51.20,166
+[0;32mI (167473) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (167483) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=26.60,humidity=51.20 166842878000[0m
+[0;32mI (167493) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (167503) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (167513) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (167513) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (167533) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (167533) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (167543) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (167543) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (167553) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (167563) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (167573) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (169583) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (169583) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (169583) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (169593) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (169603) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (169613) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (169613) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (169623) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (169633) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (169643) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (169653) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (173653) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (173653) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (173653) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (173663) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (173673) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (173683) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (173683) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (173693) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (173703) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (173713) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (173723) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (173733) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (173743) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (173743) sht20: 📊 Data logged - Temp: 26.60°C, Hum: 51.20%[0m
+[0;32mI (7003) sht20: 📡 Connecting to WiFi 'myLenovo'...[0m
+[0;32mI (7003) sht20: 🔄 Connection check 1/60: false[0m
+[0;32mI (9003) sht20: 🔄 Connection check 2/60: false[0m
+[0;32mI (11003) sht20: 🔄 Connection check 3/60: false[0m
+[0;32mI (13003) sht20: 🔄 Connection check 4/60: false[0m
+[0;32mI (15003) sht20: 🔄 Connection check 5/60: false[0m
+[0;32mI (17003) sht20: 🔄 Connection check 6/60: false[0m
+[0;32mI (19003) sht20: 🔄 Connection check 7/60: false[0m
+[0;32mI (21003) sht20: 🔄 Connection check 8/60: false[0m
+[0;32mI (23003) sht20: 🔄 Connection check 9/60: false[0m
+[0;32mI (25003) sht20: 🔄 Connection check 10/60: false[0m
+[0;32mI (27003) sht20: 🔄 Connection check 11/60: false[0m
+[0;32mI (29003) sht20: 🔄 Connection check 12/60: false[0m
+[0;32mI (31003) sht20: 🔄 Connection check 13/60: false[0m
+[0;32mI (33003) sht20: 🔄 Connection check 14/60: false[0m
+[0;32mI (35003) sht20: 🔄 Connection check 15/60: false[0m
+[0;32mI (37003) sht20: 🔄 Connection check 16/60: false[0m
+[0;32mI (39003) sht20: 🔄 Connection check 17/60: false[0m
+[0;32mI (41003) sht20: 🔄 Connection check 18/60: false[0m
+[0;32mI (43003) sht20: 🔄 Connection check 19/60: false[0m
+[0;32mI (45003) sht20: 🔄 Connection check 20/60: false[0m
+[0;32mI (47003) sht20: 🔄 Connection check 21/60: false[0m
+[0;32mI (49003) sht20: 🔄 Connection check 22/60: false[0m
+[0;32mI (51003) sht20: 🔄 Connection check 23/60: false[0m
+[0;32mI (53003) sht20: 🔄 Connection check 24/60: false[0m
+[0;32mI (55003) sht20: 🔄 Connection check 25/60: false[0m
+[0;32mI (57003) sht20: 🔄 Connection check 26/60: false[0m
+[0;32mI (59003) sht20: 🔄 Connection check 27/60: false[0m
+[0;32mI (61003) sht20: 🔄 Connection check 28/60: false[0m
+[0;32mI (63003) sht20: 🔄 Connection check 29/60: false[0m
+[0;32mI (65003) sht20: 🔄 Connection check 30/60: false[0m
+[0;32mI (67003) sht20: 🔄 Connection check 31/60: false[0m
+[0;32mI (69003) sht20: 🔄 Connection check 32/60: false[0m
+[0;32mI (71003) sht20: 🔄 Connection check 33/60: false[0m
+[0;32mI (73003) sht20: 🔄 Connection check 34/60: false[0m
+[0;32mI (75003) sht20: 🔄 Connection check 35/60: false[0m
+[0;32mI (77003) sht20: 🔄 Connection check 36/60: false[0m
+[0;32mI (79003) sht20: 🔄 Connection check 37/60: false[0m
+[0;32mI (81003) sht20: 🔄 Connection check 38/60: false[0m
+[0;32mI (83003) sht20: 🔄 Connection check 39/60: false[0m
+[0;32mI (85003) sht20: 🔄 Connection check 40/60: false[0m
+[0;32mI (87003) sht20: 🔄 Connection check 41/60: false[0m
+[0;32mI (89003) sht20: 🔄 Connection check 42/60: false[0m
+[0;32mI (91003) sht20: 🔄 Connection check 43/60: false[0m
+[0;32mI (93003) sht20: 🔄 Connection check 44/60: false[0m
+[0;32mI (95003) sht20: 🔄 Connection check 45/60: false[0m
+[0;32mI (97003) sht20: 🔄 Connection check 46/60: false[0m
+[0;32mI (99003) sht20: 🔄 Connection check 47/60: false[0m
+[0;32mI (101003) sht20: 🔄 Connection check 48/60: false[0m
+[0;32mI (103003) sht20: 🔄 Connection check 49/60: false[0m
+[0;32mI (105003) sht20: 🔄 Connection check 50/60: false[0m
+[0;32mI (107003) sht20: 🔄 Connection check 51/60: false[0m
+[0;32mI (109003) sht20: 🔄 Connection check 52/60: false[0m
+[0;32mI (111003) sht20: 🔄 Connection check 53/60: false[0m
+[0;32mI (113003) sht20: 🔄 Connection check 54/60: false[0m
+[0;32mI (115003) sht20: 🔄 Connection check 55/60: false[0m
+[0;32mI (117003) sht20: 🔄 Connection check 56/60: false[0m
+[0;32mI (119003) sht20: 🔄 Connection check 57/60: false[0m
+[0;32mI (121003) sht20: 🔄 Connection check 58/60: false[0m
+[0;32mI (123003) sht20: 🔄 Connection check 59/60: false[0m
+[0;32mI (125003) sht20: 🔄 Connection check 60/60: false[0m
+[0;32mI (127003) sht20: 🔄 Connection check 61/60: false[0m
+[0;32mI (129003) sht20: 🔄 Connection check 62/60: false[0m
+E (129003) wifi:NAN WiFi stop
+I (129003) wifi:flush txq
+I (129003) wifi:stop sw txq
+I (129003) wifi:lmac stop hw txq
+[0;32mI (129003) esp_idf_svc::wifi: EspWifi dropped[0m
+[0;32mI (129013) esp_idf_svc::netif: Dropped[0m
+[0;32mI (129013) esp_idf_svc::netif: Dropped[0m
+I (129023) wifi:Deinit lldesc rx mblock:10
+[0;32mI (129033) esp_idf_svc::nvs: NvsDefault dropped[0m
+[0;32mI (129033) esp_idf_svc::eventloop: System event loop dropped[0m
+[0;31mE (129033) sht20: ❌ WiFi setup failed: ❌ Failed to connect to WiFi after 60 seconds[0m
+[0;32mI (129043) sht20: Continuing in offline mode...[0m
+[0;32mI (129043) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (129053) gpio: GPIO[4]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (129063) sht20: 🔧 LED indicators configured - TX: GPIO2, RX: GPIO4[0m
+[0;32mI (129073) sht20: 🔧 Configuring UART1 - TX: GPIO16, RX: GPIO17, Baud: 9600[0m
+[0;32mI (129083) uart: queue free spaces: 10[0m
+[0;32mI (129083) sht20: ✅ UART initialized for SHT20 communication[0m
+[0;32mI (129093) sht20: 🔧 RS485 Settings: Slave=0x01, Function=0x04, Baud=9600[0m
+[0;32mI (129103) sht20: 📡 InfluxDB Config - URL: http://192.168.100.161:8086, Org: ITS, Bucket: database[0m
+[0;32mI (129113) sht20: ⚡ Starting sensor reading loop...[0m
+[0;32mI (129113) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (129123) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (129133) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (129633) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (129633) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (129633) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1A, 39, 6B][0m
+[0;32mI (129633) sht20: 🔍 CRC check: received=0x6B39, calculated=0x6B39[0m
+[0;32mI (129643) sht20: ✅ Temperature raw value: 282[0m
+[0;32mI (130253) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (130253) sht20: Temperature: 27.00°C[0m
+[0;32mI (130253) sht20: Humidity: 51.40%[0m
+SENSOR_DATA:{"humidity":51.400001525878906,"sensor_type":"SHT20","temperature":27.0,"timestamp":129,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.00,51.40,129
+[0;32mI (130263) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (130273) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.00,humidity=51.40 129631734000[0m
+[0;32mI (130283) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (130293) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (130303) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (130303) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (130313) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (130323) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (130333) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (130333) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (130343) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (130353) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (130363) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (132373) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (132373) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (132373) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (132383) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (132393) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (132403) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (132403) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (132413) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (132423) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (132433) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (132443) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (136443) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (136443) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (136443) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (136453) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (136463) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (136473) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (136473) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (136483) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (136493) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (136503) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (136513) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (136523) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (136533) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (136533) sht20: 📊 Data logged - Temp: 27.00°C, Hum: 51.40%[0m
+[0;32mI (141543) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (141543) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (141543) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (142043) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (142043) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (142043) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 19, 79, 6A][0m
+[0;32mI (142043) sht20: 🔍 CRC check: received=0x6A79, calculated=0x6A79[0m
+[0;32mI (142053) sht20: ✅ Temperature raw value: 281[0m
+[0;32mI (142663) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (142663) sht20: Temperature: 26.90°C[0m
+[0;32mI (142663) sht20: Humidity: 51.70%[0m
+SENSOR_DATA:{"humidity":51.70000076293945,"sensor_type":"SHT20","temperature":26.899999618530273,"timestamp":142,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,26.90,51.70,142
+[0;32mI (142673) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (142683) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=26.90,humidity=51.70 142042822000[0m
+[0;32mI (142693) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (142703) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (142713) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (142713) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (142733) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (142733) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (142743) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (142743) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (142753) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (142763) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (142773) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (144783) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (144783) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (144783) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (144793) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (144803) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (144813) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (144813) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (144823) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (144833) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (144843) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (144853) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (148853) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (148853) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (148853) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (148863) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (148873) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (148883) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (148883) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (148893) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (148903) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (148913) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (148923) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (148933) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (148943) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (148943) sht20: 📊 Data logged - Temp: 26.90°C, Hum: 51.70%[0m
+[0;32mI (153953) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (153953) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (153953) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (154453) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (154453) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (154453) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 19, 79, 6A][0m
+[0;32mI (154453) sht20: 🔍 CRC check: received=0x6A79, calculated=0x6A79[0m
+[0;32mI (154463) sht20: ✅ Temperature raw value: 281[0m
+[0;32mI (155073) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (155073) sht20: Temperature: 26.90°C[0m
+[0;32mI (155073) sht20: Humidity: 53.10%[0m
+SENSOR_DATA:{"humidity":53.099998474121094,"sensor_type":"SHT20","temperature":26.899999618530273,"timestamp":154,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,26.90,53.10,154
+[0;32mI (155083) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (155093) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=26.90,humidity=53.10 154452941000[0m
+[0;32mI (155103) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (155113) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (155123) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (155123) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (155143) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (155143) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (155153) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (155153) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (155163) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (155173) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (155183) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (157193) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (157193) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (157193) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (157203) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (157213) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (157223) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (157223) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (157233) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (157243) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (157253) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (157263) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (161263) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (161263) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (161263) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (161273) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (161283) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (161293) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (161293) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (161303) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (161313) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (161323) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (161333) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (161343) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (161353) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (161353) sht20: 📊 Data logged - Temp: 26.90°C, Hum: 53.10%[0m
+[0;32mI (166363) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (166363) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (166363) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (166863) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (166863) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (166863) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 19, 79, 6A][0m
+[0;32mI (166863) sht20: 🔍 CRC check: received=0x6A79, calculated=0x6A79[0m
+[0;32mI (166873) sht20: ✅ Temperature raw value: 281[0m
+[0;32mI (167483) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (167483) sht20: Temperature: 26.90°C[0m
+[0;32mI (167483) sht20: Humidity: 52.70%[0m
+SENSOR_DATA:{"humidity":52.70000076293945,"sensor_type":"SHT20","temperature":26.899999618530273,"timestamp":166,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,26.90,52.70,166
+[0;32mI (167493) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (167503) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=26.90,humidity=52.70 166862846000[0m
+[0;32mI (167513) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (167523) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (167533) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (167533) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (167553) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (167553) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (167563) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (167563) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (167573) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (167583) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (167593) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (169603) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (169603) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (169603) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (169613) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (169623) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (169633) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (169633) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (169643) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (169653) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (169663) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (169673) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (173673) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (173673) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (173673) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (173683) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (173693) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (173703) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (173703) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (173713) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (173723) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (173733) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (173743) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (173753) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (173763) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (173763) sht20: 📊 Data logged - Temp: 26.90°C, Hum: 52.70%[0m
+[0;32mI (178773) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (178773) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (178773) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (179273) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (179273) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (179273) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 19, 79, 6A][0m
+[0;32mI (179273) sht20: 🔍 CRC check: received=0x6A79, calculated=0x6A79[0m
+[0;32mI (179283) sht20: ✅ Temperature raw value: 281[0m
+[0;32mI (179893) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (179893) sht20: Temperature: 26.90°C[0m
+[0;32mI (179893) sht20: Humidity: 51.90%[0m
+SENSOR_DATA:{"humidity":51.900001525878906,"sensor_type":"SHT20","temperature":26.899999618530273,"timestamp":179,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,26.90,51.90,179
+[0;32mI (179903) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (179913) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=26.90,humidity=51.90 179272941000[0m
+[0;32mI (179923) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (179933) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (179943) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (179943) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (179963) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (179963) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (179973) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (179973) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (179983) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (179993) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (180003) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (182013) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (182013) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (182013) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (182023) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (182033) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (182043) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (182043) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (182053) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (182063) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (182073) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (182083) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (186083) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (186083) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (186083) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (186093) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (186103) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (186113) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (186113) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (186123) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (186133) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (186143) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (186153) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (186163) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (186173) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (186173) sht20: 📊 Data logged - Temp: 26.90°C, Hum: 51.90%[0m
+[0;32mI (191183) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (191183) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (191183) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (191683) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (191683) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (191683) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 19, 79, 6A][0m
+[0;32mI (191683) sht20: 🔍 CRC check: received=0x6A79, calculated=0x6A79[0m
+[0;32mI (191693) sht20: ✅ Temperature raw value: 281[0m
+[0;32mI (192303) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (192303) sht20: Temperature: 26.90°C[0m
+[0;32mI (192303) sht20: Humidity: 51.50%[0m
+SENSOR_DATA:{"humidity":51.5,"sensor_type":"SHT20","temperature":26.899999618530273,"timestamp":191,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,26.90,51.50,191
+[0;32mI (192313) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (192323) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=26.90,humidity=51.50 191681721000[0m
+[0;32mI (192333) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (192343) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (192353) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (192353) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (192363) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (192373) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (192383) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (192383) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (192393) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (192403) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (192413) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (194423) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (194423) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (194423) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (194433) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (194443) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (194453) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (194453) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (194463) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (194473) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (194483) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (194493) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (198493) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (198493) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (198493) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (198503) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (198513) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (198523) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (198523) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (198533) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (198543) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (198553) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (198563) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (198573) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (198583) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (198583) sht20: 📊 Data logged - Temp: 26.90°C, Hum: 51.50%[0m
+[0;32mI (203593) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (203593) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (203593) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (204093) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (204093) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (204093) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1A, 39, 6B][0m
+[0;32mI (204093) sht20: 🔍 CRC check: received=0x6B39, calculated=0x6B39[0m
+[0;32mI (204103) sht20: ✅ Temperature raw value: 282[0m
+[0;32mI (204713) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (204713) sht20: Temperature: 27.00°C[0m
+[0;32mI (204713) sht20: Humidity: 51.30%[0m
+SENSOR_DATA:{"humidity":51.29999923706055,"sensor_type":"SHT20","temperature":27.0,"timestamp":204,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.00,51.30,204
+[0;32mI (204723) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (204733) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.00,humidity=51.30 204091619000[0m
+[0;32mI (204743) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (204743) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (204763) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (204763) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (204773) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (204783) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (204793) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (204793) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (204803) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (204813) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (204823) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (206833) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (206833) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (206833) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (206843) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (206853) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (206863) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (206863) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (206873) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (206883) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (206893) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (206903) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (210903) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (210903) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (210903) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (210913) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (210923) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (210933) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (210933) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (210943) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (210953) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (210963) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (210973) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (210983) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (210993) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (210993) sht20: 📊 Data logged - Temp: 27.00°C, Hum: 51.30%[0m
+[0;32mI (216003) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (216003) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (216003) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (216503) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (216503) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (216503) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1A, 39, 6B][0m
+[0;32mI (216503) sht20: 🔍 CRC check: received=0x6B39, calculated=0x6B39[0m
+[0;32mI (216513) sht20: ✅ Temperature raw value: 282[0m
+[0;32mI (217123) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (217123) sht20: Temperature: 27.00°C[0m
+[0;32mI (217123) sht20: Humidity: 51.20%[0m
+SENSOR_DATA:{"humidity":51.20000076293945,"sensor_type":"SHT20","temperature":27.0,"timestamp":216,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.00,51.20,216
+[0;32mI (217133) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (217143) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.00,humidity=51.20 216501635000[0m
+[0;32mI (217153) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (217153) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (217173) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (217173) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (217183) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (217193) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (217203) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (217203) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (217213) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (217223) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (217233) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (219243) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (219243) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (219243) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (219253) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (219263) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (219273) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (219273) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (219283) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (219293) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (219303) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (219313) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (223313) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (223313) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (223313) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (223323) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (223333) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (223343) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (223343) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (223353) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (223363) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (223373) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (223383) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (223393) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (223403) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (223403) sht20: 📊 Data logged - Temp: 27.00°C, Hum: 51.20%[0m
+[0;32mI (228413) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (228413) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (228413) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (228913) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (228913) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (228913) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1A, 39, 6B][0m
+[0;32mI (228913) sht20: 🔍 CRC check: received=0x6B39, calculated=0x6B39[0m
+[0;32mI (228923) sht20: ✅ Temperature raw value: 282[0m
+[0;32mI (229533) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (229533) sht20: Temperature: 27.00°C[0m
+[0;32mI (229533) sht20: Humidity: 51.30%[0m
+SENSOR_DATA:{"humidity":51.29999923706055,"sensor_type":"SHT20","temperature":27.0,"timestamp":228,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.00,51.30,228
+[0;32mI (229543) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (229553) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.00,humidity=51.30 228911611000[0m
+[0;32mI (229563) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (229563) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (229583) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (229583) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (229593) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (229603) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (229613) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (229613) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (229623) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (229633) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (229643) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (231653) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (231653) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (231653) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (231663) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (231673) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (231683) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (231683) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (231693) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (231703) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (231713) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (231723) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (235723) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (235723) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (235723) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (235733) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (235743) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (235753) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (235753) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (235763) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (235773) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (235783) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (235793) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (235803) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (235813) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (235813) sht20: 📊 Data logged - Temp: 27.00°C, Hum: 51.30%[0m
+[0;32mI (240823) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (240823) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (240823) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (241323) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (241323) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (241323) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1A, 39, 6B][0m
+[0;32mI (241323) sht20: 🔍 CRC check: received=0x6B39, calculated=0x6B39[0m
+[0;32mI (241333) sht20: ✅ Temperature raw value: 282[0m
+[0;32mI (241943) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (241943) sht20: Temperature: 27.00°C[0m
+[0;32mI (241943) sht20: Humidity: 51.20%[0m
+SENSOR_DATA:{"humidity":51.20000076293945,"sensor_type":"SHT20","temperature":27.0,"timestamp":241,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.00,51.20,241
+[0;32mI (241953) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (241963) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.00,humidity=51.20 241321646000[0m
+[0;32mI (241973) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (241973) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (241993) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (241993) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (242003) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (242013) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (242023) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (242023) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (242033) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (242043) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (242053) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (244063) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (244063) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (244063) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (244073) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (244083) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (244093) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (244093) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (244103) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (244113) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (244123) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (244133) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (248133) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (248133) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (248133) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (248143) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (248153) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (248163) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (248163) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (248173) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (248183) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (248193) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (248203) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (248213) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (248223) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (248223) sht20: 📊 Data logged - Temp: 27.00°C, Hum: 51.20%[0m
+[0;32mI (253233) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (253233) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (253233) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (253733) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (253733) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (253733) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1A, 39, 6B][0m
+[0;32mI (253733) sht20: 🔍 CRC check: received=0x6B39, calculated=0x6B39[0m
+[0;32mI (253743) sht20: ✅ Temperature raw value: 282[0m
+[0;32mI (254353) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (254353) sht20: Temperature: 27.00°C[0m
+[0;32mI (254353) sht20: Humidity: 51.40%[0m
+SENSOR_DATA:{"humidity":51.400001525878906,"sensor_type":"SHT20","temperature":27.0,"timestamp":253,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.00,51.40,253
+[0;32mI (254363) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (254373) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.00,humidity=51.40 253731721000[0m
+[0;32mI (254383) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (254393) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (254403) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (254403) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (254413) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (254423) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (254433) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (254433) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (254443) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (254453) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (254463) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (256473) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (256473) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (256473) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (256483) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (256493) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (256503) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (256503) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (256513) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (256523) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (256533) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (256543) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (260543) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (260543) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (260543) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (260553) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (260563) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (260573) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (260573) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (260583) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (260593) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (260603) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (260613) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (260623) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (260633) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (260633) sht20: 📊 Data logged - Temp: 27.00°C, Hum: 51.40%[0m
+[0;32mI (265643) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (265643) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (265643) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (266143) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (266143) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (266143) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1A, 39, 6B][0m
+[0;32mI (266143) sht20: 🔍 CRC check: received=0x6B39, calculated=0x6B39[0m
+[0;32mI (266153) sht20: ✅ Temperature raw value: 282[0m
+[0;32mI (266763) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (266763) sht20: Temperature: 27.00°C[0m
+[0;32mI (266763) sht20: Humidity: 51.70%[0m
+SENSOR_DATA:{"humidity":51.70000076293945,"sensor_type":"SHT20","temperature":27.0,"timestamp":266,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.00,51.70,266
+[0;32mI (266773) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (266783) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.00,humidity=51.70 266141611000[0m
+[0;32mI (266793) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (266793) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (266813) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (266813) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (266823) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (266833) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (266843) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (266843) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (266853) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (266863) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (266873) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (268883) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (268883) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (268883) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (268893) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (268903) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (268913) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (268913) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (268923) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (268933) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (268943) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (268953) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (272953) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (272953) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (272953) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (272963) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (272973) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (272983) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (272983) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (272993) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (273003) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (273013) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (273023) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (273033) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (273043) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (273043) sht20: 📊 Data logged - Temp: 27.00°C, Hum: 51.70%[0m
+[0;32mI (278053) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (278053) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (278053) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (278553) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (278553) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (278553) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1A, 39, 6B][0m
+[0;32mI (278553) sht20: 🔍 CRC check: received=0x6B39, calculated=0x6B39[0m
+[0;32mI (278563) sht20: ✅ Temperature raw value: 282[0m
+[0;32mI (279173) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (279173) sht20: Temperature: 27.00°C[0m
+[0;32mI (279173) sht20: Humidity: 51.60%[0m
+SENSOR_DATA:{"humidity":51.599998474121094,"sensor_type":"SHT20","temperature":27.0,"timestamp":278,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.00,51.60,278
+[0;32mI (279183) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (279193) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.00,humidity=51.60 278551718000[0m
+[0;32mI (279203) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (279213) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (279223) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (279223) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (279233) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (279243) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (279253) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (279253) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (279263) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (279273) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (279283) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (281293) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (281293) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (281293) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (281303) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (281313) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (281323) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (281323) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (281333) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (281343) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (281353) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (281363) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (285363) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (285363) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (285363) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (285373) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (285383) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (285393) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (285393) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (285403) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (285413) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (285423) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (285433) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (285443) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (285453) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (285453) sht20: 📊 Data logged - Temp: 27.00°C, Hum: 51.60%[0m
+[0;32mI (290463) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (290463) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (290463) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (290963) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (290963) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (290963) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1A, 39, 6B][0m
+[0;32mI (290963) sht20: 🔍 CRC check: received=0x6B39, calculated=0x6B39[0m
+[0;32mI (290973) sht20: ✅ Temperature raw value: 282[0m
+[0;32mI (291583) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (291583) sht20: Temperature: 27.00°C[0m
+[0;32mI (291583) sht20: Humidity: 52.40%[0m
+SENSOR_DATA:{"humidity":52.400001525878906,"sensor_type":"SHT20","temperature":27.0,"timestamp":290,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.00,52.40,290
+[0;32mI (291593) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (291603) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.00,humidity=52.40 290961706000[0m
+[0;32mI (291613) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (291623) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (291633) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (291633) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (291643) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (291653) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (291663) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (291663) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (291673) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (291683) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (291693) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (293703) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (293703) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (293703) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (293713) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (293723) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (293733) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (293733) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (293743) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (293753) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (293763) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (293773) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (297773) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (297773) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (297773) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (297783) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (297793) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (297803) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (297803) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (297813) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (297823) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (297833) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (297843) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (297853) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (297863) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (297863) sht20: 📊 Data logged - Temp: 27.00°C, Hum: 52.40%[0m
+[0;32mI (302873) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (302873) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (302873) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (303373) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (303373) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (303373) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (303373) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (303383) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (303993) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (303993) sht20: Temperature: 27.10°C[0m
+[0;32mI (303993) sht20: Humidity: 52.20%[0m
+SENSOR_DATA:{"humidity":52.20000076293945,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":303,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,52.20,303
+[0;32mI (304003) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (304013) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=52.20 303372858000[0m
+[0;32mI (304023) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (304033) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (304043) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (304043) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (304063) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (304063) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (304073) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (304073) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (304083) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (304093) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (304103) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (306113) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (306113) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (306113) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (306123) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (306133) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (306143) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (306143) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (306153) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (306163) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (306173) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (306183) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (310183) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (310183) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (310183) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (310193) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (310203) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (310213) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (310213) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (310223) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (310233) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (310243) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (310253) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (310263) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (310273) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (310273) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 52.20%[0m
+[0;32mI (315283) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (315283) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (315283) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (315783) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (315783) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (315783) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (315783) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (315793) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (316403) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (316403) sht20: Temperature: 27.10°C[0m
+[0;32mI (316403) sht20: Humidity: 51.80%[0m
+SENSOR_DATA:{"humidity":51.79999923706055,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":315,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,51.80,315
+[0;32mI (316413) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (316423) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=51.80 315782846000[0m
+[0;32mI (316433) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (316443) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (316453) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (316453) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (316473) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (316473) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (316483) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (316483) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (316493) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (316503) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (316513) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (318523) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (318523) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (318523) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (318533) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (318543) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (318553) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (318553) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (318563) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (318573) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (318583) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (318593) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (322593) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (322593) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (322593) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (322603) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (322613) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (322623) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (322623) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (322633) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (322643) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (322653) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (322663) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (322673) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (322683) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (322683) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 51.80%[0m
+[0;32mI (327693) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (327693) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (327693) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (328193) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (328193) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (328193) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1A, 39, 6B][0m
+[0;32mI (328193) sht20: 🔍 CRC check: received=0x6B39, calculated=0x6B39[0m
+[0;32mI (328203) sht20: ✅ Temperature raw value: 282[0m
+[0;32mI (328813) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (328813) sht20: Temperature: 27.00°C[0m
+[0;32mI (328813) sht20: Humidity: 51.40%[0m
+SENSOR_DATA:{"humidity":51.400001525878906,"sensor_type":"SHT20","temperature":27.0,"timestamp":328,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.00,51.40,328
+[0;32mI (328823) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (328833) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.00,humidity=51.40 328191706000[0m
+[0;32mI (328843) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (328853) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (328863) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (328863) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (328873) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (328883) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (328893) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (328893) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (328903) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (328913) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (328923) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (330933) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (330933) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (330933) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (330943) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (330953) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (330963) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (330963) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (330973) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (330983) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (330993) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (331003) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (335003) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (335003) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (335003) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (335013) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (335023) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (335033) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (335033) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (335043) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (335053) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (335063) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (335073) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (335083) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (335093) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (335093) sht20: 📊 Data logged - Temp: 27.00°C, Hum: 51.40%[0m
+[0;32mI (340103) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (340103) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (340103) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (340603) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (340603) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (340603) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (340603) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (340613) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (341223) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (341223) sht20: Temperature: 27.10°C[0m
+[0;32mI (341223) sht20: Humidity: 51.10%[0m
+SENSOR_DATA:{"humidity":51.099998474121094,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":340,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,51.10,340
+[0;32mI (341233) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (341243) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=51.10 340602933000[0m
+[0;32mI (341253) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (341263) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (341273) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (341273) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (341293) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (341293) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (341303) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (341303) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (341313) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (341323) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (341333) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (343343) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (343343) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (343343) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (343353) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (343363) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (343373) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (343373) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (343383) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (343393) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (343403) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (343413) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (347413) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (347413) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (347413) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (347423) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (347433) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (347443) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (347443) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (347453) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (347463) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (347473) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (347483) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (347493) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (347503) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (347503) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 51.10%[0m
+[0;32mI (352513) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (352513) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (352513) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (353013) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (353013) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (353013) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (353013) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (353023) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (353633) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (353633) sht20: Temperature: 27.10°C[0m
+[0;32mI (353633) sht20: Humidity: 51.40%[0m
+SENSOR_DATA:{"humidity":51.400001525878906,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":352,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,51.40,352
+[0;32mI (353643) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (353653) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=51.40 353012913000[0m
+[0;32mI (353663) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (353673) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (353683) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (353683) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (353703) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (353703) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (353713) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (353713) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (353723) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (353733) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (353743) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (355753) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (355753) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (355753) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (355763) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (355773) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (355783) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (355783) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (355793) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (355803) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (355813) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (355823) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (359823) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (359823) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (359823) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (359833) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (359843) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (359853) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (359853) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (359863) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (359873) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (359883) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (359893) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (359903) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (359913) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (359913) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 51.40%[0m
+[0;32mI (364923) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (364923) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (364923) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (365423) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (365423) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (365423) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (365423) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (365433) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (366043) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (366043) sht20: Temperature: 27.10°C[0m
+[0;32mI (366043) sht20: Humidity: 51.80%[0m
+SENSOR_DATA:{"humidity":51.79999923706055,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":365,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,51.80,365
+[0;32mI (366053) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (366063) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=51.80 365422858000[0m
+[0;32mI (366073) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (366083) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (366093) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (366093) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (366113) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (366113) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (366123) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (366123) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (366133) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (366143) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (366153) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (368163) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (368163) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (368163) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (368173) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (368183) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (368193) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (368193) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (368203) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (368213) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (368223) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (368233) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (372233) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (372233) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (372233) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (372243) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (372253) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (372263) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (372263) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (372273) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (372283) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (372293) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (372303) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (372313) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (372323) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (372323) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 51.80%[0m
+[0;32mI (377333) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (377333) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (377333) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (377833) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (377833) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (377833) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (377833) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (377843) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (378453) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (378453) sht20: Temperature: 27.10°C[0m
+[0;32mI (378453) sht20: Humidity: 52.20%[0m
+SENSOR_DATA:{"humidity":52.20000076293945,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":377,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,52.20,377
+[0;32mI (378463) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (378473) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=52.20 377832854000[0m
+[0;32mI (378483) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (378493) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (378503) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (378503) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (378523) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (378523) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (378533) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (378533) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (378543) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (378553) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (378563) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (380573) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (380573) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (380573) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (380583) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (380593) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (380603) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (380603) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (380613) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (380623) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (380633) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (380643) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (384643) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (384643) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (384643) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (384653) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (384663) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (384673) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (384673) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (384683) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (384693) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (384703) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (384713) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (384723) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (384733) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (384733) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 52.20%[0m
+[0;32mI (389743) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (389743) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (389743) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (390243) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (390243) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (390243) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (390243) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (390253) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (390863) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (390863) sht20: Temperature: 27.10°C[0m
+[0;32mI (390863) sht20: Humidity: 53.00%[0m
+SENSOR_DATA:{"humidity":53.0,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":390,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,53.00,390
+[0;32mI (390873) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (390883) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=53.00 390241710000[0m
+[0;32mI (390893) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (390903) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (390913) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (390913) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (390923) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (390933) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (390943) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (390943) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (390953) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (390963) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (390973) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (392983) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (392983) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (392983) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (392993) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (393003) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (393013) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (393013) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (393023) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (393033) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (393043) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (393053) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (397053) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (397053) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (397053) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (397063) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (397073) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (397083) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (397083) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (397093) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (397103) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (397113) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (397123) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (397133) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (397143) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (397143) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 53.00%[0m
+[0;32mI (402153) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (402153) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (402153) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (402653) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (402653) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (402653) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (402653) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (402663) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (403273) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (403273) sht20: Temperature: 27.10°C[0m
+[0;32mI (403273) sht20: Humidity: 51.60%[0m
+SENSOR_DATA:{"humidity":51.599998474121094,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":402,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,51.60,402
+[0;32mI (403283) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (403293) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=51.60 402652941000[0m
+[0;32mI (403303) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (403313) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (403323) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (403323) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (403343) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (403343) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (403353) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (403353) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (403363) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (403373) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (403383) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (405393) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (405393) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (405393) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (405403) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (405413) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (405423) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (405423) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (405433) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (405443) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (405453) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (405463) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (409463) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (409463) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (409463) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (409473) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (409483) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (409493) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (409493) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (409503) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (409513) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (409523) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (409533) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (409543) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (409553) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (409553) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 51.60%[0m
+[0;32mI (414563) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (414563) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (414563) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (415063) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (415063) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (415063) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (415063) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (415073) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (415683) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (415683) sht20: Temperature: 27.10°C[0m
+[0;32mI (415683) sht20: Humidity: 51.80%[0m
+SENSOR_DATA:{"humidity":51.79999923706055,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":415,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,51.80,415
+[0;32mI (415693) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (415703) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=51.80 415062826000[0m
+[0;32mI (415713) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (415723) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (415733) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (415733) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (415753) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (415753) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (415763) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (415763) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (415773) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (415783) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (415793) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (417803) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (417803) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (417803) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (417813) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (417823) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (417833) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (417833) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (417843) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (417853) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (417863) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (417873) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (421873) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (421873) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (421873) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (421883) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (421893) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (421903) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (421903) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (421913) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (421923) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (421933) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (421943) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (421953) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (421963) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (421963) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 51.80%[0m
+[0;32mI (426973) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (426973) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (426973) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (427473) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (427473) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (427473) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (427473) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (427483) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (428093) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (428093) sht20: Temperature: 27.10°C[0m
+[0;32mI (428093) sht20: Humidity: 51.80%[0m
+SENSOR_DATA:{"humidity":51.79999923706055,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":427,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,51.80,427
+[0;32mI (428103) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (428113) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=51.80 427472858000[0m
+[0;32mI (428123) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (428133) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (428143) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (428143) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (428163) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (428163) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (428173) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (428173) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (428183) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (428193) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (428203) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (430213) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (430213) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (430213) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (430223) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (430233) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (430243) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (430243) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (430253) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (430263) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (430273) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (430283) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (434283) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (434283) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (434283) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (434293) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (434303) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (434313) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (434313) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (434323) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (434333) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (434343) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (434353) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (434363) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (434373) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (434373) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 51.80%[0m
+[0;32mI (439383) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (439383) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (439383) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (439883) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (439883) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (439883) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (439883) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (439893) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (440503) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (440503) sht20: Temperature: 27.10°C[0m
+[0;32mI (440503) sht20: Humidity: 53.70%[0m
+SENSOR_DATA:{"humidity":53.70000076293945,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":439,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,53.70,439
+[0;32mI (440513) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (440523) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=53.70 439882834000[0m
+[0;32mI (440533) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (440543) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (440553) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (440553) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (440573) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (440573) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (440583) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (440583) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (440593) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (440603) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (440613) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (442623) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (442623) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (442623) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (442633) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (442643) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (442653) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (442653) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (442663) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (442673) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (442683) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (442693) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (446693) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (446693) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (446693) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (446703) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (446713) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (446723) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (446723) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (446733) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (446743) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (446753) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (446763) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (446773) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (446783) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (446783) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 53.70%[0m
+[0;32mI (451793) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (451793) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (451793) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (452293) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (452293) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (452293) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (452293) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (452303) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (452913) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (452913) sht20: Temperature: 27.10°C[0m
+[0;32mI (452913) sht20: Humidity: 54.20%[0m
+SENSOR_DATA:{"humidity":54.20000076293945,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":452,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,54.20,452
+[0;32mI (452923) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (452933) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=54.20 452292876000[0m
+[0;32mI (452943) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (452953) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (452963) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (452963) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (452983) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (452983) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (452993) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (452993) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (453003) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (453013) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (453023) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (455033) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (455033) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (455033) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (455043) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (455053) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (455063) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (455063) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (455073) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (455083) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (455093) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (455103) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (459103) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (459103) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (459103) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (459113) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (459123) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (459133) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (459133) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (459143) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (459153) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (459163) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (459173) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (459183) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (459193) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (459193) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 54.20%[0m
+[0;32mI (464203) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (464203) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (464203) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (464703) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (464703) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (464703) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (464703) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (464713) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (465323) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (465323) sht20: Temperature: 27.10°C[0m
+[0;32mI (465323) sht20: Humidity: 53.90%[0m
+SENSOR_DATA:{"humidity":53.900001525878906,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":464,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,53.90,464
+[0;32mI (465333) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (465343) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=53.90 464702941000[0m
+[0;32mI (465353) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (465363) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (465373) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (465373) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (465393) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (465393) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (465403) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (465403) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (465413) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (465423) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (465433) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (467443) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (467443) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (467443) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (467453) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (467463) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (467473) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (467473) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (467483) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (467493) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (467503) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (467513) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (471513) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (471513) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (471513) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (471523) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (471533) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (471543) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (471543) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (471553) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (471563) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (471573) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (471583) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (471593) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (471603) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (471603) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 53.90%[0m
+[0;32mI (476613) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (476613) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (476613) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (477113) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (477113) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (477113) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (477113) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (477123) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (477733) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (477733) sht20: Temperature: 27.10°C[0m
+[0;32mI (477733) sht20: Humidity: 51.90%[0m
+SENSOR_DATA:{"humidity":51.900001525878906,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":477,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,51.90,477
+[0;32mI (477743) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (477753) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=51.90 477112921000[0m
+[0;32mI (477763) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (477773) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (477783) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (477783) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (477803) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (477803) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (477813) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (477813) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (477823) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (477833) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (477843) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (479853) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (479853) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (479853) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (479863) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (479873) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (479883) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (479883) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (479893) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (479903) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (479913) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (479923) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (483923) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (483923) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (483923) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (483933) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (483943) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (483953) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (483953) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (483963) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (483973) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (483983) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (483993) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (484003) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (484013) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (484013) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 51.90%[0m
+[0;32mI (489023) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (489023) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (489023) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (489523) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (489523) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (489523) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1B, F8, AB][0m
+[0;32mI (489523) sht20: 🔍 CRC check: received=0xABF8, calculated=0xABF8[0m
+[0;32mI (489533) sht20: ✅ Temperature raw value: 283[0m
+[0;32mI (490143) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (490143) sht20: Temperature: 27.10°C[0m
+[0;32mI (490143) sht20: Humidity: 51.10%[0m
+SENSOR_DATA:{"humidity":51.099998474121094,"sensor_type":"SHT20","temperature":27.099998474121094,"timestamp":489,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.10,51.10,489
+[0;32mI (490153) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (490163) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.10,humidity=51.10 489522937000[0m
+[0;32mI (490173) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (490183) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (490193) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (490193) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (490213) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (490213) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (490223) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (490223) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (490233) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (490243) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (490253) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (492263) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (492263) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (492263) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (492273) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (492283) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (492293) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (492293) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (492303) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (492313) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (492323) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (492333) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (496333) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (496333) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (496333) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (496343) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (496353) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (496363) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (496363) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (496373) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (496383) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (496393) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (496403) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (496413) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (496423) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (496423) sht20: 📊 Data logged - Temp: 27.10°C, Hum: 51.10%[0m
+[0;32mI (501433) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (501433) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (501433) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (501933) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (501933) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (501933) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1C, B9, 69][0m
+[0;32mI (501933) sht20: 🔍 CRC check: received=0x69B9, calculated=0x69B9[0m
+[0;32mI (501943) sht20: ✅ Temperature raw value: 284[0m
+[0;32mI (502553) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (502553) sht20: Temperature: 27.20°C[0m
+[0;32mI (502553) sht20: Humidity: 50.80%[0m
+SENSOR_DATA:{"humidity":50.79999923706055,"sensor_type":"SHT20","temperature":27.19999885559082,"timestamp":501,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.20,50.80,501
+[0;32mI (502563) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (502573) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.20,humidity=50.80 501932751000[0m
+[0;32mI (502583) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (502593) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (502603) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (502603) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (502623) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (502623) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (502633) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (502633) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (502643) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (502653) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (502663) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (504673) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (504673) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (504673) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (504683) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (504693) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (504703) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (504703) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (504713) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (504723) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (504733) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (504743) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (508743) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (508743) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (508743) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (508753) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (508763) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (508773) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (508773) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (508783) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (508793) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (508803) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (508813) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (508823) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (508833) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (508833) sht20: 📊 Data logged - Temp: 27.20°C, Hum: 50.80%[0m
+[0;32mI (513843) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (513843) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (513843) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (514343) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (514343) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (514343) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1C, B9, 69][0m
+[0;32mI (514343) sht20: 🔍 CRC check: received=0x69B9, calculated=0x69B9[0m
+[0;32mI (514353) sht20: ✅ Temperature raw value: 284[0m
+[0;32mI (514963) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (514963) sht20: Temperature: 27.20°C[0m
+[0;32mI (514963) sht20: Humidity: 51.80%[0m
+SENSOR_DATA:{"humidity":51.79999923706055,"sensor_type":"SHT20","temperature":27.19999885559082,"timestamp":514,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.20,51.80,514
+[0;32mI (514973) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (514983) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.20,humidity=51.80 514342767000[0m
+[0;32mI (514993) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (515003) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (515013) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (515013) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (515033) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (515033) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (515043) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (515043) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (515053) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (515063) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (515073) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (517083) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (517083) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (517083) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (517093) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (517103) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (517113) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (517113) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (517123) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (517133) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (517143) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (517153) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (521153) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (521153) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (521153) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (521163) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (521173) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (521183) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (521183) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (521193) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (521203) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (521213) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (521223) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (521233) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (521243) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (521243) sht20: 📊 Data logged - Temp: 27.20°C, Hum: 51.80%[0m
+[0;32mI (526253) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (526253) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (526253) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (526753) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (526753) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (526753) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1C, B9, 69][0m
+[0;32mI (526753) sht20: 🔍 CRC check: received=0x69B9, calculated=0x69B9[0m
+[0;32mI (526763) sht20: ✅ Temperature raw value: 284[0m
+[0;32mI (527373) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (527373) sht20: Temperature: 27.20°C[0m
+[0;32mI (527373) sht20: Humidity: 53.10%[0m
+SENSOR_DATA:{"humidity":53.099998474121094,"sensor_type":"SHT20","temperature":27.19999885559082,"timestamp":526,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.20,53.10,526
+[0;32mI (527383) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (527393) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.20,humidity=53.10 526752854000[0m
+[0;32mI (527403) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (527413) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (527423) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (527423) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (527443) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (527443) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (527453) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (527453) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (527463) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (527473) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (527483) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (529493) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (529493) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (529493) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (529503) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (529513) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (529523) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (529523) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (529533) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (529543) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (529553) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (529563) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (533563) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (533563) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (533563) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (533573) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (533583) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (533593) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (533593) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (533603) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (533613) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (533623) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (533633) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (533643) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (533653) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (533653) sht20: 📊 Data logged - Temp: 27.20°C, Hum: 53.10%[0m
+[0;32mI (538663) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (538663) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (538663) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (539163) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (539163) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (539163) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1C, B9, 69][0m
+[0;32mI (539163) sht20: 🔍 CRC check: received=0x69B9, calculated=0x69B9[0m
+[0;32mI (539173) sht20: ✅ Temperature raw value: 284[0m
+[0;32mI (539783) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (539783) sht20: Temperature: 27.20°C[0m
+[0;32mI (539783) sht20: Humidity: 53.00%[0m
+SENSOR_DATA:{"humidity":53.0,"sensor_type":"SHT20","temperature":27.19999885559082,"timestamp":539,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.20,53.00,539
+[0;32mI (539793) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (539803) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.20,humidity=53.00 539161611000[0m
+[0;32mI (539813) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (539813) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (539833) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (539833) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (539843) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (539853) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (539863) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (539863) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (539873) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (539883) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (539893) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (541903) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (541903) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (541903) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (541913) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (541923) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (541933) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (541933) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (541943) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (541953) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (541963) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (541973) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (545973) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (545973) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (545973) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (545983) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (545993) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (546003) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (546003) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (546013) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (546023) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (546033) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (546043) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (546053) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (546063) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (546063) sht20: 📊 Data logged - Temp: 27.20°C, Hum: 53.00%[0m
+[0;32mI (551073) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (551073) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (551073) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (551573) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (551573) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (551573) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1C, B9, 69][0m
+[0;32mI (551573) sht20: 🔍 CRC check: received=0x69B9, calculated=0x69B9[0m
+[0;32mI (551583) sht20: ✅ Temperature raw value: 284[0m
+[0;32mI (552193) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (552193) sht20: Temperature: 27.20°C[0m
+[0;32mI (552193) sht20: Humidity: 52.20%[0m
+SENSOR_DATA:{"humidity":52.20000076293945,"sensor_type":"SHT20","temperature":27.19999885559082,"timestamp":551,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.20,52.20,551
+[0;32mI (552203) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (552213) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.20,humidity=52.20 551572763000[0m
+[0;32mI (552223) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (552233) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (552243) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (552243) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (552263) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (552263) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (552273) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (552273) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (552283) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (552293) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (552303) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (554313) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (554313) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (554313) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (554323) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (554333) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (554343) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (554343) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (554353) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (554363) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (554373) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (554383) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (558383) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (558383) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (558383) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (558393) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (558403) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (558413) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (558413) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (558423) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (558433) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (558443) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (558453) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (558463) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (558473) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (558473) sht20: 📊 Data logged - Temp: 27.20°C, Hum: 52.20%[0m
+[0;32mI (563483) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (563483) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (563483) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (563983) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (563983) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (563983) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1C, B9, 69][0m
+[0;32mI (563983) sht20: 🔍 CRC check: received=0x69B9, calculated=0x69B9[0m
+[0;32mI (563993) sht20: ✅ Temperature raw value: 284[0m
+[0;32mI (564603) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (564603) sht20: Temperature: 27.20°C[0m
+[0;32mI (564603) sht20: Humidity: 52.30%[0m
+SENSOR_DATA:{"humidity":52.29999923706055,"sensor_type":"SHT20","temperature":27.19999885559082,"timestamp":563,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.20,52.30,563
+[0;32mI (564613) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (564623) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.20,humidity=52.30 563982743000[0m
+[0;32mI (564633) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (564643) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (564653) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (564653) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (564673) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (564673) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (564683) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (564683) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (564693) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (564703) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (564713) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (566723) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (566723) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (566723) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (566733) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (566743) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (566753) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (566753) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (566763) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (566773) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (566783) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (566793) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (570793) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (570793) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (570793) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (570803) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (570813) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (570823) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (570823) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (570833) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (570843) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (570853) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (570863) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (570873) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (570883) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (570883) sht20: 📊 Data logged - Temp: 27.20°C, Hum: 52.30%[0m
+[0;32mI (575893) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (575893) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (575893) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (576393) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (576393) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (576393) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1C, B9, 69][0m
+[0;32mI (576393) sht20: 🔍 CRC check: received=0x69B9, calculated=0x69B9[0m
+[0;32mI (576403) sht20: ✅ Temperature raw value: 284[0m
+[0;32mI (577013) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (577013) sht20: Temperature: 27.20°C[0m
+[0;32mI (577013) sht20: Humidity: 52.30%[0m
+SENSOR_DATA:{"humidity":52.29999923706055,"sensor_type":"SHT20","temperature":27.19999885559082,"timestamp":576,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.20,52.30,576
+[0;32mI (577023) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (577033) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.20,humidity=52.30 576392771000[0m
+[0;32mI (577043) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (577053) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (577063) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (577063) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (577083) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (577083) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (577093) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (577093) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (577103) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (577113) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (577123) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (579133) sht20: InfluxDB upload attempt 2/3[0m
+[0;32mI (579133) sht20: Attempt 2: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (579133) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (579143) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (579153) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (579163) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (579163) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (579173) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (579183) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (579193) sht20: ❌ InfluxDB upload attempt 2 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (579203) sht20: ⏳ Retrying in 4 seconds...[0m
+[0;32mI (583203) sht20: InfluxDB upload attempt 3/3[0m
+[0;32mI (583203) sht20: Attempt 3: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (583203) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (583213) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (583223) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (583233) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (583233) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (583243) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (583253) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (583263) sht20: ❌ InfluxDB upload attempt 3 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;31mE (583273) sht20: ❌ All InfluxDB upload attempts failed[0m
+[0;31mE (583283) sht20: ❌ InfluxDB upload failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (583293) sht20: 🔄 Continuing in offline mode...[0m
+[0;32mI (583293) sht20: 📊 Data logged - Temp: 27.20°C, Hum: 52.30%[0m
+[0;32mI (588303) sht20: 🔄 Reading cycle started...[0m
+[0;32mI (588303) sht20: 📤 TX Temperature request: [01, 04, 00, 01, 00, 01, 60, 0A][0m
+[0;32mI (588303) sht20: ✅ TX: 8 bytes sent[0m
+[0;32mI (588803) sht20: ⏳ Waiting for temperature response...[0m
+[0;32mI (588803) sht20: 📥 RX: 7 bytes received[0m
+[0;32mI (588803) sht20: 📥 RX Temperature response: [01, 04, 02, 01, 1C, B9, 69][0m
+[0;32mI (588803) sht20: 🔍 CRC check: received=0x69B9, calculated=0x69B9[0m
+[0;32mI (588813) sht20: ✅ Temperature raw value: 284[0m
+[0;32mI (589423) sht20: SHT20 Sensor Reading:[0m
+[0;32mI (589423) sht20: Temperature: 27.20°C[0m
+[0;32mI (589423) sht20: Humidity: 50.90%[0m
+SENSOR_DATA:{"humidity":50.900001525878906,"sensor_type":"SHT20","temperature":27.19999885559082,"timestamp":588,"unit_hum":"percent","unit_temp":"celsius"}
+SHT20,27.20,50.90,588
+[0;32mI (589433) sht20: 🔄 Attempting InfluxDB upload...[0m
+[0;32mI (589443) sht20: Sending to InfluxDB: sht20,sensor=esp32 temperature=27.20,humidity=50.90 588802846000[0m
+[0;32mI (589453) sht20: InfluxDB upload attempt 1/3[0m
+[0;32mI (589463) sht20: Attempt 1: Connecting to http://192.168.100.161:8086/api/v2/write?org=ITS&bucket=database&precision=ns[0m
+[0;31mE (589473) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (589473) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (589493) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (589493) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (589503) HTTP_CLIENT: Connection failed, sock < 0[0m
+[0;31mE (589503) HTTP_CLIENT: Failed to post http_client event: 0, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (589513) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
+[0;31mE (589523) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
+[0;32mI (589533) sht20: ⏳ Retrying in 2 seconds...[0m
