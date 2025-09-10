@@ -37,7 +37,7 @@ fn test_network_connectivity() -> Result<()> {
     log::info!("🔍 Starting network connectivity test...");
     
     // Test basic connectivity first - try gateway
-    match test_http_get("http://192.168.100.1") {
+    match test_http_get("http://192.168.121.239") {
         Ok(_) => log::info!("✅ Gateway connectivity OK"),
         Err(e) => log::warn!("⚠️ Gateway test failed: {e:?}"),
     }
