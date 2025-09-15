@@ -1,4 +1,4 @@
-# SKT - Sistem Monitoring dan Kontrol Terintegrasi
+# SKT 
 
 Proyek ini adalah sistem monitoring dan kontrol industri terintegrasi yang menggabungkan pembacaan sensor SHT20, simulasi DWSIM, database InfluxDB, dan platform IoT ThingsBoard.
 
