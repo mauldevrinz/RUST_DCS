@@ -1,0 +1,22 @@
+# Large archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Build artifacts
+target/
+*/target/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
