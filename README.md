@@ -5,20 +5,23 @@ Proyek ini adalah sistem monitoring dan kontrol industri terintegrasi yang mengg
 ## 🏗️ Arsitektur Sistem
 
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   ESP32 + SHT20 │────│    InfluxDB     │────│   ThingsBoard   │
-│   (Rust/ESP-IDF)│    │  (Time Series)  │    │   (IoT Platform)│
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         │              ┌─────────────────┐              │
-         │              │      DWSIM      │              │
-         └──────────────│   (Python API)  │──────────────┘
-                        └─────────────────┘
-                               │
-                    ┌─────────────────┐
-                    │ Bridge Service  │
-                    │    (Rust)       │
-                    └─────────────────┘
+┌─────────────────┐    USB    ┌─────────────────┐    MQTT   ┌─────────────────┐
+│   ESP32 + SHT20 │──Serial───│ Backend Service │───────────│   ThingsBoard   │
+│   (Rust/ESP-IDF)│           │ (Serial Gateway │           │   (IoT Platform)│
+└─────────────────┘           │ + InfluxDB      │           └─────────────────┘
+                              │ + Bridge)       │
+                              └─────────────────┘
+                                       │
+                                       │ HTTP API
+                              ┌─────────────────┐
+                              │    InfluxDB     │
+                              │  (Time Series)  │
+                              └─────────────────┘
+                                       │
+                              ┌─────────────────┐
+                              │      DWSIM      │
+                              │   (Python API)  │
+                              └─────────────────┘
 ```
 
 ## 📁 Struktur Proyek
@@ -27,12 +30,12 @@ Proyek ini adalah sistem monitoring dan kontrol industri terintegrasi yang mengg
 SKT/
 ├── sht20/                      # ESP32 Sensor Reader
 │   ├── src/
-│   │   ├── main.rs            # Main aplikasi ESP32
-│   │   └── config.rs          # Konfigurasi WiFi & InfluxDB
+│   │   └── main.rs            # Main aplikasi ESP32 (Serial output only)
 │   └── Cargo.toml             # Dependencies Rust ESP32
-├── backend/                   # InfluxDB-ThingsBoard Bridge
+├── backend/                   # Unified Backend Service
 │   ├── src/
-│   │   └── main.rs           # Bridge service
+│   │   ├── main.rs           # Main service + InfluxDB bridge
+│   │   └── serial.rs         # Serial gateway module
 │   └── Cargo.toml            # Dependencies Rust
 ├── dwsim.py                  # DWSIM Integration Script
 └── README.md                 # Dokumentasi ini
@@ -42,9 +45,9 @@ SKT/
 
 ### 1. ESP32 SHT20 Sensor Reader (`sht20/`)
 
-**Bahasa:** Rust dengan ESP-IDF framework  
-**Hardware:** ESP32, Sensor SHT20 via RS485  
-**Fungsi:** Membaca data suhu dan kelembaban dari sensor SHT20 dan mengirimnya ke InfluxDB
+**Bahasa:** Rust dengan ESP-IDF framework
+**Hardware:** ESP32, Sensor SHT20 via RS485, Motor Relay (GPIO2), Pump Relay (GPIO4)
+**Fungsi:** Membaca data suhu dan kelembaban dari sensor SHT20, mengontrol relay motor dan pompa berdasarkan threshold, dan mengirimnya via serial USB
 
 #### Metode Pembacaan Sensor:
 - **Protokol:** Modbus RTU via UART (9600 baud)
@@ -73,13 +76,17 @@ SKT/
 6. **Validasi CRC16** untuk memastikan integritas data
 7. **Konversi nilai mentah** menjadi satuan fisik (°C, %)
 8. **Terapkan offset kalibrasi** (Temperature: -1.2°C, Humidity: -6.5%)
+9. **Kontrol relay otomatis** berdasarkan threshold suhu dan kelembaban
+10. **Kirim status relay** via serial untuk monitoring
 
 #### Fitur Khusus:
-- **LED Indicator:** GPIO2 (TX), GPIO4 (RX) untuk status komunikasi
-- **WiFi Connection:** Auto-connect dengan retry mechanism
-- **Time Sync:** SNTP untuk timestamp presisi
+- **LED Indicator:** GPIO18 (TX), GPIO19 (RX) untuk status komunikasi
+- **Relay Control:** GPIO2 (Motor), GPIO4 (Pump) dengan kontrol otomatis
+- **Serial Output:** Format `SENSOR_DATA|timestamp|temperature|humidity` dan `RELAY_STATUS|motor:ON/OFF|pump:ON/OFF`
+- **Automatic Control:** Motor ON saat suhu ≥30°C (OFF ≤25°C), Pump ON saat kelembaban ≤40% (OFF ≥60%)
 - **Error Handling:** Robust error handling dengan detailed logging
 - **Data Validation:** Range validation untuk data sensor
+- **Offline Mode:** Tidak memerlukan WiFi, hanya output serial
 
 ### 2. InfluxDB Integration
 
@@ -145,10 +152,13 @@ pip install pythonnet influxdb-client
 - **Single Run:** `python dwsim.py`
 - **Continuous Monitoring:** `python dwsim.py continuous [interval]`
 
-### 4. InfluxDB-ThingsBoard Bridge (`backend/`)
+### 4. Unified Backend Service (`backend/`)
 
-**Bahasa:** Rust  
-**Fungsi:** Menjembatani data dari InfluxDB ke ThingsBoard via MQTT
+**Bahasa:** Rust dengan async/await
+**Fungsi:**
+- Serial gateway: Membaca data ESP32 via USB serial
+- InfluxDB writer: Upload data sensor ke InfluxDB
+- ThingsBoard bridge: Menjembatani data InfluxDB ke ThingsBoard via MQTT
 
 #### Metode Bridging:
 1. **Query InfluxDB** menggunakan Flux language:
@@ -175,6 +185,12 @@ pip install pythonnet influxdb-client
    - **Topic:** `v1/devices/me/telemetry`
    - **QoS:** At Least Once
 
+#### Metode Serial Gateway:
+1. **Monitor USB Serial** (`/dev/ttyUSB0` @ 115200 baud)
+2. **Parse Format:** `SENSOR_DATA|timestamp|temperature|humidity`
+3. **Upload to InfluxDB** menggunakan Line Protocol
+4. **Auto-reconnect** jika serial terputus
+
 #### Dependensi Rust:
 ```toml
 [dependencies]
@@ -182,6 +198,10 @@ anyhow = "1.0"
 reqwest = { version = "0.12", features = ["blocking", "json"] }
 rumqttc = "0.24"
 serde_json = "1.0"
+serialport = "4.3"
+tokio = { version = "1.0", features = ["full"] }
+log = "0.4"
+env_logger = "0.10"
 ```
 
 ### 5. ThingsBoard IoT Platform
@@ -203,13 +223,25 @@ serde_json = "1.0"
 # Masuk ke direktori sht20
 cd sht20
 
-# Update konfigurasi di src/config.rs
-# - WIFI_SSID dan WIFI_PASSWORD
-# - INFLUXDB_URL, INFLUXDB_ORG, INFLUXDB_BUCKET, INFLUXDB_TOKEN
-
 # Build dan flash ke ESP32
-cargo build
-cargo run
+cargo espflash flash --monitor
+
+# Atau untuk development dengan auto-monitor
+cargo espflash flash --monitor --port /dev/ttyUSB0
+```
+
+**Output ESP32:**
+```
+I (2345) sht20: SHT20 Data Logger - Serial Gateway Mode
+I (2346) sht20: Serial output every 10 seconds
+I (2347) sht20: LED: TX=GPIO18, RX=GPIO19
+I (2348) sht20: Relay: Motor=GPIO2, Pump=GPIO4
+I (2349) sht20: UART ready - RS485 9600 baud
+I (12350) sht20: T: 25.3°C, H: 65.2%
+I (12351) sht20: Motor: OFF, Pump: ON (T<30°C, H<60%)
+SENSOR_DATA|1694168400000000000|25.30|65.20
+RELAY_STATUS|motor:OFF|pump:ON
+INFLUX_LINE|sht20_sensor temperature=25.30,humidity=65.20,motor_status=0,pump_status=1 1694168400000000000
 ```
 
 ### 2. Setup InfluxDB
@@ -234,15 +266,32 @@ pip install pythonnet influxdb-client
 python dwsim.py continuous 10
 ```
 
-### 4. Jalankan Bridge Service
+### 4. Jalankan Unified Backend Service
 
 ```bash
 # Masuk ke direktori backend
 cd backend
 
-# Jalankan bridge
-cargo run
+# Jalankan dengan logging
+RUST_LOG=info cargo run
+
+# Output yang diharapkan:
+# [INFO] 🚀 Backend started:
+# [INFO]   - Serial monitoring: /dev/ttyUSB0 @ 115200 baud
+# [INFO]   - InfluxDB bridge: http://localhost:8086 → ThingsBoard
+# [INFO]   - Query interval: 10 seconds
+# [INFO] ✓ MQTT connected to ThingsBoard
+# [INFO] ESP32: SENSOR_DATA|1694168400000000000|25.30|65.20
+# [INFO] ESP32: RELAY_STATUS|motor:OFF|pump:ON
+# [INFO] Sensor data uploaded: T=25.3°C, H=65.2%, Motor=OFF, Pump=ON
 ```
+
+**Fitur Backend:**
+- ✅ **Serial Gateway**: Auto-detect ESP32 pada `/dev/ttyUSB0`
+- ✅ **InfluxDB Upload**: Data sensor langsung ke database
+- ✅ **ThingsBoard Bridge**: Query InfluxDB → publish MQTT
+- ✅ **Auto-reconnect**: Serial dan MQTT auto-reconnect
+- ✅ **Logging**: Structured logging dengan timestamps
 
 ### 5. Setup ThingsBoard
 
@@ -254,28 +303,37 @@ cargo run
 ## 📊 Data Flow
 
 1. **ESP32** membaca sensor SHT20 setiap 10 detik
-2. **Data sensor** dikirim ke InfluxDB bucket `SENSOR_DATA`
-3. **Python script** (opsional) mengambil data DWSIM dan upload ke InfluxDB
-4. **Bridge service** query data dari InfluxDB setiap 10 detik
-5. **Data terbaru** dipublish ke ThingsBoard via MQTT
-6. **ThingsBoard** menampilkan data real-time di dashboard
+2. **ESP32** kontrol relay berdasarkan threshold (Motor: T≥30°C, Pump: H≤40%)
+3. **ESP32** kirim data via USB serial: `SENSOR_DATA|timestamp|temp|humidity` dan `RELAY_STATUS|motor:ON/OFF|pump:ON/OFF`
+4. **Backend** parsing serial data dan upload ke InfluxDB bucket `SENSOR_DATA` (termasuk status relay)
+5. **Python script** (opsional) mengambil data DWSIM dan upload ke InfluxDB bucket `DWSIM_DATA`
+6. **Backend** query data dari InfluxDB setiap 10 detik
+7. **Data terbaru** (sensor + relay + DWSIM) dipublish ke ThingsBoard via MQTT
+8. **ThingsBoard** menampilkan data real-time di dashboard
+
+**Keuntungan arsitektur ini:**
+- ✅ ESP32 tidak perlu WiFi (lebih stabil)
+- ✅ Satu backend service untuk semua
+- ✅ Data tetap masuk InfluxDB dan ThingsBoard
+- ✅ Monitoring dan logging terpusat
 
 ## ⚙️ Konfigurasi
 
-### WiFi & Network
-```rust
-// sht20/src/config.rs
-pub const WIFI_SSID: &str = "YourWiFiSSID";
-pub const WIFI_PASSWORD: &str = "YourWiFiPassword";
-```
+### ESP32 (Tidak ada konfigurasi khusus)
+ESP32 hanya output serial, tidak perlu WiFi atau konfigurasi network.
 
-### InfluxDB
+### Backend Service
 ```rust
-// Semua file konfigurasi
-pub const INFLUXDB_URL: &str = "http://192.168.121.64:8086";
-pub const INFLUXDB_ORG: &str = "ITS";
-pub const INFLUXDB_BUCKET: &str = "SENSOR_DATA";
-pub const INFLUXDB_TOKEN: &str = "your-token-here";
+// backend/src/main.rs
+const INFLUX_URL: &str = "http://localhost:8086";
+const ORG: &str = "ITS";
+const TOKEN: &str = "your-influxdb-token";
+const SENSOR_BUCKET: &str = "SENSOR_DATA";
+const DWSIM_BUCKET: &str = "DWSIM_DATA";
+
+// Serial port configuration
+const SERIAL_PORT: &str = "/dev/ttyUSB0";
+const BAUD_RATE: u32 = 115200;
 ```
 
 ### ThingsBoard
@@ -288,28 +346,59 @@ const TB_TOKEN: &str = "your-device-token";
 ## 🔍 Troubleshooting
 
 ### ESP32 Issues:
-- **WiFi tidak connect:** Periksa SSID/password di `config.rs`
-- **Sensor tidak terbaca:** Periksa koneksi RS485 dan wiring
-- **InfluxDB upload gagal:** Periksa network connectivity dan token
+- **Flash gagal:** Tekan tombol BOOT saat flashing, coba port USB lain
+- **Sensor tidak terbaca:** Periksa koneksi RS485 dan wiring (GPIO16/17)
+- **No serial output:** Periksa koneksi USB dan baud rate
+- **Relay tidak berfungsi:** Periksa koneksi GPIO2 (motor) dan GPIO4 (pump)
+- **LED tidak menyala:** Periksa koneksi GPIO18 (TX) dan GPIO19 (RX)
 
 ### DWSIM Issues:
 - **Library tidak ditemukan:** Install `pythonnet` dan pastikan DWSIM terinstall
 - **Simulasi tidak ditemukan:** Pastikan DWSIM running dengan simulasi terbuka
 - **Stream tidak ditemukan:** Periksa nama stream di DWSIM (harus "Water_i")
 
-### Bridge Issues:
-- **InfluxDB query gagal:** Periksa bucket name dan data availability
+### Backend Issues:
+- **Serial tidak terbaca:** Pastikan ESP32 terhubung di `/dev/ttyUSB0`
+- **Serial port busy:** Gunakan `lsof /dev/ttyUSB0` dan `kill` untuk menghentikan proses lain
+- **InfluxDB upload gagal:** Periksa InfluxDB service dan token
 - **MQTT connection gagal:** Periksa ThingsBoard device token
 - **No data found:** Pastikan ada data di InfluxDB dalam range waktu yang ditentukan
+- **Serial timeout:** Backend menggunakan timeout 15s untuk menunggu data ESP32 (interval 10s)
+- **Async/blocking mix panic:** Pastikan menggunakan async reqwest client, bukan blocking
+
+### Quick Debug Commands:
+```bash
+# Cek serial port tersedia
+ls -la /dev/ttyUSB*
+
+# Monitor serial langsung
+sudo screen /dev/ttyUSB0 115200
+
+# Test InfluxDB connection
+curl -H "Authorization: Token YOUR_TOKEN" \
+     "http://localhost:8086/api/v2/buckets?org=ITS"
+```
 
 ## 📈 Monitoring & Logs
 
 Semua komponen menggunakan structured logging:
-- **ESP32:** Serial output via USB
+- **ESP32:** Serial output via USB (dapat dimonitor langsung)
+- **Backend:** env_logger dengan level INFO/DEBUG/ERROR
 - **Python:** Console output dengan timestamps
-- **Bridge:** Console output dengan status indicators
-- **InfluxDB:** Built-in monitoring UI
+- **InfluxDB:** Built-in monitoring UI di port 8086
 - **ThingsBoard:** Device telemetry dan logs
+
+### Log Levels:
+```bash
+# Info level (production)
+RUST_LOG=info cargo run
+
+# Debug level (development)
+RUST_LOG=debug cargo run
+
+# Specific module debugging
+RUST_LOG=backend::serial=debug cargo run
+```
 
 ## 🛠️ Development
 
@@ -323,7 +412,10 @@ Semua komponen menggunakan structured logging:
 - **ESP32** development board
 - **SHT20** sensor dengan RS485 interface
 - **RS485 to TTL** converter
-- Stable WiFi connection
+- **USB cable** untuk koneksi serial ESP32 ↔ Computer
+- **Motor relay module** untuk GPIO2 (opsional)
+- **Pump relay module** untuk GPIO4 (opsional)
+- **LED indicators** untuk GPIO18 dan GPIO19 (opsional)
 
 ## 📄 Lisensi
 

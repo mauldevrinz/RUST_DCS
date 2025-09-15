@@ -2308,3 +2308,458 @@ SHT20,27.20,50.90,588
 [0;31mE (589513) HTTP_CLIENT: Failed to post http_client event: 6, error: ESP_ERR_INVALID_STATE[0m
 [0;31mE (589523) sht20: ❌ InfluxDB upload attempt 1 failed: Request creation failed: EspIOError(ESP_ERR_HTTP_CONNECT (error code 28674))[0m
 [0;32mI (589533) sht20: ⏳ Retrying in 2 seconds...[0m
+[0;32mI (23832) sht20: T: 24.4°C, H: 46.9%[0m
+SENSOR_DATA|23501132000|24.40|46.90
+INFLUX_LINE|sht20_sensor temperature=24.40,humidity=46.90 23501132000
+[0;32mI (23832) sht20: ❄️ Motor OFF: Temperature 24.4°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (34942) sht20: T: 24.4°C, H: 46.5%[0m
+SENSOR_DATA|34611418000|24.40|46.50
+INFLUX_LINE|sht20_sensor temperature=24.40,humidity=46.50 34611418000
+[0;32mI (34942) sht20: ❄️ Motor OFF: Temperature 24.4°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (46052) sht20: T: 24.4°C, H: 46.5%[0m
+SENSOR_DATA|45721417000|24.40|46.50
+INFLUX_LINE|sht20_sensor temperature=24.40,humidity=46.50 45721417000
+[0;32mI (46052) sht20: ❄️ Motor OFF: Temperature 24.4°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (57162) sht20: T: 24.3°C, H: 46.6%[0m
+SENSOR_DATA|56831137000|24.30|46.60
+INFLUX_LINE|sht20_sensor temperature=24.30,humidity=46.60 56831137000
+[0;32mI (57162) sht20: ❄️ Motor OFF: Temperature 24.3°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (68272) sht20: T: 24.3°C, H: 46.8%[0m
+SENSOR_DATA|67941161000|24.30|46.80
+INFLUX_LINE|sht20_sensor temperature=24.30,humidity=46.80 67941161000
+[0;32mI (68272) sht20: ❄️ Motor OFF: Temperature 24.3°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (79382) sht20: T: 24.2°C, H: 47.0%[0m
+SENSOR_DATA|79051399000|24.20|47.00
+INFLUX_LINE|sht20_sensor temperature=24.20,humidity=47.00 79051399000
+[0;32mI (79382) sht20: ❄️ Motor OFF: Temperature 24.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (90492) sht20: T: 24.2°C, H: 47.1%[0m
+SENSOR_DATA|90161137000|24.20|47.10
+INFLUX_LINE|sht20_sensor temperature=24.20,humidity=47.10 90161137000
+[0;32mI (90492) sht20: ❄️ Motor OFF: Temperature 24.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (101602) sht20: T: 24.2°C, H: 46.9%[0m
+SENSOR_DATA|101271165000|24.20|46.90
+INFLUX_LINE|sht20_sensor temperature=24.20,humidity=46.90 101271165000
+[0;32mI (101602) sht20: ❄️ Motor OFF: Temperature 24.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (112712) sht20: T: 24.1°C, H: 46.9%[0m
+SENSOR_DATA|112381161000|24.10|46.90
+INFLUX_LINE|sht20_sensor temperature=24.10,humidity=46.90 112381161000
+[0;32mI (112712) sht20: ❄️ Motor OFF: Temperature 24.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (123822) sht20: T: 24.1°C, H: 46.9%[0m
+SENSOR_DATA|123491164000|24.10|46.90
+INFLUX_LINE|sht20_sensor temperature=24.10,humidity=46.90 123491164000
+[0;32mI (123822) sht20: ❄️ Motor OFF: Temperature 24.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (134932) sht20: T: 24.1°C, H: 46.9%[0m
+SENSOR_DATA|134601156000|24.10|46.90
+INFLUX_LINE|sht20_sensor temperature=24.10,humidity=46.90 134601156000
+[0;32mI (134932) sht20: ❄️ Motor OFF: Temperature 24.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (146042) sht20: T: 24.0°C, H: 46.9%[0m
+SENSOR_DATA|145711377000|24.00|46.90
+INFLUX_LINE|sht20_sensor temperature=24.00,humidity=46.90 145711377000
+[0;32mI (146042) sht20: ❄️ Motor OFF: Temperature 24.0°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (157152) sht20: T: 24.0°C, H: 47.2%[0m
+SENSOR_DATA|156821353000|24.00|47.20
+INFLUX_LINE|sht20_sensor temperature=24.00,humidity=47.20 156821353000
+[0;32mI (157152) sht20: ❄️ Motor OFF: Temperature 24.0°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (168262) sht20: T: 24.0°C, H: 47.3%[0m
+SENSOR_DATA|167931382000|24.00|47.30
+INFLUX_LINE|sht20_sensor temperature=24.00,humidity=47.30 167931382000
+[0;32mI (168262) sht20: ❄️ Motor OFF: Temperature 24.0°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (179372) sht20: T: 23.9°C, H: 47.4%[0m
+SENSOR_DATA|179041137000|23.90|47.40
+INFLUX_LINE|sht20_sensor temperature=23.90,humidity=47.40 179041137000
+[0;32mI (179372) sht20: ❄️ Motor OFF: Temperature 23.9°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (190482) sht20: T: 23.9°C, H: 47.3%[0m
+SENSOR_DATA|190151154000|23.90|47.30
+INFLUX_LINE|sht20_sensor temperature=23.90,humidity=47.30 190151154000
+[0;32mI (190482) sht20: ❄️ Motor OFF: Temperature 23.9°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (201592) sht20: T: 23.9°C, H: 47.4%[0m
+SENSOR_DATA|201261161000|23.90|47.40
+INFLUX_LINE|sht20_sensor temperature=23.90,humidity=47.40 201261161000
+[0;32mI (201592) sht20: ❄️ Motor OFF: Temperature 23.9°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (212702) sht20: T: 23.9°C, H: 47.4%[0m
+SENSOR_DATA|212371165000|23.90|47.40
+INFLUX_LINE|sht20_sensor temperature=23.90,humidity=47.40 212371165000
+[0;32mI (212702) sht20: ❄️ Motor OFF: Temperature 23.9°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (223812) sht20: T: 23.8°C, H: 47.4%[0m
+SENSOR_DATA|223481161000|23.80|47.40
+INFLUX_LINE|sht20_sensor temperature=23.80,humidity=47.40 223481161000
+[0;32mI (223812) sht20: ❄️ Motor OFF: Temperature 23.8°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (234922) sht20: T: 23.8°C, H: 47.4%[0m
+SENSOR_DATA|234591161000|23.80|47.40
+INFLUX_LINE|sht20_sensor temperature=23.80,humidity=47.40 234591161000
+[0;32mI (234922) sht20: ❄️ Motor OFF: Temperature 23.8°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (246032) sht20: T: 23.8°C, H: 47.7%[0m
+SENSOR_DATA|245701161000|23.80|47.70
+INFLUX_LINE|sht20_sensor temperature=23.80,humidity=47.70 245701161000
+[0;32mI (246032) sht20: ❄️ Motor OFF: Temperature 23.8°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (257142) sht20: T: 23.7°C, H: 47.7%[0m
+SENSOR_DATA|256811165000|23.70|47.70
+INFLUX_LINE|sht20_sensor temperature=23.70,humidity=47.70 256811165000
+[0;32mI (257142) sht20: ❄️ Motor OFF: Temperature 23.7°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (268252) sht20: T: 23.7°C, H: 47.7%[0m
+SENSOR_DATA|267921161000|23.70|47.70
+INFLUX_LINE|sht20_sensor temperature=23.70,humidity=47.70 267921161000
+[0;32mI (268252) sht20: ❄️ Motor OFF: Temperature 23.7°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (279362) sht20: T: 23.7°C, H: 47.7%[0m
+SENSOR_DATA|279031165000|23.70|47.70
+INFLUX_LINE|sht20_sensor temperature=23.70,humidity=47.70 279031165000
+[0;32mI (279362) sht20: ❄️ Motor OFF: Temperature 23.7°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (290472) sht20: T: 23.7°C, H: 47.9%[0m
+SENSOR_DATA|290141174000|23.70|47.90
+INFLUX_LINE|sht20_sensor temperature=23.70,humidity=47.90 290141174000
+[0;32mI (290472) sht20: ❄️ Motor OFF: Temperature 23.7°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (301582) sht20: T: 23.7°C, H: 48.0%[0m
+SENSOR_DATA|301251390000|23.70|48.00
+INFLUX_LINE|sht20_sensor temperature=23.70,humidity=48.00 301251390000
+[0;32mI (301582) sht20: ❄️ Motor OFF: Temperature 23.7°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (312692) sht20: T: 23.6°C, H: 48.0%[0m
+SENSOR_DATA|312361394000|23.60|48.00
+INFLUX_LINE|sht20_sensor temperature=23.60,humidity=48.00 312361394000
+[0;32mI (312692) sht20: ❄️ Motor OFF: Temperature 23.6°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (323802) sht20: T: 23.6°C, H: 48.1%[0m
+SENSOR_DATA|323471134000|23.60|48.10
+INFLUX_LINE|sht20_sensor temperature=23.60,humidity=48.10 323471134000
+[0;32mI (323802) sht20: ❄️ Motor OFF: Temperature 23.6°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (334912) sht20: T: 23.6°C, H: 48.1%[0m
+SENSOR_DATA|334581150000|23.60|48.10
+INFLUX_LINE|sht20_sensor temperature=23.60,humidity=48.10 334581150000
+[0;32mI (334912) sht20: ❄️ Motor OFF: Temperature 23.6°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (346022) sht20: T: 23.6°C, H: 48.4%[0m
+SENSOR_DATA|345691161000|23.60|48.40
+INFLUX_LINE|sht20_sensor temperature=23.60,humidity=48.40 345691161000
+[0;32mI (346022) sht20: ❄️ Motor OFF: Temperature 23.6°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (357132) sht20: T: 23.5°C, H: 48.3%[0m
+SENSOR_DATA|356801414000|23.50|48.30
+INFLUX_LINE|sht20_sensor temperature=23.50,humidity=48.30 356801414000
+[0;32mI (357132) sht20: ❄️ Motor OFF: Temperature 23.5°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (368242) sht20: T: 23.5°C, H: 48.3%[0m
+SENSOR_DATA|367911406000|23.50|48.30
+INFLUX_LINE|sht20_sensor temperature=23.50,humidity=48.30 367911406000
+[0;32mI (368242) sht20: ❄️ Motor OFF: Temperature 23.5°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (379352) sht20: T: 23.5°C, H: 48.5%[0m
+SENSOR_DATA|379021350000|23.50|48.50
+INFLUX_LINE|sht20_sensor temperature=23.50,humidity=48.50 379021350000
+[0;32mI (379352) sht20: ❄️ Motor OFF: Temperature 23.5°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (390462) sht20: T: 23.5°C, H: 48.3%[0m
+SENSOR_DATA|390131402000|23.50|48.30
+INFLUX_LINE|sht20_sensor temperature=23.50,humidity=48.30 390131402000
+[0;32mI (390462) sht20: ❄️ Motor OFF: Temperature 23.5°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (401572) sht20: T: 23.5°C, H: 48.3%[0m
+SENSOR_DATA|401241394000|23.50|48.30
+INFLUX_LINE|sht20_sensor temperature=23.50,humidity=48.30 401241394000
+[0;32mI (401572) sht20: ❄️ Motor OFF: Temperature 23.5°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (412682) sht20: T: 23.5°C, H: 48.6%[0m
+SENSOR_DATA|412351394000|23.50|48.60
+INFLUX_LINE|sht20_sensor temperature=23.50,humidity=48.60 412351394000
+[0;32mI (412682) sht20: ❄️ Motor OFF: Temperature 23.5°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (423792) sht20: T: 23.5°C, H: 48.7%[0m
+SENSOR_DATA|423461349000|23.50|48.70
+INFLUX_LINE|sht20_sensor temperature=23.50,humidity=48.70 423461349000
+[0;32mI (423792) sht20: ❄️ Motor OFF: Temperature 23.5°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (434902) sht20: T: 23.4°C, H: 48.7%[0m
+SENSOR_DATA|434571145000|23.40|48.70
+INFLUX_LINE|sht20_sensor temperature=23.40,humidity=48.70 434571145000
+[0;32mI (434902) sht20: ❄️ Motor OFF: Temperature 23.4°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (446012) sht20: T: 23.4°C, H: 48.7%[0m
+SENSOR_DATA|445681165000|23.40|48.70
+INFLUX_LINE|sht20_sensor temperature=23.40,humidity=48.70 445681165000
+[0;32mI (446012) sht20: ❄️ Motor OFF: Temperature 23.4°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (457122) sht20: T: 23.4°C, H: 48.6%[0m
+SENSOR_DATA|456791150000|23.40|48.60
+INFLUX_LINE|sht20_sensor temperature=23.40,humidity=48.60 456791150000
+[0;32mI (457122) sht20: ❄️ Motor OFF: Temperature 23.4°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (468232) sht20: T: 23.4°C, H: 48.5%[0m
+SENSOR_DATA|467901407000|23.40|48.50
+INFLUX_LINE|sht20_sensor temperature=23.40,humidity=48.50 467901407000
+[0;32mI (468232) sht20: ❄️ Motor OFF: Temperature 23.4°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (479342) sht20: T: 23.3°C, H: 48.5%[0m
+SENSOR_DATA|479011395000|23.30|48.50
+INFLUX_LINE|sht20_sensor temperature=23.30,humidity=48.50 479011395000
+[0;32mI (479342) sht20: ❄️ Motor OFF: Temperature 23.3°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (490452) sht20: T: 23.4°C, H: 48.6%[0m
+SENSOR_DATA|490121130000|23.40|48.60
+INFLUX_LINE|sht20_sensor temperature=23.40,humidity=48.60 490121130000
+[0;32mI (490452) sht20: ❄️ Motor OFF: Temperature 23.4°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (501562) sht20: T: 23.3°C, H: 48.7%[0m
+SENSOR_DATA|501231165000|23.30|48.70
+INFLUX_LINE|sht20_sensor temperature=23.30,humidity=48.70 501231165000
+[0;32mI (501562) sht20: ❄️ Motor OFF: Temperature 23.3°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (512672) sht20: T: 23.3°C, H: 48.7%[0m
+SENSOR_DATA|512341161000|23.30|48.70
+INFLUX_LINE|sht20_sensor temperature=23.30,humidity=48.70 512341161000
+[0;32mI (512672) sht20: ❄️ Motor OFF: Temperature 23.3°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (523782) sht20: T: 23.3°C, H: 48.7%[0m
+SENSOR_DATA|523451161000|23.30|48.70
+INFLUX_LINE|sht20_sensor temperature=23.30,humidity=48.70 523451161000
+[0;32mI (523782) sht20: ❄️ Motor OFF: Temperature 23.3°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (534892) sht20: T: 23.3°C, H: 48.8%[0m
+SENSOR_DATA|534561142000|23.30|48.80
+INFLUX_LINE|sht20_sensor temperature=23.30,humidity=48.80 534561142000
+[0;32mI (534892) sht20: ❄️ Motor OFF: Temperature 23.3°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (546002) sht20: T: 23.3°C, H: 48.8%[0m
+SENSOR_DATA|545671150000|23.30|48.80
+INFLUX_LINE|sht20_sensor temperature=23.30,humidity=48.80 545671150000
+[0;32mI (546002) sht20: ❄️ Motor OFF: Temperature 23.3°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (557112) sht20: T: 23.3°C, H: 48.8%[0m
+SENSOR_DATA|556781150000|23.30|48.80
+INFLUX_LINE|sht20_sensor temperature=23.30,humidity=48.80 556781150000
+[0;32mI (557112) sht20: ❄️ Motor OFF: Temperature 23.3°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (568222) sht20: T: 23.3°C, H: 48.9%[0m
+SENSOR_DATA|567891165000|23.30|48.90
+INFLUX_LINE|sht20_sensor temperature=23.30,humidity=48.90 567891165000
+[0;32mI (568222) sht20: ❄️ Motor OFF: Temperature 23.3°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (579332) sht20: T: 23.2°C, H: 49.0%[0m
+SENSOR_DATA|579001385000|23.20|49.00
+INFLUX_LINE|sht20_sensor temperature=23.20,humidity=49.00 579001385000
+[0;32mI (579332) sht20: ❄️ Motor OFF: Temperature 23.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (590442) sht20: T: 23.2°C, H: 48.8%[0m
+SENSOR_DATA|590111148000|23.20|48.80
+INFLUX_LINE|sht20_sensor temperature=23.20,humidity=48.80 590111148000
+[0;32mI (590442) sht20: ❄️ Motor OFF: Temperature 23.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (601552) sht20: T: 23.2°C, H: 48.9%[0m
+SENSOR_DATA|601221164000|23.20|48.90
+INFLUX_LINE|sht20_sensor temperature=23.20,humidity=48.90 601221164000
+[0;32mI (601552) sht20: ❄️ Motor OFF: Temperature 23.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (612662) sht20: T: 23.2°C, H: 49.0%[0m
+SENSOR_DATA|612331401000|23.20|49.00
+INFLUX_LINE|sht20_sensor temperature=23.20,humidity=49.00 612331401000
+[0;32mI (612662) sht20: ❄️ Motor OFF: Temperature 23.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (623772) sht20: T: 23.2°C, H: 48.9%[0m
+SENSOR_DATA|623441149000|23.20|48.90
+INFLUX_LINE|sht20_sensor temperature=23.20,humidity=48.90 623441149000
+[0;32mI (623772) sht20: ❄️ Motor OFF: Temperature 23.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (634882) sht20: T: 23.2°C, H: 49.0%[0m
+SENSOR_DATA|634551401000|23.20|49.00
+INFLUX_LINE|sht20_sensor temperature=23.20,humidity=49.00 634551401000
+[0;32mI (634882) sht20: ❄️ Motor OFF: Temperature 23.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (645992) sht20: T: 23.2°C, H: 48.9%[0m
+SENSOR_DATA|645661149000|23.20|48.90
+INFLUX_LINE|sht20_sensor temperature=23.20,humidity=48.90 645661149000
+[0;32mI (645992) sht20: ❄️ Motor OFF: Temperature 23.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (657102) sht20: T: 23.2°C, H: 48.9%[0m
+SENSOR_DATA|656771164000|23.20|48.90
+INFLUX_LINE|sht20_sensor temperature=23.20,humidity=48.90 656771164000
+[0;32mI (657102) sht20: ❄️ Motor OFF: Temperature 23.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (668212) sht20: T: 23.2°C, H: 48.9%[0m
+SENSOR_DATA|667881169000|23.20|48.90
+INFLUX_LINE|sht20_sensor temperature=23.20,humidity=48.90 667881169000
+[0;32mI (668212) sht20: ❄️ Motor OFF: Temperature 23.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (679322) sht20: T: 23.2°C, H: 49.0%[0m
+SENSOR_DATA|678991401000|23.20|49.00
+INFLUX_LINE|sht20_sensor temperature=23.20,humidity=49.00 678991401000
+[0;32mI (679322) sht20: ❄️ Motor OFF: Temperature 23.2°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (690432) sht20: T: 23.1°C, H: 49.0%[0m
+SENSOR_DATA|690101409000|23.10|49.00
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.00 690101409000
+[0;32mI (690432) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (701542) sht20: T: 23.1°C, H: 49.1%[0m
+SENSOR_DATA|701211138000|23.10|49.10
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.10 701211138000
+[0;32mI (701542) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (712652) sht20: T: 23.1°C, H: 49.0%[0m
+SENSOR_DATA|712321401000|23.10|49.00
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.00 712321401000
+[0;32mI (712652) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (723762) sht20: T: 23.1°C, H: 49.1%[0m
+SENSOR_DATA|723431134000|23.10|49.10
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.10 723431134000
+[0;32mI (723762) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (734872) sht20: T: 23.1°C, H: 49.2%[0m
+SENSOR_DATA|734541161000|23.10|49.20
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.20 734541161000
+[0;32mI (734872) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (745982) sht20: T: 23.1°C, H: 49.1%[0m
+SENSOR_DATA|745651146000|23.10|49.10
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.10 745651146000
+[0;32mI (745982) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (757092) sht20: T: 23.1°C, H: 49.2%[0m
+SENSOR_DATA|756761164000|23.10|49.20
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.20 756761164000
+[0;32mI (757092) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (768202) sht20: T: 23.1°C, H: 49.2%[0m
+SENSOR_DATA|767871164000|23.10|49.20
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.20 767871164000
+[0;32mI (768202) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (779312) sht20: T: 23.1°C, H: 49.4%[0m
+SENSOR_DATA|778981168000|23.10|49.40
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.40 778981168000
+[0;32mI (779312) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (790422) sht20: T: 23.1°C, H: 49.4%[0m
+SENSOR_DATA|790091164000|23.10|49.40
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.40 790091164000
+[0;32mI (790422) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (801532) sht20: T: 23.1°C, H: 49.4%[0m
+SENSOR_DATA|801201164000|23.10|49.40
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.40 801201164000
+[0;32mI (801532) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (812642) sht20: T: 23.1°C, H: 49.5%[0m
+SENSOR_DATA|812311414000|23.10|49.50
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.50 812311414000
+[0;32mI (812642) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (823752) sht20: T: 23.1°C, H: 49.4%[0m
+SENSOR_DATA|823421153000|23.10|49.40
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.40 823421153000
+[0;32mI (823752) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (834862) sht20: T: 23.1°C, H: 49.4%[0m
+SENSOR_DATA|834531164000|23.10|49.40
+INFLUX_LINE|sht20_sensor temperature=23.10,humidity=49.40 834531164000
+[0;32mI (834862) sht20: ❄️ Motor OFF: Temperature 23.1°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+[0;32mI (845972) sht20: T: 23.0°C, H: 49.5%[0m
+SENSOR_DATA|845641383000|23.00|49.50
+INFLUX_LINE|sht20_sensor temperature=23.00,humidity=49.50 845641383000
+[0;32mI (845972) sht20: ❄️ Motor OFF: Temperature 23.0°C < 25.0°C[0m
+RELAY_STATUS|motor:OFF|pump:OFF
+I (154) esp_image: segment 1: paddr=0003ce8c vaddr=3ffb0000 size=027fch ( 10236) load
+I (158) esp_image: segment 2: paddr=0003f690 vaddr=40080000 size=00988h (  2440) load
+I (159) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=58668h (362088) map
+I (289) esp_image: segment 4: paddr=00098690 vaddr=40080988 size=0bab8h ( 47800) load
+I (314) boot: Loaded app from partition at offset 0x10000
+I (314) boot: Disabling RNG early entropy source...
+[0;32mI (324) cpu_start: Multicore app[0m
+[0;32mI (332) cpu_start: Pro cpu start user code[0m
+[0;32mI (332) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (333) app_init: Application information:[0m
+[0;32mI (335) app_init: Project name:     libespidf[0m
+[0;32mI (340) app_init: App version:      2dd76fa-dirty[0m
+[0;32mI (346) app_init: Compile time:     Sep 15 2025 18:48:24[0m
+[0;32mI (352) app_init: ELF file SHA256:  000000000...[0m
+[0;32mI (357) app_init: ESP-IDF:          v5.3.1[0m
+[0;32mI (362) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (367) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (372) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (377) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (384) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (390) heap_init: At 3FFB3540 len 0002CAC0 (178 KiB): DRAM[0m
+[0;32mI (396) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (402) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (409) heap_init: At 4008C440 len 00013BC0 (78 KiB): IRAM[0m
+[0;32mI (416) spi_flash: detected chip: generic[0m
+[0;32mI (420) spi_flash: flash io: dio[0m
+[0;33mW (424) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;33mW (432) timer_group: legacy driver is deprecated, please migrate to `driver/gptimer.h`[0m
+[0;32mI (442) main_task: Started on CPU0[0m
+[0;32mI (452) main_task: Calling app_main()[0m
+[0;32mI (452) sht20: SHT20 Data Logger - Serial Gateway Mode[0m
+[0;32mI (452) sht20: Serial output every 10 seconds[0m
+[0;32mI (452) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (462) gpio: GPIO[4]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (472) gpio: GPIO[18]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (482) gpio: GPIO[19]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (492) sht20: Relay Control: Motor=GPIO2, Pump=GPIO4[0m
+[0;32mI (502) sht20: LED Status: TX=GPIO18, RX=GPIO19[0m
+[0;32mI (502) uart: queue free spaces: 10[0m
+[0;32mI (512) sht20: UART ready - RS485 9600 baud[0m
+I (154) esp_image: segment 1: paddr=0003ce8c vaddr=3ffb0000 size=027fch ( 10236) load
+I (158) esp_image: segment 2: paddr=0003f690 vaddr=40080000 size=00988h (  2440) load
+I (159) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=58668h (362088) map
+I (289) esp_image: segment 4: paddr=00098690 vaddr=40080988 size=0bab8h ( 47800) load
+I (314) boot: Loaded app from partition at offset 0x10000
+I (314) boot: Disabling RNG early entropy source...
+[0;32mI (324) cpu_start: Multicore app[0m
+[0;32mI (332) cpu_start: Pro cpu start user code[0m
+[0;32mI (332) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (333) app_init: Application information:[0m
+[0;32mI (335) app_init: Project name:     libespidf[0m
+[0;32mI (340) app_init: App version:      2dd76fa-dirty[0m
+[0;32mI (346) app_init: Compile time:     Sep 15 2025 18:48:24[0m
+[0;32mI (352) app_init: ELF file SHA256:  000000000...[0m
+[0;32mI (357) app_init: ESP-IDF:          v5.3.1[0m
+[0;32mI (362) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (367) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (372) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (377) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (384) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (390) heap_init: At 3FFB3540 len 0002CAC0 (178 KiB): DRAM[0m
+[0;32mI (396) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (402) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (409) heap_init: At 4008C440 len 00013BC0 (78 KiB): IRAM[0m
+[0;32mI (416) spi_flash: detected chip: generic[0m
+[0;32mI (420) spi_flash: flash io: dio[0m
+[0;33mW (424) pcnt(legacy): legacy driver is deprecated, please migrate to `driver/pulse_cnt.h`[0m
+[0;33mW (432) timer_group: legacy driver is deprecated, please migrate to `driver/gptimer.h`[0m
+[0;32mI (442) main_task: Started on CPU0[0m
+[0;32mI (452) main_task: Calling app_main()[0m
+[0;32mI (452) sht20: SHT20 Data Logger - Serial Gateway Mode[0m
+[0;32mI (452) sht20: Serial output every 10 seconds[0m
+[0;32mI (452) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (462) gpio: GPIO[4]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (472) gpio: GPIO[18]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (482) gpio: GPIO[19]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (492) sht20: Relay Control: Motor=GPIO2, Pump=GPIO4[0m
+[0;32mI (502) sht20: LED Status: TX=GPIO18, RX=GPIO19[0m
+[0;32mI (502) uart: queue free spaces: 10[0m
+[0;32mI (512) sht20: UART ready - RS485 9600 baud[0m
