@@ -22,9 +22,9 @@ const DWSIM_BUCKET: &str = "DWSIM_DATA";
 const DWSIM_MEAS:   &str = "dwsim_temperature";
 
 // ThingsBoard
-const TB_HOST:  &str = "mqtt.thingsboard.cloud";
+const TB_HOST:  &str = "demo.thingsboard.io";
 const TB_PORT:  u16 = 1883;
-const TB_TOKEN: &str = "blcw1nufqg477ci07nlw";
+const TB_TOKEN: &str = "8h0YBHyEU8dUvJ4PdYL9";
 
 // Rentang waktu & window untuk query InfluxDB
 const RANGE:  &str = "-1h";
