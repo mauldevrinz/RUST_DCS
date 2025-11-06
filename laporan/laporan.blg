@@ -3,53 +3,51 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: laporan.aux
 The style file: plainnat.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "da2018industrial"
 Warning--I didn't find a database entry for "felser2010real"
 Warning--I didn't find a database entry for "jensen2004temporal"
 Warning--I didn't find a database entry for "fadhel2018time"
-Warning--I didn't find a database entry for "influxdata2019influxdb"
 Warning--I didn't find a database entry for "bader2017time"
 Warning--I didn't find a database entry for "medeiros2015automation"
 Warning--can't use both volume and number fields in matsakis2014rust
-You've used 20 entries,
+You've used 22 entries,
             2773 wiz_defined-function locations,
-            720 strings with 8309 characters,
-and the built_in function-call counts, 9539 in all, are:
-= -- 875
-> -- 476
-< -- 19
-+ -- 164
-- -- 144
-* -- 745
-:= -- 1420
-add.period$ -- 63
-call.type$ -- 20
-change.case$ -- 103
-chr.to.int$ -- 20
-cite$ -- 41
-duplicate$ -- 468
-empty$ -- 817
-format.name$ -- 168
-if$ -- 2034
+            729 strings with 8516 characters,
+and the built_in function-call counts, 10357 in all, are:
+= -- 949
+> -- 516
+< -- 20
++ -- 178
+- -- 156
+* -- 808
+:= -- 1544
+add.period$ -- 69
+call.type$ -- 22
+change.case$ -- 113
+chr.to.int$ -- 22
+cite$ -- 45
+duplicate$ -- 504
+empty$ -- 892
+format.name$ -- 182
+if$ -- 2206
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 19
-newline$ -- 107
-num.names$ -- 80
-pop$ -- 221
+missing$ -- 20
+newline$ -- 117
+num.names$ -- 88
+pop$ -- 243
 preamble$ -- 1
-purify$ -- 88
+purify$ -- 96
 quote$ -- 0
-skip$ -- 353
+skip$ -- 381
 stack$ -- 0
-substring$ -- 429
-swap$ -- 80
+substring$ -- 464
+swap$ -- 82
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 210
+type$ -- 232
 warning$ -- 1
-while$ -- 95
+while$ -- 103
 width$ -- 0
-write$ -- 267
-(There were 8 warnings)
+write$ -- 292
+(There were 6 warnings)

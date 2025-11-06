@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -18,6 +18,12 @@ Abhiram Balasubramanian, Marek~S. Baranowski, Anton Burtsev, Aurojit Panda,
 \newblock System programming in rust: Beyond safety.
 \newblock In \emph{Proceedings of the 16th Workshop on Hot Topics in Operating
   Systems}, pages 156--161, 2017.
+
+\bibitem[Da~Xu et~al.(2014)Da~Xu, He, and Li]{da2014industrial}
+Li~Da~Xu, Wei He, and Shancang Li.
+\newblock Internet of things in industries: A survey.
+\newblock \emph{IEEE Transactions on Industrial Informatics}, 10\penalty0
+  (4):\penalty0 2233--2243, 2014.
 
 \bibitem[Drury(2009)]{drury2009control}
 Bill Drury.
@@ -49,6 +55,11 @@ Urs Hunkeler, Hong~Linh Truong, and Andy Stanford-Clark.
 \newblock Mqtt-s—a publish/subscribe protocol for wireless sensor networks.
 \newblock In \emph{2008 3rd International Conference on Communication Systems
   Software and Middleware}, pages 791--798. IEEE, 2008.
+
+\bibitem[{InfluxData}(2023)]{influxdata2023influxdb}
+{InfluxData}.
+\newblock Influxdb documentation.
+\newblock \url{https://docs.influxdata.com/}, 2023.
 
 \bibitem[Jung et~al.(2017)Jung, Jourdan, Krebbers, and
   Dreyer]{jung2017rustbelt}
