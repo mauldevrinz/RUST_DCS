@@ -37,7 +37,24 @@ SKT/
 │   │   ├── main.rs           # Main service + InfluxDB bridge
 │   │   └── serial.rs         # Serial gateway module
 │   └── Cargo.toml            # Dependencies Rust
+├── laporan/                   # Laporan Ilmiah LaTeX
+│   ├── laporan.tex           # Main LaTeX document
+│   ├── references.bib        # Bibliography (Harvard style)
+│   ├── compile.sh            # Script kompilasi otomatis
+│   └── images/               # Gambar untuk laporan
+│       ├── hardware.jpeg     # Foto implementasi hardware
+│       ├── Wiring Diagram.jpeg
+│       ├── IOT.jpg
+│       ├── SHT20 Parameter.png
+│       ├── Backend Running.png
+│       ├── Database Parameter.png
+│       ├── Dwsim Simulation.png
+│       ├── Dwsim Reading.png
+│       ├── Dashboard Thingsboard.png
+│       └── Latest Telemetry.png
 ├── dwsim.py                  # DWSIM Integration Script
+├── data_recorder.py          # Script export data ThingsBoard
+├── telemetry_data.csv        # Hasil pengujian sistem (5 jam)
 └── README.md                 # Dokumentasi ini
 ```
 
@@ -300,6 +317,58 @@ RUST_LOG=info cargo run
 3. Copy device token ke konfigurasi bridge
 4. Buat dashboard untuk visualisasi data
 
+## 📊 Export Data dari ThingsBoard
+
+Script `data_recorder.py` digunakan untuk export telemetry data dari ThingsBoard ke file CSV.
+
+### Setup Data Recorder
+
+1. **Install dependencies:**
+```bash
+pip install requests python-dotenv
+```
+
+2. **Buat file `.env` di root project:**
+```bash
+THINGSBOARD_HOST=demo.thingsboard.io
+THINGSBOARD_PORT=80
+THINGSBOARD_USERNAME=your_email@example.com
+THINGSBOARD_PASSWORD=your_password
+DEVICE_ID=your_device_id
+TELEMETRY_KEYS=sht20_temperature,sht20_humidity,motor_status,pump_status,dwsim_temperature
+```
+
+3. **Jalankan script:**
+```bash
+python data_recorder.py
+```
+
+### Fitur Data Recorder:
+- ✅ **Authentication**: JWT token-based login ke ThingsBoard
+- ✅ **Time Range**: Default 24 jam terakhir (customizable)
+- ✅ **Multiple Keys**: Support multiple telemetry keys sekaligus
+- ✅ **CSV Format**: Format lebar (wide format) dengan timestamp
+- ✅ **Error Handling**: Robust error handling dan logging
+- ✅ **Large Data**: Support hingga 10,000 data points per query
+
+### Output Format CSV:
+```csv
+timestamp,sht20_temperature,sht20_humidity,motor_status,pump_status,dwsim_temperature
+2025-11-06T04:19:50.567000,30.74,68.78,1,0,25.0
+2025-11-06T04:19:55.667000,30.77,68.71,1,0,25.0
+...
+```
+
+### Kustomisasi Time Range:
+Edit variabel di `data_recorder.py`:
+```python
+# Untuk 5 jam terakhir
+START_TS = END_TS - (5 * 60 * 60 * 1000)
+
+# Untuk 7 hari terakhir
+START_TS = END_TS - (7 * 24 * 60 * 60 * 1000)
+```
+
 ## 📊 Data Flow
 
 1. **ESP32** membaca sensor SHT20 setiap 10 detik
@@ -417,6 +486,50 @@ RUST_LOG=backend::serial=debug cargo run
 - **Pump relay module** untuk GPIO4 (opsional)
 - **LED indicators** untuk GPIO18 dan GPIO19 (opsional)
 
+## 📄 Laporan Ilmiah
+
+Laporan lengkap penelitian tersedia dalam format PDF di folder `laporan/`.
+
+### Kompilasi Laporan
+
+Laporan ditulis menggunakan LaTeX dengan format Harvard citation style.
+
+#### Cara 1: Otomatis (Recommended)
+```bash
+cd laporan
+./compile.sh
+```
+
+#### Cara 2: Manual
+```bash
+cd laporan
+pdflatex laporan.tex
+bibtex laporan
+pdflatex laporan.tex
+pdflatex laporan.tex
+```
+
+#### Spesifikasi Laporan:
+- **Format**: A4, 1.15 line spacing
+- **Citation**: Harvard (author-year) style
+- **Sections**: Abstract, 5 BAB, Daftar Pustaka, Lampiran
+- **Pages**: 35 halaman
+- **Bibliography**: 23 referensi terverifikasi
+
+### Data Pengujian
+
+File `telemetry_data.csv` berisi hasil pengujian sistem selama 5 jam:
+- **Total data points**: 3,173
+- **Interval**: ~5.7 detik
+- **Durasi**: 04:19:50 - 08:50:44 WIB (6 November 2025)
+- **Success rate**: 100% (0 data loss)
+
+**Statistik Pengujian:**
+- Temperature: 30.69°C - 30.83°C (avg 30.75°C)
+- Humidity: 66.49% - 69.90% (avg 68.52%)
+- Motor status: ON 100% waktu (temp > 30°C)
+- Pump status: OFF 100% waktu (humidity > 60%)
+
 ## 📄 Lisensi
 
 MIT License - lihat file LICENSE untuk detail lengkap.
@@ -424,5 +537,5 @@ MIT License - lihat file LICENSE untuk detail lengkap.
 ---
 
 **Developed by:** SKT Team  
-**Version:** 1.0.0  
-**Last Updated:** September 2025
+**Version:** 1.1.0  
+**Last Updated:** November 2025

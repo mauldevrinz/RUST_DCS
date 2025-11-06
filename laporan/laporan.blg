@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: laporan.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "da2018industrial"
+Warning--I didn't find a database entry for "felser2010real"
+Warning--I didn't find a database entry for "jensen2004temporal"
+Warning--I didn't find a database entry for "fadhel2018time"
+Warning--I didn't find a database entry for "influxdata2019influxdb"
+Warning--I didn't find a database entry for "bader2017time"
+Warning--I didn't find a database entry for "medeiros2015automation"
+Warning--can't use both volume and number fields in matsakis2014rust
+You've used 20 entries,
+            2773 wiz_defined-function locations,
+            720 strings with 8309 characters,
+and the built_in function-call counts, 9539 in all, are:
+= -- 875
+> -- 476
+< -- 19
++ -- 164
+- -- 144
+* -- 745
+:= -- 1420
+add.period$ -- 63
+call.type$ -- 20
+change.case$ -- 103
+chr.to.int$ -- 20
+cite$ -- 41
+duplicate$ -- 468
+empty$ -- 817
+format.name$ -- 168
+if$ -- 2034
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 19
+newline$ -- 107
+num.names$ -- 80
+pop$ -- 221
+preamble$ -- 1
+purify$ -- 88
+quote$ -- 0
+skip$ -- 353
+stack$ -- 0
+substring$ -- 429
+swap$ -- 80
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 210
+warning$ -- 1
+while$ -- 95
+width$ -- 0
+write$ -- 267
+(There were 8 warnings)
