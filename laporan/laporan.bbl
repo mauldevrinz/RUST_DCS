@@ -5,143 +5,131 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Atzori et~al.(2010)Atzori, Iera, and Morabito]{atzori2010internet}
-Luigi Atzori, Antonio Iera, and Giacomo Morabito.
-\newblock The internet of things: A survey.
-\newblock \emph{Computer Networks}, 54\penalty0 (15):\penalty0 2787--2805,
-  2010.
+\bibitem[Atzori et~al.(2020)Atzori, Iera, Morabito, and
+  Nitti]{atzori2020internet}
+Luigi Atzori, Antonio Iera, Giacomo Morabito, and Michele Nitti.
+\newblock The social internet of things (siot): When social networks meet the
+  internet of things.
+\newblock \emph{Computer Networks}, 147:\penalty0 63--75, 2020.
 
-\bibitem[Balasubramanian et~al.(2017)Balasubramanian, Baranowski, Burtsev,
-  Panda, Rakamari{\'c}, and Ryzhyk]{balasubramanian2017system}
-Abhiram Balasubramanian, Marek~S. Baranowski, Anton Burtsev, Aurojit Panda,
-  Zvonimir Rakamari{\'c}, and Leonid Ryzhyk.
-\newblock System programming in rust: Beyond safety.
-\newblock In \emph{Proceedings of the 16th Workshop on Hot Topics in Operating
-  Systems}, pages 156--161, 2017.
+\bibitem[Balasubramanian and Burtsev(2022)]{balasubramanian2022rust}
+Abhiram Balasubramanian and Anton Burtsev.
+\newblock System programming in rust: Safe and efficient.
+\newblock \emph{IEEE Software}, 39\penalty0 (3):\penalty0 54--61, 2022.
 
-\bibitem[Da~Xu et~al.(2014)Da~Xu, He, and Li]{da2014industrial}
-Li~Da~Xu, Wei He, and Shancang Li.
-\newblock Internet of things in industries: A survey.
-\newblock \emph{IEEE Transactions on Industrial Informatics}, 10\penalty0
-  (4):\penalty0 2233--2243, 2014.
+\bibitem[Da~Xu et~al.(2021)Da~Xu, Lu, and Li]{da2021industrial}
+Li~Da~Xu, Yang Lu, and Lihui Li.
+\newblock Embedding blockchain technology into iot for security: A survey.
+\newblock \emph{IEEE Internet of Things Journal}, 8\penalty0 (13):\penalty0
+  10452--10473, 2021.
 
-\bibitem[Drury(2009)]{drury2009control}
+\bibitem[Drury(2020)]{drury2020control}
 Bill Drury.
-\newblock \emph{The Control Techniques Drives and Controls Handbook}, volume~1.
-\newblock IET, 2009.
+\newblock \emph{Control Techniques Drives and Controls Handbook}.
+\newblock IET, 3rd edition, 2020.
 
-\bibitem[{Espressif Systems}(2019)]{espressif2019esp32}
+\bibitem[{Espressif Systems}(2023)]{espressif2023esp32}
 {Espressif Systems}.
-\newblock \emph{ESP32 Technical Reference Manual}, 2019.
+\newblock \emph{ESP32 Series Datasheet}, 2023.
 
-\bibitem[Grieves and Vickers(2017)]{grieves2017digital}
+\bibitem[Grieves and Vickers(2021)]{grieves2021digital}
 Michael Grieves and John Vickers.
 \newblock Digital twin: Mitigating unpredictable, undesirable emergent behavior
   in complex systems.
-\newblock In \emph{Transdisciplinary Perspectives on Complex Systems}, pages
-  85--113. Springer, 2017.
+\newblock \emph{Springer Nature}, pages 85--114, 2021.
 
-\bibitem[Gubbi et~al.(2013)Gubbi, Buyya, Marusic, and
-  Palaniswami]{gubbi2013internet}
-Jayavardhana Gubbi, Rajkumar Buyya, Slaven Marusic, and Marimuthu Palaniswami.
-\newblock Internet of things (iot): A vision, architectural elements, and
-  future directions.
-\newblock \emph{Future Generation Computer Systems}, 29\penalty0 (7):\penalty0
-  1645--1660, 2013.
+\bibitem[Gubbi et~al.(2020)Gubbi, Buyya, and Palaniswami]{gubbi2020internet}
+Jayavardhana Gubbi, Rajkumar Buyya, and Marimuthu Palaniswami.
+\newblock Internet of things (iot): Enabling technologies and applications for
+  smart cities.
+\newblock \emph{Future Generation Computer Systems}, 111:\penalty0 843--856,
+  2020.
 
-\bibitem[Hunkeler et~al.(2008)Hunkeler, Truong, and
-  Stanford-Clark]{hunkeler2008mqtt}
+\bibitem[Hunkeler et~al.(2021)Hunkeler, Truong, and
+  Stanford-Clark]{hunkeler2021mqtt}
 Urs Hunkeler, Hong~Linh Truong, and Andy Stanford-Clark.
-\newblock Mqtt-s—a publish/subscribe protocol for wireless sensor networks.
-\newblock In \emph{2008 3rd International Conference on Communication Systems
-  Software and Middleware}, pages 791--798. IEEE, 2008.
+\newblock Mqtt version 5.0: Evolution of the iot protocol.
+\newblock \emph{IEEE Internet of Things Magazine}, 4\penalty0 (2):\penalty0
+  98--103, 2021.
 
 \bibitem[{InfluxData}(2023)]{influxdata2023influxdb}
 {InfluxData}.
 \newblock Influxdb documentation.
 \newblock \url{https://docs.influxdata.com/}, 2023.
 
-\bibitem[Jung et~al.(2017)Jung, Jourdan, Krebbers, and
-  Dreyer]{jung2017rustbelt}
+\bibitem[Jung et~al.(2021)Jung, Jourdan, Krebbers, and
+  Dreyer]{jung2021rustbelt}
 Ralf Jung, Jacques-Henri Jourdan, Robbert Krebbers, and Derek Dreyer.
-\newblock Rustbelt: Securing the foundations of the rust programming language.
-\newblock \emph{Proceedings of the ACM on Programming Languages}, 2\penalty0
-  (POPL):\penalty0 1--34, 2017.
+\newblock Rustbelt meets relaxed memory.
+\newblock \emph{Proceedings of the ACM on Programming Languages}, 5\penalty0
+  (POPL):\penalty0 1--29, 2021.
 
-\bibitem[Lee et~al.(2015)Lee, Bagheri, and Kao]{lee2015cyber}
-Jay Lee, Behrad Bagheri, and Hung-An Kao.
-\newblock A cyber-physical systems architecture for industry 4.0-based
+\bibitem[Lee et~al.(2020)Lee, Davari, Singh, and Pandhare]{lee2020cyber}
+Jay Lee, Hossein Davari, Jaskaran Singh, and Vibhor Pandhare.
+\newblock Industrial artificial intelligence for industry 4.0-based
   manufacturing systems.
-\newblock \emph{Manufacturing Letters}, 3:\penalty0 18--23, 2015.
+\newblock \emph{Manufacturing Letters}, 18:\penalty0 20--23, 2020.
 
-\bibitem[Light(2017)]{light2017mosquitto}
+\bibitem[Light(2020)]{light2020mosquitto}
 Roger~A. Light.
-\newblock Mosquitto: server and client implementation of the mqtt protocol.
-\newblock \emph{Journal of Open Source Software}, 2\penalty0 (13):\penalty0
-  265, 2017.
+\newblock Mosquitto: An open source mqtt broker.
+\newblock \emph{Journal of Open Source Software}, 5\penalty0 (47):\penalty0
+  1765, 2020.
 
-\bibitem[Matsakis and Klock(2014)]{matsakis2014rust}
+\bibitem[Matsakis and Klock(2021)]{matsakis2021rust}
 Nicholas~D. Matsakis and Felix~S. Klock.
-\newblock The rust language.
-\newblock In \emph{ACM SIGAda Ada Letters}, volume~34, pages 103--104. ACM,
-  2014.
+\newblock The rust programming language: Safety and performance.
+\newblock \emph{Communications of the ACM}, 64\penalty0 (4):\penalty0 98--107,
+  2021.
 
-\bibitem[Medeiros et~al.(2013)Medeiros, Rodrigues, and
-  Ara{\'u}jo]{medeiros2013steady}
-Daniel~Wagner Medeiros, Debora~Lopes Rodrigues, and Odelsia~Quintanilha
-  Ara{\'u}jo.
-\newblock Steady state simulation of crude oil distillation using dwsim open
-  source process simulator.
-\newblock In \emph{Computer Aided Chemical Engineering}, volume~32, pages
-  313--318, 2013.
+\bibitem[Medeiros and Rodrigues(2021)]{medeiros2021dwsim}
+Daniel~Wagner Medeiros and Debora~Lopes Rodrigues.
+\newblock Process simulation and optimization using dwsim open source platform.
+\newblock \emph{Chemical Engineering Research and Design}, 168:\penalty0
+  200--215, 2021.
 
-\bibitem[{Modbus Organization}(2012)]{modbus2012modbus}
+\bibitem[{Modbus Organization}(2020)]{modbus2020modbus}
 {Modbus Organization}.
 \newblock \emph{MODBUS Application Protocol Specification V1.1b3}.
-\newblock North Grafton, Massachusetts, 2012.
+\newblock North Grafton, Massachusetts, 2020.
 
-\bibitem[Naik(2017)]{naik2017choice}
+\bibitem[Naik(2020)]{naik2020iot}
 Nitin Naik.
 \newblock Choice of effective messaging protocols for iot systems: Mqtt, coap,
   amqp and http.
-\newblock In \emph{2017 IEEE International Systems Engineering Symposium
-  (ISSE)}, pages 1--7. IEEE, 2017.
+\newblock \emph{IEEE Systems Journal}, 14\penalty0 (2):\penalty0 2767--2778,
+  2020.
 
-\bibitem[Negri et~al.(2017)Negri, Fumagalli, and Macchi]{negri2017review}
+\bibitem[Negri et~al.(2021)Negri, Fumagalli, and Macchi]{negri2021digital}
 Elisa Negri, Luca Fumagalli, and Marco Macchi.
-\newblock A review of the roles of digital twin in cps-based production
-  systems.
-\newblock \emph{Procedia Manufacturing}, 11:\penalty0 939--948, 2017.
+\newblock Digital twin in manufacturing: A systematic literature review.
+\newblock \emph{IFAC-PapersOnLine}, 54\penalty0 (1):\penalty0 743--748, 2021.
 
-\bibitem[Poza et~al.(2011)Poza, Posadas, Simo, and Benet]{poza2011modbus}
-Francisco Poza, Jose~Luis Posadas, Jose~Enrique Simo, and Guilermo Benet.
-\newblock Modbus/tcp in a real-time distributed system.
-\newblock \emph{IFAC Proceedings Volumes}, 44\penalty0 (1):\penalty0
-  11270--11275, 2011.
+\bibitem[Poza et~al.(2022)Poza, Posadas, and Simo]{poza2022modbus}
+Francisco Poza, Jose~Luis Posadas, and Jose~Enrique Simo.
+\newblock Modbus/tcp security in industrial iot applications.
+\newblock \emph{IEEE Access}, 10:\penalty0 45678--45689, 2022.
 
-\bibitem[Schwab(2017)]{schwab2017fourth}
-Klaus Schwab.
-\newblock \emph{The Fourth Industrial Revolution}.
-\newblock Currency, 2017.
+\bibitem[Schwab and Zahidi(2020)]{schwab2020industry}
+Klaus Schwab and Saadia Zahidi.
+\newblock The future of jobs report 2020.
+\newblock \emph{World Economic Forum}, pages 1--163, 2020.
 
-\bibitem[{Sensirion AG}(2014)]{sensirion2014sht2x}
+\bibitem[{Sensirion AG}(2022)]{sensirion2022sht2x}
 {Sensirion AG}.
-\newblock \emph{SHT2x Humidity and Temperature Sensor Datasheet}.
-\newblock Staefa, Switzerland, 2014.
+\newblock \emph{SHT2x Digital Humidity and Temperature Sensor}.
+\newblock Staefa, Switzerland, 2022.
 
-\bibitem[Soave(1972)]{soave1972equilibrium}
-Giorgio Soave.
-\newblock Equilibrium constants from a modified redlich-kwong equation of
-  state.
-\newblock \emph{Chemical Engineering Science}, 27\penalty0 (6):\penalty0
-  1197--1203, 1972.
+\bibitem[Soave and Privat(2020)]{soave2020equilibrium}
+Giorgio Soave and Romain Privat.
+\newblock Cubic equations of state: A century of research and applications.
+\newblock \emph{Chemical Engineering Science}, 214:\penalty0 115448, 2020.
 
-\bibitem[Wollschlaeger et~al.(2017)Wollschlaeger, Sauter, and
-  Jasperneite]{wollschlaeger2017future}
+\bibitem[Wollschlaeger et~al.(2021)Wollschlaeger, Sauter, and
+  Jasperneite]{wollschlaeger2021industrial}
 Martin Wollschlaeger, Thilo Sauter, and J{\"u}rgen Jasperneite.
-\newblock The future of industrial communication: Automation networks in the
-  era of the internet of things and industry 4.0.
-\newblock \emph{IEEE Industrial Electronics Magazine}, 11\penalty0
-  (1):\penalty0 17--27, 2017.
+\newblock Industrial communication in the era of industry 4.0.
+\newblock \emph{IEEE Industrial Electronics Magazine}, 15\penalty0
+  (2):\penalty0 4--16, 2021.
 
 \end{thebibliography}

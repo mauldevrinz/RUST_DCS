@@ -8,46 +8,45 @@ Warning--I didn't find a database entry for "jensen2004temporal"
 Warning--I didn't find a database entry for "fadhel2018time"
 Warning--I didn't find a database entry for "bader2017time"
 Warning--I didn't find a database entry for "medeiros2015automation"
-Warning--can't use both volume and number fields in matsakis2014rust
 You've used 22 entries,
             2773 wiz_defined-function locations,
-            729 strings with 8516 characters,
-and the built_in function-call counts, 10357 in all, are:
-= -- 949
-> -- 516
-< -- 20
-+ -- 178
-- -- 156
-* -- 808
-:= -- 1544
-add.period$ -- 69
+            722 strings with 8101 characters,
+and the built_in function-call counts, 9639 in all, are:
+= -- 884
+> -- 493
+< -- 15
++ -- 169
+- -- 147
+* -- 770
+:= -- 1481
+add.period$ -- 65
 call.type$ -- 22
-change.case$ -- 113
+change.case$ -- 112
 chr.to.int$ -- 22
-cite$ -- 45
-duplicate$ -- 504
-empty$ -- 892
-format.name$ -- 182
-if$ -- 2206
+cite$ -- 44
+duplicate$ -- 447
+empty$ -- 819
+format.name$ -- 181
+if$ -- 2004
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 20
+missing$ -- 19
 newline$ -- 117
 num.names$ -- 88
-pop$ -- 243
+pop$ -- 207
 preamble$ -- 1
-purify$ -- 96
+purify$ -- 93
 quote$ -- 0
-skip$ -- 381
+skip$ -- 338
 stack$ -- 0
-substring$ -- 464
-swap$ -- 82
-text.length$ -- 9
+substring$ -- 436
+swap$ -- 37
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 232
-warning$ -- 1
-while$ -- 103
+type$ -- 237
+warning$ -- 0
+while$ -- 100
 width$ -- 0
-write$ -- 292
-(There were 6 warnings)
+write$ -- 287
+(There were 5 warnings)
