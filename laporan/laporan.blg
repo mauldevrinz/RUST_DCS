@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: laporan.aux
-The style file: plainnat.bst
+The style file: apalike.bst
 Database file #1: references.bib
 Warning--I didn't find a database entry for "felser2010real"
 Warning--I didn't find a database entry for "jensen2004temporal"
@@ -9,44 +9,44 @@ Warning--I didn't find a database entry for "fadhel2018time"
 Warning--I didn't find a database entry for "bader2017time"
 Warning--I didn't find a database entry for "medeiros2015automation"
 You've used 22 entries,
-            2773 wiz_defined-function locations,
-            722 strings with 8101 characters,
-and the built_in function-call counts, 9639 in all, are:
-= -- 884
-> -- 493
+            1935 wiz_defined-function locations,
+            601 strings with 6941 characters,
+and the built_in function-call counts, 8412 in all, are:
+= -- 845
+> -- 304
 < -- 15
-+ -- 169
-- -- 147
-* -- 770
-:= -- 1481
++ -- 104
+- -- 98
+* -- 713
+:= -- 1467
 add.period$ -- 65
 call.type$ -- 22
-change.case$ -- 112
+change.case$ -- 156
 chr.to.int$ -- 22
-cite$ -- 44
-duplicate$ -- 447
-empty$ -- 819
-format.name$ -- 181
-if$ -- 2004
+cite$ -- 22
+duplicate$ -- 313
+empty$ -- 599
+format.name$ -- 132
+if$ -- 1626
 int.to.chr$ -- 1
-int.to.str$ -- 1
+int.to.str$ -- 0
 missing$ -- 19
-newline$ -- 117
-num.names$ -- 88
-pop$ -- 207
+newline$ -- 112
+num.names$ -- 66
+pop$ -- 117
 preamble$ -- 1
-purify$ -- 93
+purify$ -- 159
 quote$ -- 0
-skip$ -- 338
+skip$ -- 244
 stack$ -- 0
-substring$ -- 436
-swap$ -- 37
+substring$ -- 662
+swap$ -- 36
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 237
+type$ -- 130
 warning$ -- 0
-while$ -- 100
+while$ -- 78
 width$ -- 0
-write$ -- 287
+write$ -- 282
 (There were 5 warnings)

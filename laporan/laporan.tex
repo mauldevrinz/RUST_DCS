@@ -29,8 +29,8 @@
 \geometry{a4paper, margin=1in}
 \usepackage{ragged2e} % For text justification
 
-% Set citation style to Harvard (author-year)
-\bibliographystyle{plainnat} % Natural sciences bibliography style (Harvard-like)
+% Set citation style to APA (author-year)
+\bibliographystyle{apalike} % APA-like bibliography style
 \setcitestyle{authoryear,open={(},close={)}}
 
 % Set line spacing to 1.15
@@ -854,50 +854,34 @@ Beberapa limitasi dan challenges encountered dalam implementasi memberikan insig
 
 \justifying
 
-Penelitian ini berhasil mengembangkan sistem monitoring dan kontrol terintegrasi berbasis IoT dengan integrasi simulasi DWSIM yang memenuhi tujuan penelitian. Kesimpulan utama:
+Berdasarkan hasil penelitian dan pembahasan yang telah dilakukan, dapat disimpulkan beberapa hal sebagai berikut:
 
 \begin{enumerate}
-    \item Arsitektur sistem yang dikembangkan mampu mengintegrasikan data sensor real-time dari ESP32, simulasi proses dari DWSIM, dan visualisasi di ThingsBoard platform dalam ekosistem yang cohesive dan scalable.
+    \item Sistem monitoring dan kontrol industri terintegrasi berbasis IoT dengan arsitektur modular berhasil dikembangkan, mengintegrasikan ESP32 sebagai edge device, backend service berbasis Rust, InfluxDB sebagai time-series database, integrasi DWSIM untuk simulasi proses, dan ThingsBoard sebagai platform visualisasi dalam ekosistem yang cohesive dan scalable.
     
-    \item Implementasi komunikasi Modbus RTU pada ESP32 menggunakan Rust ESP-IDF framework mencapai success rate 99.72\% dengan response time kurang dari 200 ms untuk kontrol relay, memenuhi requirement untuk industrial automation.
+    \item Implementasi komunikasi Modbus RTU pada ESP32 menggunakan Rust ESP-IDF framework berhasil membaca sensor SHT20 dengan stabil, terbukti dari pengujian 5 jam continuous operation yang menghasilkan 3,173 data points tanpa data loss, dengan temperatur sensor berkisar 30.69-30.83°C dan kelembaban 66.49-69.90\%.
     
-    \item Backend service berbasis Rust dengan async/await pattern mampu menangani concurrent operations (serial monitoring, InfluxDB operations, MQTT publishing) dengan resource usage yang minimal (< 50 MB memory, < 15\% CPU).
+    \item Backend service berbasis Rust dengan async/await pattern mampu menangani concurrent operations meliputi serial gateway, InfluxDB writer, dan MQTT bridge secara simultan dengan performa tinggi dan resource usage minimal, memungkinkan integrasi seamless antara komponen sistem.
     
-    \item Integrasi DWSIM melalui XML parsing dan Python script berhasil menjembatani data simulasi dengan data real-time, mendukung implementasi digital twin concept untuk process industries.
+    \item Sistem kontrol relay otomatis berbasis threshold dengan hysteresis logic berfungsi sesuai spesifikasi, dimana motor relay aktif 100\% waktu saat temperatur di atas 30°C dan pump relay non-aktif 100\% waktu saat kelembaban di atas 60\%, mencegah chattering dan meningkatkan reliability.
     
-    \item Sistem kontrol relay dengan hysteresis logic memberikan operation yang stable dan reliable, mencegah chattering dan meningkatkan relay lifetime.
-    
-    \item Time-series database InfluxDB memberikan performa tinggi untuk write dan query operations, dengan compression ratio 10:1 dan sub-second query response time.
-    
-    \item End-to-end latency sistem kurang dari 1 detik memenuhi requirement untuk real-time monitoring dan control applications.
+    \item Integrasi DWSIM melalui XML parsing berhasil menjembatani data simulasi dengan data real-time sensor, mendukung implementasi konsep digital twin untuk validasi model, analisis prediktif, dan optimisasi proses industri berbasis data.
 \end{enumerate}
-
-Sistem ini memberikan kontribusi dalam implementasi Industri 4.0 concept, khususnya dalam aspek connectivity, data-driven decision making, dan digital twin untuk process optimization.
 
 \subsection{Saran}
 
-Untuk pengembangan lebih lanjut, disarankan:
+Berdasarkan hasil penelitian ini, terdapat beberapa saran untuk pengembangan lebih lanjut:
 
 \begin{enumerate}
-    \item \textbf{High Availability:} Implementasi redundancy untuk backend service menggunakan container orchestration (Kubernetes) atau process manager (systemd, PM2) dengan automatic failover.
+    \item Implementasi security enhancement dengan end-to-end encryption menggunakan TLS untuk MQTT connection dan HTTPS untuk InfluxDB API, serta menambahkan authentication dan authorization layer untuk melindungi data sensitif dan mencegah akses tidak authorized.
     
-    \item \textbf{Security Enhancement:} Implementasi end-to-end encryption menggunakan TLS untuk MQTT connection dan HTTPS untuk InfluxDB API. Add authentication dan authorization layer untuk API endpoints.
+    \item Pengembangan machine learning model untuk predictive maintenance menggunakan historical data dari InfluxDB, memungkinkan sistem untuk memprediksi equipment failure, mengoptimasi maintenance schedule, dan mengurangi downtime tidak terencana.
     
-    \item \textbf{Edge Computing:} Implementasi edge analytics pada ESP32 untuk preprocessing data (filtering, aggregation) sebelum transmission, reducing bandwidth dan backend load.
+    \item Upgrade sistem kontrol dari simple threshold control ke PID control atau Model Predictive Control (MPC) untuk meningkatkan performa, stability, dan responsiveness terhadap perubahan kondisi operasional yang dinamis.
     
-    \item \textbf{Machine Learning Integration:} Develop predictive maintenance model menggunakan historical data dari InfluxDB untuk predict equipment failure dan optimize maintenance schedule.
+    \item Implementasi high availability architecture dengan redundancy untuk backend service menggunakan container orchestration seperti Kubernetes atau process manager dengan automatic failover untuk memastikan sistem dapat beroperasi kontinyu tanpa single point of failure.
     
-    \item \textbf{Advanced Control:} Upgrade dari simple threshold control ke PID control atau Model Predictive Control (MPC) untuk better performance dan stability.
-    
-    \item \textbf{Multi-Site Deployment:} Extend system untuk support multiple sites dengan centralized monitoring dan distributed edge devices.
-    
-    \item \textbf{Real-time DWSIM Integration:} Develop COM interface atau Python API integration untuk real-time DWSIM data tanpa perlu manual file save.
-    
-    \item \textbf{Mobile Application:} Develop mobile app untuk remote monitoring dan control menggunakan ThingsBoard mobile SDK.
-    
-    \item \textbf{Data Analytics Dashboard:} Implement advanced analytics dashboard dengan statistical analysis, anomaly detection, dan predictive insights.
-    
-    \item \textbf{OPC UA Integration:} Add OPC UA client untuk integrate dengan industrial automation systems dan SCADA platforms.
+    \item Pengembangan mobile application untuk remote monitoring dan control menggunakan ThingsBoard mobile SDK, memungkinkan operator untuk memantau dan mengontrol sistem dari lokasi manapun dengan interface yang user-friendly dan responsive.
 \end{enumerate}
 
 \newpage

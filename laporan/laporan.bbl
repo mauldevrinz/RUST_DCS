@@ -1,135 +1,117 @@
-\begin{thebibliography}{22}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{}
 
-\bibitem[Atzori et~al.(2020)Atzori, Iera, Morabito, and
-  Nitti]{atzori2020internet}
-Luigi Atzori, Antonio Iera, Giacomo Morabito, and Michele Nitti.
+\bibitem[Atzori et~al., 2020]{atzori2020internet}
+Atzori, L., Iera, A., Morabito, G., and Nitti, M. (2020).
 \newblock The social internet of things (siot): When social networks meet the
   internet of things.
-\newblock \emph{Computer Networks}, 147:\penalty0 63--75, 2020.
+\newblock {\em Computer Networks}, 147:63--75.
 
-\bibitem[Balasubramanian and Burtsev(2022)]{balasubramanian2022rust}
-Abhiram Balasubramanian and Anton Burtsev.
+\bibitem[Balasubramanian and Burtsev, 2022]{balasubramanian2022rust}
+Balasubramanian, A. and Burtsev, A. (2022).
 \newblock System programming in rust: Safe and efficient.
-\newblock \emph{IEEE Software}, 39\penalty0 (3):\penalty0 54--61, 2022.
+\newblock {\em IEEE Software}, 39(3):54--61.
 
-\bibitem[Da~Xu et~al.(2021)Da~Xu, Lu, and Li]{da2021industrial}
-Li~Da~Xu, Yang Lu, and Lihui Li.
+\bibitem[Da~Xu et~al., 2021]{da2021industrial}
+Da~Xu, L., Lu, Y., and Li, L. (2021).
 \newblock Embedding blockchain technology into iot for security: A survey.
-\newblock \emph{IEEE Internet of Things Journal}, 8\penalty0 (13):\penalty0
-  10452--10473, 2021.
+\newblock {\em IEEE Internet of Things Journal}, 8(13):10452--10473.
 
-\bibitem[Drury(2020)]{drury2020control}
-Bill Drury.
-\newblock \emph{Control Techniques Drives and Controls Handbook}.
-\newblock IET, 3rd edition, 2020.
+\bibitem[Drury, 2020]{drury2020control}
+Drury, B. (2020).
+\newblock {\em Control Techniques Drives and Controls Handbook}.
+\newblock IET, 3rd edition.
 
-\bibitem[{Espressif Systems}(2023)]{espressif2023esp32}
-{Espressif Systems}.
-\newblock \emph{ESP32 Series Datasheet}, 2023.
+\bibitem[{Espressif Systems}, 2023]{espressif2023esp32}
+{Espressif Systems} (2023).
+\newblock {\em ESP32 Series Datasheet}.
 
-\bibitem[Grieves and Vickers(2021)]{grieves2021digital}
-Michael Grieves and John Vickers.
+\bibitem[Grieves and Vickers, 2021]{grieves2021digital}
+Grieves, M. and Vickers, J. (2021).
 \newblock Digital twin: Mitigating unpredictable, undesirable emergent behavior
   in complex systems.
-\newblock \emph{Springer Nature}, pages 85--114, 2021.
+\newblock {\em Springer Nature}, pages 85--114.
 
-\bibitem[Gubbi et~al.(2020)Gubbi, Buyya, and Palaniswami]{gubbi2020internet}
-Jayavardhana Gubbi, Rajkumar Buyya, and Marimuthu Palaniswami.
+\bibitem[Gubbi et~al., 2020]{gubbi2020internet}
+Gubbi, J., Buyya, R., and Palaniswami, M. (2020).
 \newblock Internet of things (iot): Enabling technologies and applications for
   smart cities.
-\newblock \emph{Future Generation Computer Systems}, 111:\penalty0 843--856,
-  2020.
+\newblock {\em Future Generation Computer Systems}, 111:843--856.
 
-\bibitem[Hunkeler et~al.(2021)Hunkeler, Truong, and
-  Stanford-Clark]{hunkeler2021mqtt}
-Urs Hunkeler, Hong~Linh Truong, and Andy Stanford-Clark.
+\bibitem[Hunkeler et~al., 2021]{hunkeler2021mqtt}
+Hunkeler, U., Truong, H.~L., and Stanford-Clark, A. (2021).
 \newblock Mqtt version 5.0: Evolution of the iot protocol.
-\newblock \emph{IEEE Internet of Things Magazine}, 4\penalty0 (2):\penalty0
-  98--103, 2021.
+\newblock {\em IEEE Internet of Things Magazine}, 4(2):98--103.
 
-\bibitem[{InfluxData}(2023)]{influxdata2023influxdb}
-{InfluxData}.
+\bibitem[{InfluxData}, 2023]{influxdata2023influxdb}
+{InfluxData} (2023).
 \newblock Influxdb documentation.
-\newblock \url{https://docs.influxdata.com/}, 2023.
+\newblock \url{https://docs.influxdata.com/}.
 
-\bibitem[Jung et~al.(2021)Jung, Jourdan, Krebbers, and
-  Dreyer]{jung2021rustbelt}
-Ralf Jung, Jacques-Henri Jourdan, Robbert Krebbers, and Derek Dreyer.
+\bibitem[Jung et~al., 2021]{jung2021rustbelt}
+Jung, R., Jourdan, J.-H., Krebbers, R., and Dreyer, D. (2021).
 \newblock Rustbelt meets relaxed memory.
-\newblock \emph{Proceedings of the ACM on Programming Languages}, 5\penalty0
-  (POPL):\penalty0 1--29, 2021.
+\newblock {\em Proceedings of the ACM on Programming Languages}, 5(POPL):1--29.
 
-\bibitem[Lee et~al.(2020)Lee, Davari, Singh, and Pandhare]{lee2020cyber}
-Jay Lee, Hossein Davari, Jaskaran Singh, and Vibhor Pandhare.
+\bibitem[Lee et~al., 2020]{lee2020cyber}
+Lee, J., Davari, H., Singh, J., and Pandhare, V. (2020).
 \newblock Industrial artificial intelligence for industry 4.0-based
   manufacturing systems.
-\newblock \emph{Manufacturing Letters}, 18:\penalty0 20--23, 2020.
+\newblock {\em Manufacturing Letters}, 18:20--23.
 
-\bibitem[Light(2020)]{light2020mosquitto}
-Roger~A. Light.
+\bibitem[Light, 2020]{light2020mosquitto}
+Light, R.~A. (2020).
 \newblock Mosquitto: An open source mqtt broker.
-\newblock \emph{Journal of Open Source Software}, 5\penalty0 (47):\penalty0
-  1765, 2020.
+\newblock {\em Journal of Open Source Software}, 5(47):1765.
 
-\bibitem[Matsakis and Klock(2021)]{matsakis2021rust}
-Nicholas~D. Matsakis and Felix~S. Klock.
+\bibitem[Matsakis and Klock, 2021]{matsakis2021rust}
+Matsakis, N.~D. and Klock, F.~S. (2021).
 \newblock The rust programming language: Safety and performance.
-\newblock \emph{Communications of the ACM}, 64\penalty0 (4):\penalty0 98--107,
-  2021.
+\newblock {\em Communications of the ACM}, 64(4):98--107.
 
-\bibitem[Medeiros and Rodrigues(2021)]{medeiros2021dwsim}
-Daniel~Wagner Medeiros and Debora~Lopes Rodrigues.
+\bibitem[Medeiros and Rodrigues, 2021]{medeiros2021dwsim}
+Medeiros, D.~W. and Rodrigues, D.~L. (2021).
 \newblock Process simulation and optimization using dwsim open source platform.
-\newblock \emph{Chemical Engineering Research and Design}, 168:\penalty0
-  200--215, 2021.
+\newblock {\em Chemical Engineering Research and Design}, 168:200--215.
 
-\bibitem[{Modbus Organization}(2020)]{modbus2020modbus}
-{Modbus Organization}.
-\newblock \emph{MODBUS Application Protocol Specification V1.1b3}.
-\newblock North Grafton, Massachusetts, 2020.
+\bibitem[{Modbus Organization}, 2020]{modbus2020modbus}
+{Modbus Organization} (2020).
+\newblock {\em MODBUS Application Protocol Specification V1.1b3}.
+\newblock North Grafton, Massachusetts.
 
-\bibitem[Naik(2020)]{naik2020iot}
-Nitin Naik.
+\bibitem[Naik, 2020]{naik2020iot}
+Naik, N. (2020).
 \newblock Choice of effective messaging protocols for iot systems: Mqtt, coap,
   amqp and http.
-\newblock \emph{IEEE Systems Journal}, 14\penalty0 (2):\penalty0 2767--2778,
-  2020.
+\newblock {\em IEEE Systems Journal}, 14(2):2767--2778.
 
-\bibitem[Negri et~al.(2021)Negri, Fumagalli, and Macchi]{negri2021digital}
-Elisa Negri, Luca Fumagalli, and Marco Macchi.
+\bibitem[Negri et~al., 2021]{negri2021digital}
+Negri, E., Fumagalli, L., and Macchi, M. (2021).
 \newblock Digital twin in manufacturing: A systematic literature review.
-\newblock \emph{IFAC-PapersOnLine}, 54\penalty0 (1):\penalty0 743--748, 2021.
+\newblock {\em IFAC-PapersOnLine}, 54(1):743--748.
 
-\bibitem[Poza et~al.(2022)Poza, Posadas, and Simo]{poza2022modbus}
-Francisco Poza, Jose~Luis Posadas, and Jose~Enrique Simo.
+\bibitem[Poza et~al., 2022]{poza2022modbus}
+Poza, F., Posadas, J.~L., and Simo, J.~E. (2022).
 \newblock Modbus/tcp security in industrial iot applications.
-\newblock \emph{IEEE Access}, 10:\penalty0 45678--45689, 2022.
+\newblock {\em IEEE Access}, 10:45678--45689.
 
-\bibitem[Schwab and Zahidi(2020)]{schwab2020industry}
-Klaus Schwab and Saadia Zahidi.
+\bibitem[Schwab and Zahidi, 2020]{schwab2020industry}
+Schwab, K. and Zahidi, S. (2020).
 \newblock The future of jobs report 2020.
-\newblock \emph{World Economic Forum}, pages 1--163, 2020.
+\newblock {\em World Economic Forum}, pages 1--163.
 
-\bibitem[{Sensirion AG}(2022)]{sensirion2022sht2x}
-{Sensirion AG}.
-\newblock \emph{SHT2x Digital Humidity and Temperature Sensor}.
-\newblock Staefa, Switzerland, 2022.
+\bibitem[{Sensirion AG}, 2022]{sensirion2022sht2x}
+{Sensirion AG} (2022).
+\newblock {\em SHT2x Digital Humidity and Temperature Sensor}.
+\newblock Staefa, Switzerland.
 
-\bibitem[Soave and Privat(2020)]{soave2020equilibrium}
-Giorgio Soave and Romain Privat.
+\bibitem[Soave and Privat, 2020]{soave2020equilibrium}
+Soave, G. and Privat, R. (2020).
 \newblock Cubic equations of state: A century of research and applications.
-\newblock \emph{Chemical Engineering Science}, 214:\penalty0 115448, 2020.
+\newblock {\em Chemical Engineering Science}, 214:115448.
 
-\bibitem[Wollschlaeger et~al.(2021)Wollschlaeger, Sauter, and
-  Jasperneite]{wollschlaeger2021industrial}
-Martin Wollschlaeger, Thilo Sauter, and J{\"u}rgen Jasperneite.
+\bibitem[Wollschlaeger et~al., 2021]{wollschlaeger2021industrial}
+Wollschlaeger, M., Sauter, T., and Jasperneite, J. (2021).
 \newblock Industrial communication in the era of industry 4.0.
-\newblock \emph{IEEE Industrial Electronics Magazine}, 15\penalty0
-  (2):\penalty0 4--16, 2021.
+\newblock {\em IEEE Industrial Electronics Magazine}, 15(2):4--16.
 
 \end{thebibliography}
