@@ -6,38 +6,39 @@
 \contentsline {subsection}{\numberline {1.3}Tujuan Penelitian}{3}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Manfaat Penelitian}{3}{subsection.1.4}%
 \contentsline {section}{BAB 2 TINJAUAN PUSTAKA}{4}{Item.13}%
-\contentsline {subsection}{\numberline {2.1}Internet of Things (IoT) dalam Industri}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Modbus RTU Protocol}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Time-Series Database}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}DWSIM Process Simulator}{5}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}MQTT Protocol}{5}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Rust Programming Language untuk Embedded Systems}{5}{subsection.2.6}%
-\contentsline {section}{BAB 3 METODOLOGI}{7}{subsection.2.6}%
-\contentsline {subsection}{\numberline {3.1}Arsitektur Sistem}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Hardware dan Sensor}{7}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}ESP32 Microcontroller}{7}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}SHT20 Temperature and Humidity Sensor}{9}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Implementasi Firmware ESP32}{9}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Algoritma Pembacaan Modbus RTU}{9}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Kontrol Relay Otomatis}{10}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Serial Output Protocol}{11}{subsubsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.4}Implementasi Backend Service}{11}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Serial Gateway}{11}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}InfluxDB Integration}{12}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}MQTT Bridge}{13}{subsubsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.5}Integrasi DWSIM}{13}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}XML Parsing Method}{13}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Continuous Monitoring}{14}{subsubsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.6}ThingsBoard Dashboard}{15}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Data Recorder untuk Analisis}{15}{subsection.3.7}%
-\contentsline {section}{BAB 4 HASIL DAN PEMBAHASAN}{17}{lstnumber.9.37}%
-\contentsline {subsection}{\numberline {4.1}Hasil Implementasi Sistem}{17}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Hasil Pengujian Sistem Selama 5 Jam}{17}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Stabilitas Komunikasi Modbus RTU}{19}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Integrasi Data DWSIM dengan Sensor Real-Time}{20}{subsubsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.2}Pembahasan}{24}{subsection.4.2}%
-\contentsline {section}{BAB 5 KESIMPULAN DAN SARAN}{27}{subsection.4.2}%
-\contentsline {subsection}{\numberline {5.1}Kesimpulan}{27}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Saran}{27}{subsection.5.2}%
-\contentsline {section}{Daftar Pustaka}{29}{Item.33}%
-\contentsline {section}{Lampiran}{31}{Item.33}%
+\contentsline {subsection}{\numberline {2.1}State of the Art}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Internet of Things (IoT) dalam Industri}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Modbus RTU Protocol}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Time-Series Database}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}DWSIM Process Simulator}{7}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}MQTT Protocol}{7}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Rust Programming Language untuk Embedded Systems}{8}{subsection.2.7}%
+\contentsline {section}{BAB 3 METODOLOGI}{10}{figure.caption.7}%
+\contentsline {subsection}{\numberline {3.1}Arsitektur Sistem}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Hardware dan Sensor}{11}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}ESP32 Microcontroller}{11}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}SHT20 Temperature and Humidity Sensor}{13}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Implementasi Firmware ESP32}{13}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Algoritma Pembacaan Modbus RTU}{13}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Kontrol Relay Otomatis}{14}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Serial Output Protocol}{15}{subsubsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}Implementasi Backend Service}{15}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Serial Gateway}{15}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}InfluxDB Integration}{16}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}MQTT Bridge}{17}{subsubsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.5}Integrasi DWSIM}{17}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}XML Parsing Method}{17}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Continuous Monitoring}{18}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}ThingsBoard Dashboard}{20}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Data Recorder untuk Analisis}{20}{subsection.3.7}%
+\contentsline {section}{BAB 4 HASIL DAN PEMBAHASAN}{22}{lstnumber.9.37}%
+\contentsline {subsection}{\numberline {4.1}Hasil Implementasi Sistem}{22}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Hasil Pengujian Sistem Selama 5 Jam}{22}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Stabilitas Komunikasi Modbus RTU}{24}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Integrasi Data DWSIM dengan Sensor Real-Time}{25}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}Pembahasan}{28}{subsection.4.2}%
+\contentsline {section}{BAB 5 KESIMPULAN DAN SARAN}{31}{subsection.4.2}%
+\contentsline {subsection}{\numberline {5.1}Kesimpulan}{31}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Saran}{31}{subsection.5.2}%
+\contentsline {section}{Daftar Pustaka}{33}{Item.33}%
+\contentsline {section}{Lampiran}{35}{Item.33}%

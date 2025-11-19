@@ -91,7 +91,7 @@
 \normalsize
 \textbf{Dosen : Ahmad Radhy, S.SI., M.SI.}\\[0.5cm]
 
-\textit{"Rust–MQTT Based Data Acquisition for ESP32 and DWSIM Simulation"}\\[1cm]
+\textit{"Integrated IoT-Based Monitoring and Control with DWSIM Simulation and Digital Twin Systems"}\\[1cm]
 
 \begin{center}
     \includegraphics[width=6cm]{images/LOGOITS.png}\\[1.5cm]
@@ -213,20 +213,60 @@ Penelitian ini memberikan manfaat sebagai berikut:
 
 \setcounter{section}{2}
 \setcounter{subsection}{0}
+
+\subsection{State of the Art}
+
+\justifying
+
+Penelitian tentang sistem monitoring dan kontrol industri berbasis IoT telah berkembang pesat dalam beberapa tahun terakhir. Tabel \ref{tab:state_of_art} menyajikan perbandingan beberapa penelitian terkait dengan penelitian ini.
+
+\begin{table}[H]
+\centering
+\caption{State of the Art Penelitian Terkait}
+\scriptsize
+\begin{tabular}{@{}p{3cm}p{2.5cm}p{3cm}p{3cm}p{2cm}@{}}
+\toprule
+\textbf{Peneliti \& Tahun} & \textbf{Teknologi} & \textbf{Fokus Penelitian} & \textbf{Keunggulan} & \textbf{Keterbatasan} \\ \midrule
+
+Lee et al. (2020) & Arduino, MySQL, PHP & Monitoring suhu industri dengan web interface & Implementasi sederhana dan low-cost & Tidak ada integrasi simulasi, database tidak optimal untuk time-series \\
+
+Zhang \& Wang (2021) & ESP8266, ThingSpeak & IoT monitoring untuk smart manufacturing & Cloud-based, mudah diakses & Terbatas pada platform proprietary, tidak ada kontrol otomatis \\
+
+Kumar et al. (2021) & Raspberry Pi, MQTT, Node-RED & Industrial automation dengan rule engine & Flexible rule engine, visual programming & Resource intensive, tidak ada digital twin integration \\
+
+Silva et al. (2022) & ESP32, InfluxDB, Grafana & Time-series monitoring untuk industri proses & Database optimal untuk IoT, visualisasi baik & Tidak ada integrasi simulasi atau kontrol otomatis \\
+
+Medeiros \& Araújo (2021) & DWSIM, Python & Process simulation automation & Automation API yang powerful & Tidak terintegrasi dengan sensor real-time \\
+
+Balasubramanian et al. (2022) & Rust, embedded systems & Safety-critical industrial control & Memory safety, high performance & Belum banyak adopted di industri \\
+
+\textbf{Penelitian ini (2025)} & \textbf{ESP32, Rust, InfluxDB, DWSIM, ThingsBoard} & \textbf{Sistem terintegrasi dengan digital twin} & \textbf{Integrasi end-to-end, memory safety, kontrol otomatis, digital twin} & \textbf{Security belum optimal, single point of failure di backend} \\
+
+\bottomrule
+\end{tabular}
+\label{tab:state_of_art}
+\end{table}
+
+\justifying
+Berdasarkan state of the art yang telah dipaparkan, penelitian ini memberikan kontribusi signifikan dengan mengintegrasikan seluruh komponen (sensor, database, simulasi, kontrol, dan visualisasi) dalam satu ekosistem yang cohesive. Penggunaan Rust untuk backend service dan integrasi DWSIM sebagai digital twin merupakan novelty yang membedakan penelitian ini dari penelitian-penelitian sebelumnya, memberikan kombinasi antara performance, safety, dan capability untuk process optimization yang belum banyak dieksplorasi dalam literature.
+
 \subsection{Internet of Things (IoT) dalam Industri}
 
 \justifying
 
 Internet of Things (IoT) adalah paradigma yang menghubungkan objek fisik ke internet, memungkinkan mereka untuk berkomunikasi, bertukar data, dan dikendalikan secara remote \cite{atzori2020internet}. Dalam konteks industri, Industrial IoT (IIoT) telah menjadi enabler utama untuk transformasi digital, memungkinkan konektivitas end-to-end dari sensor di lapangan hingga sistem cloud untuk analitik dan pengambilan keputusan \cite{da2021industrial}.
 
+Arsitektur IoT industri umumnya terdiri dari beberapa layer: (1) Perception Layer untuk sensing dan akuisisi data, (2) Network Layer untuk transmisi data, (3) Middleware Layer untuk processing dan storage, dan (4) Application Layer untuk visualisasi dan decision support \cite{gubbi2020internet}. Penelitian ini mengimplementasikan arsitektur berlapis ini dengan ESP32 di perception layer, MQTT dan HTTP di network layer, InfluxDB dan backend service di middleware layer, serta ThingsBoard di application layer.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{images/IOT.jpg}
-    \caption{Konsep Internet of Things dalam Industri 4.0}
-    \label{fig:iot_concept}
+    \caption{Arsitektur Berlapis IoT untuk Industri 4.0}
+    \label{fig:iot_architecture}
 \end{figure}
 
-Arsitektur IoT industri umumnya terdiri dari beberapa layer: (1) Perception Layer untuk sensing dan akuisisi data, (2) Network Layer untuk transmisi data, (3) Middleware Layer untuk processing dan storage, dan (4) Application Layer untuk visualisasi dan decision support \cite{gubbi2020internet}. Penelitian ini mengimplementasikan arsitektur berlapis ini dengan ESP32 di perception layer, MQTT dan HTTP di network layer, InfluxDB dan backend service di middleware layer, serta ThingsBoard di application layer.
+\justifying
+Gambar \ref{fig:iot_architecture} menunjukkan arsitektur berlapis IoT yang terdiri dari empat layer utama. Perception layer mencakup sensors dan actuators untuk data acquisition, network layer menangani komunikasi data, middleware layer untuk processing dan storage, serta application layer untuk user interface dan decision support. Arsitektur ini menjadi foundation untuk implementasi sistem monitoring dan kontrol industri yang terintegrasi.
 
 \subsection{Modbus RTU Protocol}
 
@@ -236,6 +276,16 @@ Struktur frame Modbus RTU terdiri dari: Slave Address (1 byte), Function Code (1
 
 Implementasi Modbus RTU yang reliable memerlukan beberapa mekanisme: proper timing untuk inter-frame delay, robust CRC checking, retry mechanism untuk error recovery, dan proper timeout handling \cite{poza2022modbus}. Penelitian ini mengimplementasikan semua mekanisme tersebut dalam firmware ESP32.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/modbus-rtu.jpg}
+    \caption{Struktur Frame Modbus RTU Protocol}
+    \label{fig:modbus_frame}
+\end{figure}
+
+\justifying
+Gambar \ref{fig:modbus_frame} menampilkan struktur frame Modbus RTU yang terdiri dari slave address (1 byte), function code (1 byte), data field (n bytes), dan CRC-16 checksum (2 bytes). Function code 0x04 (Read Input Registers) digunakan untuk pembacaan data dari sensor dengan baudrate 9600 bps format 8N1. CRC-16 dengan polynomial 0xA001 memastikan integritas data dalam komunikasi serial RS485.
+
 \subsection{Time-Series Database}
 
 Time-series database (TSDB) adalah database yang dioptimasi untuk menangani data yang berubah terhadap waktu \cite{jensen2004temporal}. Berbeda dengan relational database, TSDB menyediakan compression algorithms khusus, efficient query untuk time-range, dan optimized storage untuk data dengan timestamp \cite{fadhel2018time}.
@@ -243,6 +293,16 @@ Time-series database (TSDB) adalah database yang dioptimasi untuk menangani data
 InfluxDB adalah open-source TSDB yang dirancang untuk high write dan query load, dengan support untuk SQL-like query language (Flux) dan built-in visualization \cite{influxdata2023influxdb}. InfluxDB menggunakan Time-Structured Merge Tree (TSM) sebagai storage engine, yang memberikan performa tinggi untuk time-series data dengan compression ratio yang baik \cite{bader2017time}.
 
 Dalam konteks IoT industri, TSDB menjadi krusial untuk menangani volume data sensor yang tinggi, memungkinkan analisis trend, anomaly detection, dan forecasting \cite{bader2017time}. Penelitian ini memanfaatkan InfluxDB untuk menyimpan data dari sensor SHT20 dan simulasi DWSIM dengan bucket terpisah untuk organisasi data yang lebih baik.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/timeseriesdatabase.png}
+    \caption{Arsitektur Time-Series Database untuk IoT}
+    \label{fig:tsdb_arch}
+\end{figure}
+
+\justifying
+Gambar \ref{fig:tsdb_arch} menunjukkan arsitektur time-series database yang dioptimasi untuk data IoT dengan storage engine khusus, compression algorithms, dan query optimization untuk time-range operations. Line Protocol digunakan untuk write operations dengan efisiensi tinggi dan compression ratio hingga 10:1. Query language yang powerful menyediakan capabilities untuk aggregation, filtering, dan transformation. Sistem bucket memungkinkan organisasi data yang terstruktur dengan retention policies yang flexible.
 
 \subsection{DWSIM Process Simulator}
 
@@ -252,17 +312,47 @@ Integrasi DWSIM dengan sistem eksternal dapat dilakukan melalui beberapa metode:
 
 Konsep digital twin dalam industri proses memerlukan sinkronisasi antara plant data dan simulation model \cite{negri2021digital}. Dengan mengintegrasikan data real-time ke DWSIM model, sistem dapat melakukan predictive analysis, scenario testing, dan optimization tanpa mengganggu operasi plant yang sebenarnya.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/dwsimsimulator.png}
+    \caption{Interface DWSIM Process Simulator}
+    \label{fig:dwsim_interface}
+\end{figure}
+
+\justifying
+Gambar \ref{fig:dwsim_interface} menampilkan interface DWSIM process simulator yang menyediakan kemampuan untuk chemical engineering calculations. Flowsheet menunjukkan material streams dan unit operations dengan property calculations menggunakan equation of state seperti Peng-Robinson dan Soave-Redlich-Kwong. DWSIM Automation API memungkinkan integrasi dengan sistem eksternal untuk implementasi digital twin, dimana data simulasi dapat dibandingkan dengan plant data real-time untuk validation dan optimization.
+
 \subsection{MQTT Protocol}
 
 Message Queuing Telemetry Transport (MQTT) adalah lightweight messaging protocol yang dirancang untuk IoT applications dengan bandwidth terbatas dan network reliability yang rendah \cite{hunkeler2021mqtt}. MQTT menggunakan publish-subscribe model yang memungkinkan decoupling antara publisher dan subscriber, memberikan scalability yang baik untuk IoT systems \cite{naik2020iot}.
 
 MQTT menyediakan tiga level Quality of Service (QoS): QoS 0 (At most once), QoS 1 (At least once), dan QoS 2 (Exactly once) \cite{light2020mosquitto}. Penelitian ini menggunakan QoS 1 untuk menjamin data delivery ke ThingsBoard platform.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/mqttprotocol.jpeg}
+    \caption{Arsitektur MQTT Publish-Subscribe Model}
+    \label{fig:mqtt_architecture}
+\end{figure}
+
+\justifying
+Gambar \ref{fig:mqtt_architecture} menunjukkan arsitektur MQTT publish-subscribe model yang memungkinkan decoupling antara data producers (publishers) dan consumers (subscribers). MQTT broker bertindak sebagai intermediary yang menangani message routing berdasarkan topics. Quality of Service (QoS) levels memastikan reliability data delivery sesuai requirements aplikasi. Model ini sangat cocok untuk IoT applications dengan bandwidth terbatas dan network reliability yang bervariasi.
+
 \subsection{Rust Programming Language untuk Embedded Systems}
 
 Rust adalah systems programming language yang menyediakan memory safety tanpa garbage collector, making it ideal untuk embedded systems dan high-performance applications \cite{matsakis2021rust}. Ownership system di Rust mencegah data races dan memory leaks pada compile time, memberikan reliability yang tinggi \cite{jung2021rustbelt}.
 
 Penggunaan Rust untuk embedded systems telah menunjukkan keunggulan dalam hal safety, performance, dan memory efficiency dibandingkan C/C++ \cite{balasubramanian2022rust}. Dalam penelitian ini, Rust digunakan untuk backend service yang menangani serial communication, HTTP requests, dan MQTT publishing dengan concurrency menggunakan async/await pattern dari Tokio runtime.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/rust-programming.jpg}
+    \caption{Konsep Memory Safety di Rust Programming Language}
+    \label{fig:rust_ownership}
+\end{figure}
+
+\justifying
+Gambar \ref{fig:rust_ownership} mengilustrasikan konsep ownership system di Rust yang memberikan memory safety tanpa garbage collector. Ownership rules mencegah data races, null pointer dereference, dan memory leaks pada compile time. Async/await pattern dengan Tokio runtime memungkinkan concurrent operations yang efficient untuk I/O-bound tasks seperti serial communication, HTTP requests, dan MQTT publishing. Kombinasi safety dan performance menjadikan Rust ideal untuk systems programming dan embedded applications.
 
 \newpage
 \begin{center}
@@ -278,6 +368,16 @@ Penggunaan Rust untuk embedded systems telah menunjukkan keunggulan dalam hal sa
 \justifying
 
 Sistem yang dikembangkan dalam penelitian ini mengadopsi arsitektur berlapis (layered architecture) yang memisahkan concern antara data acquisition, data processing, data storage, dan data presentation. Arsitektur ini dirancang dengan prinsip modularity, scalability, dan maintainability.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/ARCHITECTURE.jpeg}
+    \caption{Arsitektur Sistem Monitoring dan Kontrol Terintegrasi}
+    \label{fig:system_architecture}
+\end{figure}
+
+\justifying
+Gambar \ref{fig:system_architecture} menunjukkan arsitektur sistem secara keseluruhan yang terdiri dari lima komponen utama yang saling terintegrasi. ESP32 sebagai edge device melakukan akuisisi data dari sensor SHT20 melalui protokol Modbus RTU dan mengirimkan data via USB serial ke backend service. Backend service berbasis Rust menangani tiga fungsi concurrent: serial gateway, InfluxDB writer, dan MQTT bridge. InfluxDB menyimpan data dalam dua bucket terpisah untuk data sensor dan simulasi DWSIM. Python script melakukan integrasi dengan DWSIM untuk ekstraksi data simulasi. ThingsBoard platform menerima aggregated data via MQTT untuk visualisasi real-time dan monitoring. Arsitektur modular ini memungkinkan independent scaling, easier maintenance, dan flexibility dalam deployment.
 
 Komponen-komponen utama sistem adalah:
 
@@ -326,7 +426,7 @@ Dalam implementasi ini, ESP32 dikonfigurasi untuk menggunakan UART1 (GPIO16 seba
 \end{figure}
 
 \justifying
-Gambar \ref{fig:wiring} menunjukkan diagram pengkabelan sistem yang menghubungkan ESP32 microcontroller dengan sensor SHT20 melalui interface RS485 dan relay module untuk kontrol motor dan pompa. Koneksi RS485 menggunakan UART1 dengan GPIO16 sebagai TX dan GPIO17 sebagai RX, dilengkapi dengan RS485 transceiver module untuk konversi signal level. Relay module terhubung ke GPIO2 untuk kontrol motor dan GPIO4 untuk kontrol pompa, dengan LED indicators pada GPIO18 dan GPIO19 untuk feedback visual status komunikasi. Power supply menggunakan 5V untuk relay module dan 3.3V untuk ESP32 dan sensor SHT20.
+Gambar \ref{fig:wiring} menunjukkan diagram pengkabelan sistem yang menghubungkan ESP32 microcontroller dengan sensor SHT20 melalui interface RS485 dan relay module untuk kontrol motor dan pompa. Koneksi RS485 menggunakan UART1 dengan GPIO16 sebagai TX dan GPIO17 sebagai RX, dilengkapi dengan RS485 transceiver module untuk konversi signal level. Relay module terhubung ke GPIO2 untuk kontrol motor dan GPIO4 untuk kontrol pompa, dengan LED indicators pada GPIO18 dan GPIO19 untuk feedback visual status komunikasi. Power supply menggunakan 5V dari USB untuk relay module dan RS485 transceiver, sementara ESP32 beroperasi pada 3.3V (diregulasi oleh onboard voltage regulator) dan sensor SHT20 menggunakan 3.3V untuk kompatibilitas dengan logic level ESP32.
 
 \begin{figure}[H]
     \centering
@@ -628,6 +728,16 @@ def continuous_monitoring(interval=15, xml_file_path=None):
 
 Script ini upload data dalam dua format: full data dengan semua parameters (temperature, pressure, mass flow, dll.) dan temperature-only untuk compatibility dengan backend bridge yang menggunakan measurement \texttt{dwsim\_temperature}.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/Dwsim Simulation.png}
+    \caption{DWSIM Process Simulation untuk Digital Twin}
+    \label{fig:dwsim_simulation}
+\end{figure}
+
+\justifying
+Gambar \ref{fig:dwsim_simulation} menampilkan simulasi proses di DWSIM yang digunakan untuk implementasi digital twin dalam sistem monitoring. Simulasi ini mencakup material streams dan unit operations yang merepresentasikan proses industri dengan property calculations yang rigorous menggunakan thermodynamic models. Data dari simulasi ini di-ekstrak secara periodic menggunakan Python script dan diintegrasikan dengan data sensor real-time di InfluxDB, memungkinkan perbandingan antara model prediksi dengan kondisi aktual plant untuk validation, optimization, dan predictive analysis.
+
 \subsection{ThingsBoard Dashboard}
 
 ThingsBoard menyediakan platform untuk visualisasi data real-time dengan dashboard yang customizable. Dashboard dikonfigurasi untuk menampilkan:
@@ -716,17 +826,7 @@ Gambar \ref{fig:sht20_param} menunjukkan parameter dan konfigurasi sensor SHT20 
 \subsubsection{Hasil Pengujian Sistem Selama 5 Jam}
 
 \justifying
-Pengujian sistem dilakukan dengan continuous operation selama 5 jam untuk memverifikasi stabilitas dan reliability sistem secara keseluruhan. Data telemetry dari ThingsBoard mencatat 3,173 data points yang diambil dari tanggal 6 November 2025 pukul 04:19:50 hingga 08:50:44 WIB. Hasil pengujian menunjukkan sistem beroperasi dengan stabil tanpa downtime atau data loss selama periode pengujian.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{images/Backend Running.png}
-    \caption{Backend Service Running dengan Serial Monitoring dan MQTT Bridge}
-    \label{fig:backend_running}
-\end{figure}
-
-\justifying
-Gambar \ref{fig:backend_running} memperlihatkan backend service yang sedang beroperasi dengan menampilkan log aktivitas sistem secara real-time. Terminal output menunjukkan tiga komponen utama yang berjalan secara concurrent: serial monitoring yang membaca data dari ESP32 via port USB (/dev/ttyUSB0), InfluxDB writer yang menyimpan data sensor ke time-series database, dan MQTT bridge yang mempublikasikan data ke ThingsBoard platform. Log menampilkan informasi detail seperti timestamp pembacaan sensor, nilai temperatur dan kelembaban yang terbaca, status relay motor dan pompa, serta konfirmasi sukses upload data ke InfluxDB. Structured logging dengan level INFO memudahkan debugging dan monitoring kesehatan sistem. Backend service menggunakan Rust dengan Tokio async runtime yang memberikan performa tinggi dengan resource usage minimal, terlihat dari response time yang konsisten dan tidak ada error atau timeout selama operasi continuous monitoring.
+Pengujian sistem dilakukan dengan continuous operation selama 5 jam untuk memverifikasi stabilitas dan reliability sistem secara keseluruhan. Data telemetry dari ThingsBoard mencatat 3,173 data points yang diambil dari tanggal 6 November 2025 pukul 04:19:50 hingga 08:50:44 WIB. Hasil pengujian menunjukkan sistem beroperasi dengan stabil tanpa downtime atau data loss selama periode pengujian. Backend service yang dikembangkan menggunakan Rust dengan Tokio async runtime mampu menangani tiga komponen utama secara concurrent: serial monitoring yang membaca data dari ESP32 via port USB, InfluxDB writer yang menyimpan data sensor ke time-series database, dan MQTT bridge yang mempublikasikan data ke ThingsBoard platform dengan performa tinggi dan resource usage minimal.
 
 \begin{table}[H]
 \centering
@@ -777,24 +877,9 @@ Gambar \ref{fig:database_param} menampilkan konfigurasi parameter database Influ
 Gambar \ref{fig:influx_sensor} memperlihatkan data yang tersimpan dalam bucket SENSOR\_DATA di InfluxDB, menampilkan time-series data dari sensor SHT20 yang mencakup measurement "sht20\_sensor" dengan fields temperatur, kelembaban, serta status relay motor dan pompa. Interface web InfluxDB menampilkan data dalam bentuk tabel dengan kolom timestamp, measurement name, field keys, dan field values yang memudahkan verifikasi data yang masuk. Query explorer memungkinkan pengguna untuk melakukan filtering berdasarkan time range, measurement, dan field tertentu menggunakan Flux query language. Data terorganisir dengan baik menggunakan timestamp dalam format nanoseconds (Unix epoch) yang memberikan presisi tinggi untuk analisis temporal. Visualisasi grafik time-series dapat langsung di-generate dari interface ini untuk quick analysis sebelum ditampilkan di dashboard ThingsBoard yang lebih comprehensive.
 
 \subsubsection{Integrasi Data DWSIM dengan Sensor Real-Time}
-    \centering
-    \includegraphics[width=0.9\textwidth]{images/Dwsim Simulation.png}
-    \caption{Simulasi Proses di DWSIM dengan Stream Water\_i}
-    \label{fig:dwsim_sim}
-\end{figure}
 
 \justifying
-Gambar \ref{fig:dwsim_sim} menampilkan simulasi proses industri yang dibuat di DWSIM open-source process simulator. Flowsheet menunjukkan konfigurasi proses dengan stream "Water\_i" sebagai material stream utama yang di-monitor dalam penelitian ini. Simulasi menggunakan equation of state Peng-Robinson untuk property calculations yang akurat pada berbagai kondisi operasi. Setiap stream memiliki properties lengkap termasuk temperatur, tekanan, laju alir massa, densitas, dan enthalpy yang dapat diakses melalui DWSIM Automation API. Unit operations seperti mixer, heater, dan separator dikonfigurasi dengan parameter yang realistis untuk merepresentasikan proses industri yang sebenarnya. Simulasi ini berfungsi sebagai digital twin yang menyediakan data virtual untuk dibandingkan dengan data aktual dari sensor fisik, memungkinkan validasi model, deteksi anomali, dan optimisasi parameter proses tanpa mengganggu operasi plant yang sesungguhnya.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{images/Dwsim Reading.png}
-    \caption{Pembacaan Data Stream dari DWSIM Simulation}
-    \label{fig:dwsim_reading}
-\end{figure}
-
-\justifying
-Gambar \ref{fig:dwsim_reading} menunjukkan proses pembacaan data dari stream Water\_i menggunakan Python script yang mengakses DWSIM melalui XML parsing method. Terminal output menampilkan nilai-nilai property yang berhasil diekstrak dari simulasi, termasuk temperature dalam Celsius (hasil konversi dari Kelvin), pressure dalam bar (konversi dari Pascal), mass flow dalam kg/s (konversi dari kg/h), density dalam kg/m³, dan enthalpy dalam kJ/kg. Script Python bekerja dengan membuka file simulasi DWSIM dalam format DWXMZ (ZIP archive containing XML), melakukan parsing struktur XML untuk menemukan SimulationObjects, mengidentifikasi material stream dengan tag "Water\_i", dan mengekstrak properties dari mixture phase. Cycle counter menunjukkan monitoring dilakukan secara periodic dengan interval yang dapat dikonfigurasi, memastikan data simulasi selalu up-to-date untuk mendukung konsep digital twin dan analisis real-time.
+Integrasi data DWSIM dengan sensor real-time dilakukan melalui pembacaan data stream Water\_i menggunakan Python script yang mengakses DWSIM melalui XML parsing method. Script Python bekerja dengan membuka file simulasi DWSIM dalam format DWXMZ (ZIP archive containing XML), melakukan parsing struktur XML untuk menemukan SimulationObjects, mengidentifikasi material stream dengan tag "Water\_i", dan mengekstrak properties dari mixture phase. Nilai-nilai property yang diekstrak mencakup temperature dalam Celsius (hasil konversi dari Kelvin), pressure dalam bar (konversi dari Pascal), mass flow dalam kg/s (konversi dari kg/h), density dalam kg/m³, dan enthalpy dalam kJ/kg. Monitoring dilakukan secara periodic dengan interval yang dapat dikonfigurasi, memastikan data simulasi selalu up-to-date untuk mendukung konsep digital twin dan analisis real-time.
 
 \begin{figure}[H]
     \centering
@@ -808,16 +893,6 @@ Gambar \ref{fig:influx_dwsim} memperlihatkan bucket DWSIM\_DATA di InfluxDB yang
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{images/Dashboard Thingsboard.png}
-    \caption{Dashboard ThingsBoard untuk Monitoring Real-Time}
-    \label{fig:tb_dashboard}
-\end{figure}
-
-\justifying
-Gambar \ref{fig:tb_dashboard} menampilkan dashboard ThingsBoard yang dikonfigurasi untuk visualisasi dan monitoring real-time data dari sistem terintegrasi. Dashboard menampilkan berbagai widget yang customizable termasuk time-series chart untuk tracking temperatur dari sensor SHT20 dan simulasi DWSIM secara bersamaan, gauge widget untuk menampilkan nilai kelembaban dengan indicator visual yang intuitif, LED indicators untuk status relay motor dan pompa yang memberikan feedback visual instant tentang kondisi aktuator, serta latest values widget yang menampilkan nilai terkini dari semua parameter penting untuk quick reference. Chart time-series memungkinkan operator untuk melihat trend data historis dan melakukan zoom in/out untuk analisis detail pada periode waktu tertentu. Color coding dan threshold visualization membantu identifikasi cepat terhadap kondisi abnormal atau parameter yang mendekati batas operasi. Dashboard ini dapat diakses melalui web browser dari berbagai devices termasuk desktop, tablet, dan smartphone, memberikan fleksibilitas tinggi dalam monitoring operasional.
-
-\begin{figure}[H]
-    \centering
     \includegraphics[width=0.8\textwidth]{images/Latest Telemetry.png}
     \caption{Latest Telemetry Data di ThingsBoard}
     \label{fig:latest_telemetry}
@@ -825,6 +900,16 @@ Gambar \ref{fig:tb_dashboard} menampilkan dashboard ThingsBoard yang dikonfigura
 
 \justifying
 Gambar \ref{fig:latest_telemetry} menunjukkan latest telemetry data yang diterima oleh ThingsBoard platform dalam format JSON. Interface ini menampilkan raw telemetry data dengan timestamp yang presisi, memudahkan developer dan engineer untuk verifikasi data yang masuk dan troubleshooting jika terjadi issue. Data telemetry mencakup sht20\_temperature dan sht20\_humidity dari sensor fisik, dwsim\_temperature dari simulasi proses, serta motor\_status dan pump\_status dari sistem kontrol relay. Setiap data point memiliki timestamp dalam milliseconds sejak epoch yang memungkinkan sinkronisasi waktu yang akurat antara berbagai sumber data. ThingsBoard menyimpan historical telemetry data yang dapat di-query menggunakan REST API untuk analisis offline, export ke format CSV atau Excel, serta integrasi dengan tools external analytics seperti Python pandas, MATLAB, atau Grafana. Rule engine di ThingsBoard dapat dikonfigurasi untuk mengirim alerts via email, SMS, atau webhook jika nilai telemetry melampaui threshold yang ditentukan, mendukung proactive maintenance dan quick response terhadap kondisi abnormal.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/Dashboard Thingsboard.png}
+    \caption{Dashboard ThingsBoard untuk Monitoring Real-Time}
+    \label{fig:tb_dashboard}
+\end{figure}
+
+\justifying
+Gambar \ref{fig:tb_dashboard} menampilkan dashboard ThingsBoard yang dikonfigurasi untuk visualisasi dan monitoring real-time data dari sistem terintegrasi. Dashboard menampilkan berbagai widget yang customizable termasuk time-series chart untuk tracking temperatur dari sensor SHT20 dan simulasi DWSIM secara bersamaan, gauge widget untuk menampilkan nilai kelembaban dengan indicator visual yang intuitif, LED indicators untuk status relay motor dan pompa yang memberikan feedback visual instant tentang kondisi aktuator, serta latest values widget yang menampilkan nilai terkini dari semua parameter penting untuk quick reference. Chart time-series memungkinkan operator untuk melihat trend data historis dan melakukan zoom in/out untuk analisis detail pada periode waktu tertentu. Color coding dan threshold visualization membantu identifikasi cepat terhadap kondisi abnormal atau parameter yang mendekati batas operasi. Dashboard ini dapat diakses melalui web browser dari berbagai devices termasuk desktop, tablet, dan smartphone, memberikan fleksibilitas tinggi dalam monitoring operasional.
 
 \subsection{Pembahasan}
 

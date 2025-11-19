@@ -65,8 +65,10 @@ def get_telemetry_data(token):
         print(f"Dari: {datetime.fromtimestamp(START_TS/1000)} Hingga: {datetime.fromtimestamp(END_TS/1000)}")
         response = requests.get(url, headers=headers, params=params)
         response.raise_for_status()
-        print("Berhasil mengambil data.")
-        return response.json()
+        data = response.json()
+        print(f"Berhasil mengambil data. Jumlah key: {len(data)}")
+        print(f"Data yang diterima: {data}")
+        return data
     except requests.exceptions.RequestException as e:
         print(f"Error saat mengambil data telemetri: {e}")
         return None

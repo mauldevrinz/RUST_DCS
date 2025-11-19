@@ -530,9 +530,25 @@ File `telemetry_data.csv` berisi hasil pengujian sistem selama 5 jam:
 - Motor status: ON 100% waktu (temp > 30°C)
 - Pump status: OFF 100% waktu (humidity > 60%)
 
+
+**gnuplot**
+set datafile separator ","
+set xdata time
+set timefmt "%Y-%m-%dT%H:%M:%S"
+set format x "%H:%M"
+
+set xlabel "Time"
+set ylabel "Temperature (°C)" textcolor rgb "red"
+set y2label "Humidity (%)" textcolor rgb "blue"
+set y2tics
+
+set title "Temperature and Humidity Data"
+
+plot 'telemetry_data.csv' using 1:2 with lines title "SHT20 Temperature" axes x1y1 lc rgb "red", \
+     '' using 1:3 with lines title "SHT20 Humidity" axes x1y2 lc rgb "blue"
+
 ## 📄 Lisensi
 
-MIT License - lihat file LICENSE untuk detail lengkap.
 
 ---
 
