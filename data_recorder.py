@@ -13,7 +13,7 @@ THINGSBOARD_PORT = os.getenv("THINGSBOARD_PORT", "80")
 THINGSBOARD_USERNAME = os.getenv("THINGSBOARD_USERNAME")
 THINGSBOARD_PASSWORD = os.getenv("THINGSBOARD_PASSWORD")
 DEVICE_ID = os.getenv("DEVICE_ID")
-TELEMETRY_KEYS = os.getenv("TELEMETRY_KEYS", "temperature,humidity")
+TELEMETRY_KEYS = os.getenv("TELEMETRY_KEYS", "dwsim_temperature,sht20_temperature,sht20_humidity,pump_calculated_status,exhaust_fan_status")
 
 # Rentang waktu (dalam milidetik sejak epoch)
 END_TS = int(datetime.now().timestamp() * 1000)

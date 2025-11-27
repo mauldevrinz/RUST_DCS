@@ -37,39 +37,6 @@ fn calculate_crc16(data: &[u8]) -> u16 {
 // are not needed when operating in offline serial-only mode
 
 // Relay control logic based on sensor readings
-fn control_relays(temperature: f32, humidity: f32, motor_relay: &mut PinDriver<'_, gpio::Gpio2, gpio::Output>, pump_relay: &mut PinDriver<'_, gpio::Gpio4, gpio::Output>) {
-    // Control logic thresholds
-    const TEMP_MOTOR_ON: f32 = 30.0;    // Turn on motor if temp > 30°C
-    const TEMP_MOTOR_OFF: f32 = 25.0;   // Turn off motor if temp < 25°C
-    const HUMIDITY_PUMP_ON: f32 = 40.0; // Turn on pump if humidity < 40%
-    const HUMIDITY_PUMP_OFF: f32 = 60.0; // Turn off pump if humidity > 60%
-
-    // Motor control based on temperature
-    if temperature > TEMP_MOTOR_ON {
-        motor_relay.set_high().unwrap();
-        log::info!("🔥 Motor ON: Temperature {:.1}°C > {:.1}°C", temperature, TEMP_MOTOR_ON);
-    } else if temperature < TEMP_MOTOR_OFF {
-        motor_relay.set_low().unwrap();
-        log::info!("❄️ Motor OFF: Temperature {:.1}°C < {:.1}°C", temperature, TEMP_MOTOR_OFF);
-    }
-
-    // Pump control based on humidity
-    if humidity < HUMIDITY_PUMP_ON {
-        pump_relay.set_high().unwrap();
-        log::info!("💧 Pump ON: Humidity {:.1}% < {:.1}%", humidity, HUMIDITY_PUMP_ON);
-    } else if humidity > HUMIDITY_PUMP_OFF {
-        pump_relay.set_low().unwrap();
-        log::info!("💦 Pump OFF: Humidity {:.1}% > {:.1}%", humidity, HUMIDITY_PUMP_OFF);
-    }
-
-    // Get relay status for serial output
-    let motor_status = motor_relay.is_set_high();
-    let pump_status = pump_relay.is_set_high();
-
-    println!("RELAY_STATUS|motor:{}|pump:{}",
-             if motor_status { "ON" } else { "OFF" },
-             if pump_status { "ON" } else { "OFF" });
-}
 
 fn send_sensor_data(temperature: f32, humidity: f32) {
     let timestamp = SystemTime::now()
@@ -94,18 +61,10 @@ fn send_sensor_data(temperature: f32, humidity: f32) {
 
 fn read_sht20_sensor(peripherals: Peripherals) {
     // Setup relay controls for motor and pump
-    let mut motor_relay = PinDriver::output(peripherals.pins.gpio2).unwrap(); // Motor relay
-    let mut pump_relay = PinDriver::output(peripherals.pins.gpio4).unwrap();  // Pump relay
 
     // Setup LED indicators for status
-    let mut tx_led = PinDriver::output(peripherals.pins.gpio18).unwrap(); // TX status LED
-    let mut rx_led = PinDriver::output(peripherals.pins.gpio19).unwrap(); // RX status LED
 
     // Initially turn off relays and LEDs
-    motor_relay.set_low().unwrap();
-    pump_relay.set_low().unwrap();
-    tx_led.set_low().unwrap();
-    rx_led.set_low().unwrap();
 
     log::info!("Relay Control: Motor=GPIO2, Pump=GPIO4");
     log::info!("LED Status: TX=GPIO18, RX=GPIO19");
@@ -141,20 +100,17 @@ fn read_sht20_sensor(peripherals: Peripherals) {
         ];
         
         // Turn on TX LED
-        tx_led.set_high().unwrap();
         
         match uart.write(&temp_request) {
             Ok(_) => {},
             Err(e) => {
                 log::error!("TX Failed: {e:?}");
-                tx_led.set_low().unwrap();
                 FreeRtos::delay_ms(5000);
                 continue;
             }
         }
         
         // Turn off TX LED after transmission
-        tx_led.set_low().unwrap();
         
         FreeRtos::delay_ms(500);
         
@@ -164,7 +120,6 @@ fn read_sht20_sensor(peripherals: Peripherals) {
         match uart.read(&mut temp_response, 3000) {
             Ok(bytes_read) => {
                 if bytes_read > 0 {
-                    rx_led.set_high().unwrap();
                 }
                 if bytes_read >= 7 {
                     let response_crc = ((temp_response[6] as u16) << 8) | (temp_response[5] as u16);
@@ -182,7 +137,6 @@ fn read_sht20_sensor(peripherals: Peripherals) {
         }
         
         // Turn off RX LED after processing
-        rx_led.set_low().unwrap();
 
         FreeRtos::delay_ms(100);
 
@@ -252,7 +206,6 @@ fn read_sht20_sensor(peripherals: Peripherals) {
                 
                 if temperature > -50.0 && temperature < 100.0 && humidity > 0.0 && humidity < 100.0 {
                     send_sensor_data(temperature, humidity);
-                    control_relays(temperature, humidity, &mut motor_relay, &mut pump_relay);
                 } else {
                     log::warn!("Invalid readings - skipped");
                 }

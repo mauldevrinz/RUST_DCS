@@ -2,14 +2,14 @@ use std::io::{BufRead, BufReader};
 use std::time::Duration;
 use serialport::SerialPort;
 use anyhow::{Result, anyhow};
-use log::{info, warn, error};
+use log::{info, error, warn};
 
 #[derive(Debug, Clone)]
 pub struct SensorData {
     pub timestamp: u64,
     pub temperature: f32,
     pub humidity: f32,
-    pub motor_status: Option<bool>,
+    pub exhaust_fan_status: Option<bool>,
     pub pump_status: Option<bool>,
 }
 
@@ -20,7 +20,7 @@ pub struct SerialMonitor {
 
 #[derive(Debug, Default)]
 struct RelayStatus {
-    motor: Option<bool>,
+    exhaust_fan: Option<bool>,
     pump: Option<bool>,
 }
 
@@ -44,7 +44,7 @@ impl SerialMonitor {
 
             loop {
                 match serialport::new(&port_name, baud_rate)
-                    .timeout(Duration::from_millis(15000))  // 15 second timeout for ESP32 10s interval
+                    .timeout(Duration::from_millis(15000))
                     .open()
                 {
                     Ok(port) => {
@@ -65,11 +65,11 @@ impl SerialMonitor {
         }).await?
     }
 
-    fn read_loop<F>(port: Box<dyn SerialPort>, on_data: &mut F) -> Result<()>
+    fn read_loop<F>(mut port: Box<dyn SerialPort>, on_data: &mut F) -> Result<()>
     where
         F: FnMut(SensorData) -> Result<()>,
     {
-        let mut reader = BufReader::new(port);
+        let mut reader = BufReader::new(&mut *port);
         let mut line = String::new();
         let mut relay_status = RelayStatus::default();
         let mut pending_sensor_data: Option<SensorData> = None;
@@ -78,29 +78,25 @@ impl SerialMonitor {
             line.clear();
             match reader.read_line(&mut line) {
                 Ok(0) => {
-                    // EOF - wait and continue
                     std::thread::sleep(Duration::from_millis(100));
                     continue;
                 }
                 Ok(_) => {
                     let trimmed = line.trim();
 
-                    // Log all ESP32 output
                     if !trimmed.is_empty() {
                         info!("ESP32: {}", trimmed);
                     }
 
-                    // Parse relay status updates first
-                    if let Some((motor, pump)) = Self::parse_relay_status(trimmed) {
-                        relay_status.motor = Some(motor);
+                    if let Some((exhaust_fan, pump)) = Self::parse_relay_status(trimmed) {
+                        relay_status.exhaust_fan = Some(exhaust_fan);
                         relay_status.pump = Some(pump);
-                        info!("Relay status updated: Motor={}, Pump={}",
-                              if motor { "ON" } else { "OFF" },
+                        info!("Relay status updated: Exhaust Fan={}, Pump={}",
+                              if exhaust_fan { "ON" } else { "OFF" },
                               if pump { "ON" } else { "OFF" });
 
-                        // If we have pending sensor data, update it with relay status and send
                         if let Some(mut sensor_data) = pending_sensor_data.take() {
-                            sensor_data.motor_status = relay_status.motor;
+                            sensor_data.exhaust_fan_status = relay_status.exhaust_fan;
                             sensor_data.pump_status = relay_status.pump;
 
                             if let Err(e) = on_data(sensor_data) {
@@ -109,13 +105,10 @@ impl SerialMonitor {
                         }
                     }
 
-                    // Parse sensor data and store for relay status update
                     if let Some(mut sensor_data) = Self::parse_sensor_data(trimmed) {
-                        // Add current relay status to sensor data
-                        sensor_data.motor_status = relay_status.motor;
+                        sensor_data.exhaust_fan_status = relay_status.exhaust_fan;
                         sensor_data.pump_status = relay_status.pump;
 
-                        // Store for potential relay status update, or send immediately
                         pending_sensor_data = Some(sensor_data.clone());
 
                         if let Err(e) = on_data(sensor_data) {
@@ -144,8 +137,8 @@ impl SerialMonitor {
                         timestamp,
                         temperature,
                         humidity,
-                        motor_status: None, // Will be filled by relay status
-                        pump_status: None,  // Will be filled by relay status
+                        exhaust_fan_status: None, // Will be filled by relay status
+                        pump_status: None, // Will be filled by relay status
                     });
                 }
             }
@@ -154,19 +147,20 @@ impl SerialMonitor {
     }
 
     fn parse_relay_status(line: &str) -> Option<(bool, bool)> {
-        // Parse format: "RELAY_STATUS|motor:ON|pump:OFF"
+        // Parse format: "RELAY_STATUS|exhaust_fan:ON|pump:OFF"
         if let Some(stripped) = line.strip_prefix("RELAY_STATUS|") {
             let parts: Vec<&str> = stripped.split('|').collect();
             if parts.len() == 2 {
-                let motor_part = parts[0].strip_prefix("motor:").unwrap_or("");
+                let exhaust_fan_part = parts[0].strip_prefix("exhaust_fan:").unwrap_or("");
                 let pump_part = parts[1].strip_prefix("pump:").unwrap_or("");
 
-                let motor_on = motor_part == "ON";
+                let exhaust_fan_on = exhaust_fan_part == "ON";
                 let pump_on = pump_part == "ON";
 
-                return Some((motor_on, pump_on));
+                return Some((exhaust_fan_on, pump_on));
             }
         }
         None
     }
 }
+

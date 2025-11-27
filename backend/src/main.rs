@@ -41,18 +41,12 @@ async fn write_sensor_to_influx(client: &Client, data: &SensorData) -> Result<()
         data.temperature, data.humidity
     );
 
-    // Add relay status if available
-    if let Some(motor) = data.motor_status {
-        line.push_str(&format!(",motor_status={}", if motor { 1 } else { 0 }));
-    }
+    // Only save pump_status, NOT exhaust_fan_status (will be calculated virtually by backend)
     if let Some(pump) = data.pump_status {
         line.push_str(&format!(",pump_status={}", if pump { 1 } else { 0 }));
     }
 
-    // Convert timestamp to nanoseconds (ESP32 sends in different format)
-    // ESP32 timestamp appears to be in different units, convert to nanoseconds
     let timestamp_ns = if data.timestamp < 1_000_000_000_000_000_000 {
-        // If timestamp seems too small, convert to current time in nanoseconds
         std::time::SystemTime::now()
             .duration_since(std::time::UNIX_EPOCH)
             .unwrap_or_default()
@@ -75,12 +69,76 @@ async fn write_sensor_to_influx(client: &Client, data: &SensorData) -> Result<()
         .await?;
 
     if response.status().is_success() {
-        let motor_str = data.motor_status.map(|m| if m { "ON" } else { "OFF" }).unwrap_or("N/A");
         let pump_str = data.pump_status.map(|p| if p { "ON" } else { "OFF" }).unwrap_or("N/A");
-        info!("Data uploaded: T={:.1}°C, H={:.1}%, Motor={}, Pump={}",
-              data.temperature, data.humidity, motor_str, pump_str);
+        info!("Data uploaded: T={:.1}°C, H={:.1}%, Pump={}", 
+              data.temperature, data.humidity, pump_str);
     } else {
         error!("InfluxDB upload failed: {}", response.status());
+    }
+
+    Ok(())
+}
+
+// Write calculated exhaust fan status to InfluxDB
+async fn write_fan_status_to_influx(client: &Client, fan_on: i32, sensor_temp: f64, setpoint_temp: f64) -> Result<()> {
+    let line = format!(
+        "sht20_sensor exhaust_fan_status={},sensor_temp={:.2},setpoint_temp={:.2} {}",
+        fan_on,
+        sensor_temp,
+        setpoint_temp,
+        std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .unwrap_or_default()
+            .as_nanos() as u64
+    );
+
+    let url = format!("{}/api/v2/write", INFLUX_URL);
+
+    let response = client
+        .post(&url)
+        .header("Authorization", format!("Token {}", TOKEN.trim()))
+        .header("Content-Type", "text/plain")
+        .query(&[("org", ORG), ("bucket", SENSOR_BUCKET)])
+        .body(line)
+        .send()
+        .await?;
+
+    if response.status().is_success() {
+        info!("Fan status saved to InfluxDB: {}", if fan_on == 1 { "ON" } else { "OFF" });
+    } else {
+        error!("InfluxDB fan status write failed: {}", response.status());
+    }
+
+    Ok(())
+}
+
+// Write calculated pump status to InfluxDB based on humidity
+async fn write_pump_status_to_influx(client: &Client, pump_on: i32, humidity: f64) -> Result<()> {
+    let line = format!(
+        "sht20_sensor pump_calculated_status={},humidity={:.2} {}",
+        pump_on,
+        humidity,
+        std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .unwrap_or_default()
+            .as_nanos() as u64
+    );
+
+    let url = format!("{}/api/v2/write", INFLUX_URL);
+
+    let response = client
+        .post(&url)
+        .header("Authorization", format!("Token {}", TOKEN.trim()))
+        .header("Content-Type", "text/plain")
+        .query(&[("org", ORG), ("bucket", SENSOR_BUCKET)])
+        .body(line)
+        .send()
+        .await?;
+
+    if response.status().is_success() {
+        info!("💧 Pump status saved to InfluxDB: {} (Humidity: {:.1}%)", if pump_on == 1 { "ON" } else { "OFF" }, humidity);
+    } else {
+        error!("InfluxDB pump status write failed: {}", response.status());
     }
 
     Ok(())
@@ -128,6 +186,7 @@ async fn main() -> Result<()> {
 
     info!("🚀 Backend started:");
     info!("  - Serial monitoring: {} @ {} baud", SERIAL_PORT, BAUD_RATE);
+    info!("  - DWSIM setpoint control enabled");
     info!("  - InfluxDB bridge: {} → ThingsBoard", INFLUX_URL);
     info!("  - Query interval: {} seconds", 10);
 
@@ -139,9 +198,38 @@ async fn main() -> Result<()> {
         let mut payload = serde_json::Map::new();
         if let Some(t) = sensor_data.temp { payload.insert("sht20_temperature".into(), json!(t)); }
         if let Some(h) = sensor_data.hum  { payload.insert("sht20_humidity".into(), json!(h)); }
-        if let Some(m) = sensor_data.motor_status { payload.insert("motor_status".into(), json!(m as i32)); }
         if let Some(p) = sensor_data.pump_status { payload.insert("pump_status".into(), json!(p as i32)); }
         if let Some(t) = dwsim_data.temp  { payload.insert("dwsim_temperature".into(), json!(t)); }
+
+        // Hitung exhaust_fan_status berdasarkan DWSIM setpoint
+        if let (Some(sensor_temp), Some(setpoint_temp)) = (sensor_data.temp, dwsim_data.temp) {
+            // Fan ON jika sensor_temp > setpoint_temp
+            let fan_on = if sensor_temp > setpoint_temp { 1 } else { 0 };
+            payload.insert("exhaust_fan_status".into(), json!(fan_on));
+            
+            info!("🔥 Fan Status: Sensor={:.2}°C, Setpoint={:.2}°C → Fan={}", 
+                  sensor_temp, setpoint_temp, if fan_on == 1 { "ON" } else { "OFF" });
+            payload.insert("dwsim_temperature_setpoint".into(), json!(setpoint_temp));
+            
+            // Simpan fan status yang sudah dihitung ke InfluxDB
+            if let Err(e) = write_fan_status_to_influx(&http, fan_on, sensor_temp, setpoint_temp).await {
+                error!("Failed to write fan status to InfluxDB: {}", e);
+            }
+        }
+
+        // Hitung pump_status berdasarkan humidity (ON jika < 60%, OFF jika >= 60%)
+        if let Some(humidity) = sensor_data.hum {
+            let pump_on = if humidity < 60.0 { 1 } else { 0 };
+            payload.insert("pump_calculated_status".into(), json!(pump_on));
+            
+            info!("💧 Pump Status: Humidity={:.1}% → Pump={}", 
+                  humidity, if pump_on == 1 { "ON" } else { "OFF" });
+            
+            // Simpan pump status yang sudah dihitung ke InfluxDB
+            if let Err(e) = write_pump_status_to_influx(&http, pump_on, humidity).await {
+                error!("Failed to write pump status to InfluxDB: {}", e);
+            }
+        }
 
         if payload.is_empty() {
             error!("⚠️  No data from InfluxDB (check range/window/measurement/tag/field).");
@@ -161,7 +249,7 @@ async fn main() -> Result<()> {
 struct LastRow {
     temp: Option<f64>,
     hum: Option<f64>,
-    motor_status: Option<f64>,
+    exhaust_fan_status: Option<f64>,
     pump_status: Option<f64>,
 }
 
@@ -202,7 +290,7 @@ async fn get_last_data(
     let flux = format!(r#"from(bucket: "{bucket}")
   |> range(start: {range})
   |> filter(fn: (r) => r["_measurement"] == "{measurement}")
-  |> filter(fn: (r) => r["_field"] == "temperature" or r["_field"] == "humidity" or r["_field"] == "motor_status" or r["_field"] == "pump_status")
+  |> filter(fn: (r) => r["_field"] == "temperature" or r["_field"] == "humidity" or r["_field"] == "exhaust_fan_status" or r["_field"] == "pump_status")
   |> aggregateWindow(every: {window}, fn: mean, createEmpty: false)
   |> group(columns: ["_field"])
   |> last()
@@ -212,7 +300,7 @@ async fn get_last_data(
     Ok(parse_influx_csv(&csv))
 }
 
-// Mengambil data temperature dari DWSIM_DATA bucket
+// Mengambil data temperature dari DWSIM_DATA bucket untuk Water_i stream
 async fn get_dwsim_temperature(
     client: &Client,
     bucket: &str,
@@ -252,9 +340,11 @@ async fn get_dwsim_temperature(
         }
     }
 
+    // Filter for Water_i stream specifically to get the actual simulated temperature
     let flux = format!(r#"from(bucket: "{bucket}")
   |> range(start: {range})
   |> filter(fn: (r) => r["_measurement"] == "{measurement}")
+  |> filter(fn: (r) => r["stream"] == "Water_i")
   |> filter(fn: (r) => r["_field"] == "temperature_celsius")
   |> aggregateWindow(every: {window}, fn: mean, createEmpty: false)
   |> last()
@@ -292,7 +382,7 @@ fn parse_influx_csv(csv: &str) -> LastRow {
                     match (fname, val) {
                         ("temperature", Some(v)) => out.temp = Some(v),
                         ("humidity",    Some(v)) => out.hum  = Some(v),
-                        ("motor_status", Some(v)) => out.motor_status = Some(v),
+                        ("exhaust_fan_status", Some(v)) => out.exhaust_fan_status = Some(v),
                         ("pump_status", Some(v)) => out.pump_status = Some(v),
                         _ => {} // Ignore other fields
                     }
